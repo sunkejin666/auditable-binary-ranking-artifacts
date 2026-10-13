@@ -1,0 +1,86 @@
+{
+  "schema": "runtime_layout_v1",
+  "binary_sha256": "ff47a9d0c592446c5a9089474e33c4757b74236fefffd0c3834e9ab75053152d",
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu-24.04",
+    "--exec",
+    "gdb",
+    "-q",
+    "-nx",
+    "-batch",
+    "-x",
+    "/mnt/c/Users/Public/fresh_binary_only_20261011_stack/runtime_gdb_commands.txt",
+    "/mnt/c/Users/Public/fresh_binary_only_20261011_stack/stack_challenge"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "returncode": 0,
+      "sigsegv_observed": true,
+      "pc": "0x401510",
+      "mappings": [
+        {
+          "start": "0x401000",
+          "end": "0x402000",
+          "permissions": "r-xs",
+          "raw": "00401000-00402000 r-xs 00000000 00:01 7172                               /memfd:upx (deleted)"
+        }
+      ],
+      "pc_bytes_hex": "c3f30f1efa554889e54881ec00010000",
+      "instruction": "=> 0x401510:\tret",
+      "all_mappings": "00400000-00401000 r--p 00000000 00:00 0 \n00401000-00402000 r-xs 00000000 00:01 7172                               /memfd:upx (deleted)\n00402000-00404000 r--p 00000000 00:00 0 \n00404000-00405000 rw-p 00000000 00:00 0 \n7ffff7c00000-7ffff7c28000 r--p 00000000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7c28000-7ffff7db1000 r-xp 00028000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7db1000-7ffff7e00000 r--p 001b1000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e00000-7ffff7e04000 r--p 001ff000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e04000-7ffff7e06000 rw-p 00203000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e06000-7ffff7e13000 rw-p 00000000 00:00 0 \n7ffff7fb0000-7ffff7fb3000 rw-p 00000000 00:00 0 \n7ffff7fbb000-7ffff7fbd000 rw-p 00000000 00:00 0 \n7ffff7fbd000-7ffff7fbe000 r--p 00000000 00:45 7036874418829153           /mnt/c/Users/Public/fresh_binary_only_20261011_stack/stack_challenge\n7ffff7fbe000-7ffff7fbf000 r--p 00000000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7fbf000-7ffff7fea000 r-xp 00001000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7fea000-7ffff7ff4000 r--p 0002c000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff4000-7ffff7ff6000 r--p 00036000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff6000-7ffff7ff8000 rw-p 00038000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff9000-7ffff7ffd000 r--p 00000000 00:00 0                          [vvar]\n7ffff7ffd000-7ffff7fff000 r-xp 00000000 00:00 0                          [vdso]\n7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]\n",
+      "runtime_mapping_classification": {
+        "pc_is_executable": true,
+        "mapping_name": "/memfd:upx (deleted)",
+        "instruction_bytes_start_with_ret": true
+      }
+    },
+    {
+      "run": 2,
+      "returncode": 0,
+      "sigsegv_observed": true,
+      "pc": "0x401510",
+      "mappings": [
+        {
+          "start": "0x401000",
+          "end": "0x402000",
+          "permissions": "r-xs",
+          "raw": "00401000-00402000 r-xs 00000000 00:01 5144                               /memfd:upx (deleted)"
+        }
+      ],
+      "pc_bytes_hex": "c3f30f1efa554889e54881ec00010000",
+      "instruction": "=> 0x401510:\tret",
+      "all_mappings": "00400000-00401000 r--p 00000000 00:00 0 \n00401000-00402000 r-xs 00000000 00:01 5144                               /memfd:upx (deleted)\n00402000-00404000 r--p 00000000 00:00 0 \n00404000-00405000 rw-p 00000000 00:00 0 \n7ffff7c00000-7ffff7c28000 r--p 00000000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7c28000-7ffff7db1000 r-xp 00028000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7db1000-7ffff7e00000 r--p 001b1000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e00000-7ffff7e04000 r--p 001ff000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e04000-7ffff7e06000 rw-p 00203000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e06000-7ffff7e13000 rw-p 00000000 00:00 0 \n7ffff7fb0000-7ffff7fb3000 rw-p 00000000 00:00 0 \n7ffff7fbb000-7ffff7fbd000 rw-p 00000000 00:00 0 \n7ffff7fbd000-7ffff7fbe000 r--p 00000000 00:45 7036874418829153           /mnt/c/Users/Public/fresh_binary_only_20261011_stack/stack_challenge\n7ffff7fbe000-7ffff7fbf000 r--p 00000000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7fbf000-7ffff7fea000 r-xp 00001000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7fea000-7ffff7ff4000 r--p 0002c000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff4000-7ffff7ff6000 r--p 00036000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff6000-7ffff7ff8000 rw-p 00038000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff9000-7ffff7ffd000 r--p 00000000 00:00 0                          [vvar]\n7ffff7ffd000-7ffff7fff000 r-xp 00000000 00:00 0                          [vdso]\n7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]\n",
+      "runtime_mapping_classification": {
+        "pc_is_executable": true,
+        "mapping_name": "/memfd:upx (deleted)",
+        "instruction_bytes_start_with_ret": true
+      }
+    },
+    {
+      "run": 3,
+      "returncode": 0,
+      "sigsegv_observed": true,
+      "pc": "0x401510",
+      "mappings": [
+        {
+          "start": "0x401000",
+          "end": "0x402000",
+          "permissions": "r-xs",
+          "raw": "00401000-00402000 r-xs 00000000 00:01 5146                               /memfd:upx (deleted)"
+        }
+      ],
+      "pc_bytes_hex": "c3f30f1efa554889e54881ec00010000",
+      "instruction": "=> 0x401510:\tret",
+      "all_mappings": "00400000-00401000 r--p 00000000 00:00 0 \n00401000-00402000 r-xs 00000000 00:01 5146                               /memfd:upx (deleted)\n00402000-00404000 r--p 00000000 00:00 0 \n00404000-00405000 rw-p 00000000 00:00 0 \n7ffff7c00000-7ffff7c28000 r--p 00000000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7c28000-7ffff7db1000 r-xp 00028000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7db1000-7ffff7e00000 r--p 001b1000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e00000-7ffff7e04000 r--p 001ff000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e04000-7ffff7e06000 rw-p 00203000 08:40 45374                      /usr/lib/x86_64-linux-gnu/libc.so.6\n7ffff7e06000-7ffff7e13000 rw-p 00000000 00:00 0 \n7ffff7fb0000-7ffff7fb3000 rw-p 00000000 00:00 0 \n7ffff7fbb000-7ffff7fbd000 rw-p 00000000 00:00 0 \n7ffff7fbd000-7ffff7fbe000 r--p 00000000 00:45 7036874418829153           /mnt/c/Users/Public/fresh_binary_only_20261011_stack/stack_challenge\n7ffff7fbe000-7ffff7fbf000 r--p 00000000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7fbf000-7ffff7fea000 r-xp 00001000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7fea000-7ffff7ff4000 r--p 0002c000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff4000-7ffff7ff6000 r--p 00036000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff6000-7ffff7ff8000 rw-p 00038000 08:40 45371                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2\n7ffff7ff9000-7ffff7ffd000 r--p 00000000 00:00 0                          [vvar]\n7ffff7ffd000-7ffff7fff000 r-xp 00000000 00:00 0                          [vdso]\n7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]\n",
+      "runtime_mapping_classification": {
+        "pc_is_executable": true,
+        "mapping_name": "/memfd:upx (deleted)",
+        "instruction_bytes_start_with_ret": true
+      }
+    }
+  ],
+  "boundary": "Runtime mappings and bytes are observations of this replay; they do not establish root cause or exploitability. No scorer input or frozen pool is changed."
+}

@@ -1,0 +1,43 @@
+{
+  "binary": "zlib_1.2.11_unstripped",
+  "project_cve_cluster": "zlib/CVE-2018-25032",
+  "variant": "unstripped",
+  "binary_sha256": "0941f7d418597510ce791c340efc579afb8597787c03e926a164517d57415b4a",
+  "event_count": 127,
+  "contraction_events": 28,
+  "invalid_contract_events": 0,
+  "unique_action_groups": 1,
+  "caps": [
+    1,
+    100000
+  ],
+  "cap_runs": [
+    {
+      "cap": 1,
+      "status": "ok",
+      "seconds": 0.022472300101071596,
+      "error": "",
+      "candidate_count": 127,
+      "candidate_pool_sha256": "807d3167b270de9b50e458d24cf5d24c171101cb3c15fe9aa091242e6950d43b"
+    },
+    {
+      "cap": 100000,
+      "status": "ok",
+      "seconds": 0.005103799980133772,
+      "error": "",
+      "candidate_count": 127,
+      "candidate_pool_sha256": "807d3167b270de9b50e458d24cf5d24c171101cb3c15fe9aa091242e6950d43b"
+    }
+  ],
+  "transitions": [
+    {
+      "before_cap": 1,
+      "after_cap": 100000,
+      "eligible": true,
+      "same_candidate_pool": true,
+      "status": "ok",
+      "event_count": 127
+    }
+  ],
+  "status": "ok"
+}

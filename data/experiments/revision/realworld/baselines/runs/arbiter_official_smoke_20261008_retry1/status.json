@@ -1,0 +1,39 @@
+{
+  "status": "timeout",
+  "returncode": null,
+  "started_utc": "2026-10-08T09:31:04.272124+00:00",
+  "elapsed_seconds": 183.18699999991804,
+  "timeout_seconds": 180,
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--name",
+    "paper-arbiter-smoke-5364345c15b0",
+    "--pull=never",
+    "--network=none",
+    "--memory=2g",
+    "--cpus=1",
+    "--pids-limit=256",
+    "--mount",
+    "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\runs\\arbiter_official_smoke_20261008_retry1,target=/output",
+    "--workdir",
+    "/output",
+    "--entrypoint",
+    "/bin/bash",
+    "paper-arbiter:registry-d23edfcd",
+    "-lc",
+    "python /home/test/vuln_templates/run_arbiter.py -f /home/test/vuln_templates/CWE131.py -t /bin/ls -l /output/logs -j /output/json"
+  ],
+  "image": "paper-arbiter:registry-d23edfcd",
+  "source_template_sha256": "57b3405fc833095895d440120ee260f34284c2f6bb97c70ee6beaf85ee0c2fd3",
+  "fixture": "official README CWE-131 /bin/ls smoke, not holdout comparison",
+  "output_files": {
+    "stderr.bin": "66190ddcac95c1585b66c00ead59a901dbde468e8dca7f8140793d2355db085e",
+    "stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "json\\DDA.json": "223701686d2d97f590f3ba120bda5c63a55a3ccfccc26c3d15e47439f1705e2e",
+    "json\\Recon.json": "c7dbaf356b5c8f0830e26c064dbaba2308a498dd57a10cab7b568b7f55893a0b",
+    "json\\UCSE.json": "90b1164ec547f31bcf0ee786e242eff3cf01a4f7a856584d36dde4082d823f0f",
+    "logs\\arbiter_CWE131_ls.log": "a9e95dfd35b81c5b076e9eb9151f2b40c2e610a8492e2bf105d7492c6ca9b570"
+  }
+}

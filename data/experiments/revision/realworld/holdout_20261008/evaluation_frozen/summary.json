@@ -1,0 +1,27 @@
+{
+  "artifact_conditions": 12,
+  "project_cve_clusters": 3,
+  "methods": 16,
+  "metric_rows": 192,
+  "metric_status_counts": {
+    "analysis_failure": 6,
+    "incomplete_scores": 16,
+    "ok": 170
+  },
+  "external_successes": 6,
+  "external_not_successful": 6,
+  "external_outcome_counts": {
+    "launch_environment_failure": 2,
+    "ok": 6,
+    "analyzer_or_output_failure": 4
+  },
+  "ghidra_auto_analysis_timeouts": 2,
+  "interpretation": "target/inline-containing-body retrieval only; no unknown vulnerability discovery or time-budget utility claim",
+  "independent_review": "REVIEW_UNAVAILABLE",
+  "input_sha256": {
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\evaluation_frozen\\freeze.json": "54f6d97b6cd39a3a0cc4e8f2a04956ed53ef9c40304df76d2bca3c8ae1cb7a7a",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\evaluation_frozen\\completion.json": "8d24a70167a4b7e68cca05a214ba12f2c23d13f460d0f6d22cb0dadb9ea5f98f",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\evaluation_frozen\\per_condition.csv": "cb2adb326e6099f36139facfbcfb06c0af37b9594bc378b4364d145863d84683",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\evaluation_frozen\\run_ledger.json": "8b4eb6c934fc3f7e26c04d7f29dd3e1dba33df6ecde3ea716b6a73aad26b4b14"
+  }
+}

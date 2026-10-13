@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "returncode": 0,
+  "started_utc": "2026-10-08T09:35:30.079834+00:00",
+  "elapsed_seconds": 12.328000000212342,
+  "timeout_seconds": 180,
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--name",
+    "paper-arbiter-smoke-924172130dfe",
+    "--pull=never",
+    "--network=none",
+    "--memory=2g",
+    "--cpus=1",
+    "--pids-limit=256",
+    "--mount",
+    "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\runs\\arbiter_cwe252_example_20261008,target=/output",
+    "--mount",
+    "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\source\\arbiter-0b55c19431015a1c259c3a94a6aca0c8d923c6a0,target=/fixtures,readonly",
+    "--workdir",
+    "/output",
+    "--entrypoint",
+    "/bin/bash",
+    "paper-arbiter:registry-d23edfcd",
+    "-lc",
+    "python /home/test/vuln_templates/run_arbiter.py -f /fixtures/examples/cve-vuln_templates/vd_cve-xxxx-yyyy.py -t /fixtures/examples/cve-binaries/cve-XXXX-YYYY -i 4205280 -l /output/logs -j /output/json"
+  ],
+  "image": "paper-arbiter:registry-d23edfcd",
+  "source_template_sha256": "747b67de3b3aac27508cd1b13628a1bd91cb84013f18fe4a64e1ba96b27fc10b",
+  "fixture_binary_sha256": "208f1838851375010a0e90ba0d5944c2ffb583ea6bf72822f901c8920a3f2afa",
+  "fixture": "cwe252_example",
+  "interpretation": "official environment smoke only, not a holdout comparison",
+  "output_files": {
+    "stderr.bin": "d62cadaa3639fa6b82dc7d165961af35cfb1b98183c7b0b31664d3ad1139121f",
+    "stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "json\\DDA.json": "2f781999319b04195b7149d1c325072abdd34fd1ce0c36cb4ab33609b02c4f58",
+    "json\\UCSE.json": "6a58b85ac94ad17bea4544ea93d8f44bd0b885c485556ef320b044059a6f2081",
+    "logs\\arbiter_vd_cve-xxxx-yyyy_cve-XXXX-YYYY.log": "f5bb6773512b0e3d78293ded95390996ba1a9a6b3597c820fc67d3d5366fd874"
+  }
+}

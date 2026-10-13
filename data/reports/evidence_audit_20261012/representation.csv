@@ -1,0 +1,3 @@
+method,pairs,mean_abs_normalized_rank_shift
+full_method,200,0.0
+dangerous_plus_callchain,200,0.0

@@ -1,0 +1,146 @@
+{
+  "verifier": "independent_staged_input_and_gdb_v1",
+  "scope": "binary-only challenge artifact; source absent from analysis package",
+  "binary": {
+    "path": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261010\\raw\\extracted\\ssstack.stripped.bin",
+    "sha256": "416cd94d95b3d4a1a00c411b35e2f37ba1f4eb293b276f5e0bf57e6a1899c82d",
+    "size": 14552
+  },
+  "input_protocol": {
+    "first_line": "A\\n",
+    "payload_marker": "B",
+    "staged_delay_seconds": 0.25,
+    "lengths": [
+      0,
+      8,
+      40,
+      80,
+      111,
+      119,
+      120,
+      140
+    ],
+    "no_exploit_or_control_flow_redirection": true
+  },
+  "sweep": [
+    {
+      "payload_len": 0,
+      "returncode": 0,
+      "timeout": false,
+      "stdout_sha256": "170200b411890970612190fe759f93ff085af23eaa5873f17cf82190f37b87be",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 261,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 2.3594,
+      "classification": "clean"
+    },
+    {
+      "payload_len": 8,
+      "returncode": 0,
+      "timeout": false,
+      "stdout_sha256": "6d5900bf3bcdfd9e11f6160d5d19cb5312a0ef0e10a6b8b9b1c7e50c069c7a8a",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 270,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.2929,
+      "classification": "clean"
+    },
+    {
+      "payload_len": 40,
+      "returncode": 0,
+      "timeout": false,
+      "stdout_sha256": "a7b26d9acc24ad0b9919f687f5f0be4160de3db8fc993c667dfbb6e1ca00825a",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 302,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.2753,
+      "classification": "clean"
+    },
+    {
+      "payload_len": 80,
+      "returncode": 0,
+      "timeout": false,
+      "stdout_sha256": "1e52918b99c69051950e9d91a36f22546c1929baba7c87275b59942565c8acf6",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 342,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.27,
+      "classification": "clean"
+    },
+    {
+      "payload_len": 111,
+      "returncode": 0,
+      "timeout": false,
+      "stdout_sha256": "d95ea3fc348aee276fb632fc61a8ee592854f2e211e94452dda28457310d8fbf",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 379,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.2754,
+      "classification": "clean"
+    },
+    {
+      "payload_len": 119,
+      "returncode": 135,
+      "timeout": false,
+      "stdout_sha256": "7232e629b314da02dca84575d4613a7424ceb9f3043a31c46af2efb2a6943ffe",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 278,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.2797,
+      "classification": "abnormal_exit"
+    },
+    {
+      "payload_len": 120,
+      "returncode": 132,
+      "timeout": false,
+      "stdout_sha256": "1d2152fe200e1f76f3b4fbccffece98ef08f9746df2ae3fec09205f4c3109e16",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 258,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.2837,
+      "classification": "abnormal_exit"
+    },
+    {
+      "payload_len": 140,
+      "returncode": 139,
+      "timeout": false,
+      "stdout_sha256": "7af471e719365208d5ccd9cbab28615ff18deeee264fbb877aada90bfdd78601",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 277,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 0.3066,
+      "classification": "segmentation_fault"
+    }
+  ],
+  "gdb": {
+    "returncode": 0,
+    "sigsegv_observed": true,
+    "crash_pc": "0x401329",
+    "stdout_sha256": "ea7683f308a73d5eab0688d471d248bd517d3ed50301491d910237b17e2748d3",
+    "stderr_sha256": "54cbf66986b07c80bf2026411b2799fb4dc82c6da7ca94d20ae1b1c7c8417977"
+  },
+  "independent_target_mapping": {
+    "function_id": "ram:004012c8",
+    "entry_address": "ram:004012c8",
+    "function_name": "FUN_004012c8",
+    "entry_int": 4199112,
+    "body_size": 98,
+    "crash_pc": "0x401329"
+  },
+  "interpretation": {
+    "clean_control": {
+      "payload_len": 0,
+      "returncode": 0,
+      "timeout": false,
+      "stdout_sha256": "170200b411890970612190fe759f93ff085af23eaa5873f17cf82190f37b87be",
+      "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+      "stdout_bytes": 261,
+      "stderr_bytes": 132,
+      "elapsed_seconds": 2.3594,
+      "classification": "clean"
+    },
+    "first_reproducible_abnormal_length": 119,
+    "first_reproducible_segmentation_fault_length": 140,
+    "confirmation_boundary": "segmentation fault under staged interactive input; no claim about exploitability"
+  }
+}

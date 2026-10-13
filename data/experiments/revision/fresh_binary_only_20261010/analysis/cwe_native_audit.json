@@ -1,0 +1,96 @@
+{
+  "tool": "cwe_checker",
+  "image": "ghcr.io/fkie-cad/cwe_checker@sha256:9990d5573af5c1ceb035ab9149374a41e3f2fe24230d871911dcaa7d7cbb2b74",
+  "native_output": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261010\\analysis\\cwe_native_result.json",
+  "native_output_sha256": "522401595e50499adfcb793d0ed985f26e966e7eb36a1c455ee8a79c11ee6588",
+  "candidate_population": 12,
+  "target": "ram:004012c8",
+  "warning_count": 4,
+  "mapped_function_count": 2,
+  "mapped_functions": [
+    "ram:004011d6",
+    "ram:004012c8"
+  ],
+  "target_hit": true,
+  "warnings": [
+    {
+      "name": "CWE119",
+      "description": "(Buffer Overflow) Call to read at 004012fb may access out-of-bounds memory.",
+      "addresses": [
+        "004012fb"
+      ],
+      "mapped_functions": [
+        {
+          "address": "004012fb",
+          "function_id": "ram:004012c8",
+          "entry_address": "ram:004012c8",
+          "function_name": "FUN_004012c8"
+        }
+      ],
+      "target_hit": true
+    },
+    {
+      "name": "CWE252",
+      "description": "(Unchecked Return Value) There is no check of the return value of 0040122e (fgets).",
+      "addresses": [
+        "0040122e",
+        "00401241"
+      ],
+      "mapped_functions": [
+        {
+          "address": "0040122e",
+          "function_id": "ram:004011d6",
+          "entry_address": "ram:004011d6",
+          "function_name": "FUN_004011d6"
+        },
+        {
+          "address": "00401241",
+          "function_id": "ram:004011d6",
+          "entry_address": "ram:004011d6",
+          "function_name": "FUN_004011d6"
+        }
+      ],
+      "target_hit": false
+    },
+    {
+      "name": "CWE252",
+      "description": "(Unchecked Return Value) There is no check of the return value of 004012fb (read).",
+      "addresses": [
+        "004012fb",
+        "00401300"
+      ],
+      "mapped_functions": [
+        {
+          "address": "004012fb",
+          "function_id": "ram:004012c8",
+          "entry_address": "ram:004012c8",
+          "function_name": "FUN_004012c8"
+        },
+        {
+          "address": "00401300",
+          "function_id": "ram:004012c8",
+          "entry_address": "ram:004012c8",
+          "function_name": "FUN_004012c8"
+        }
+      ],
+      "target_hit": true
+    },
+    {
+      "name": "CWE676",
+      "description": "(Use of Potentially Dangerous Function) FUN_004012c8 (004012e5) -> memset",
+      "addresses": [
+        "004012e5"
+      ],
+      "mapped_functions": [
+        {
+          "address": "004012e5",
+          "function_id": "ram:004012c8",
+          "entry_address": "ram:004012c8",
+          "function_name": "FUN_004012c8"
+        }
+      ],
+      "target_hit": true
+    }
+  ],
+  "comparison_boundary": "native warning set has no native ranking; target inclusion is reported, not converted into a fabricated score"
+}

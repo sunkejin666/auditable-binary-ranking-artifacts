@@ -1,0 +1,9 @@
+{
+  "protocol": "recovery-bridge-v0.3-independent-replay",
+  "event_count": 27178,
+  "contraction_events": 840,
+  "invalid_contract_events": 0,
+  "unique_action_groups": 12,
+  "failures": [],
+  "status": "PASS_FIXED_ARTIFACT_REPLAY"
+}

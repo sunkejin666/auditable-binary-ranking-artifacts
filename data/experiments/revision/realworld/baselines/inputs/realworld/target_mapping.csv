@@ -1,0 +1,13 @@
+dataset,project,cve,version,label,condition,target_symbol,target_id,target_entry_address,population,sink_population
+libpng_cve_2015_8126,libpng,CVE-2015-8126,1.6.18,affected,unstripped,png_set_PLTE,ram:0011f810,ram:0011f810,447,20
+libpng_cve_2015_8126,libpng,CVE-2015-8126,1.6.18,affected,stripped,png_set_PLTE,ram:0011f810,ram:0011f810,447,20
+libpng_cve_2015_8126,libpng,CVE-2015-8126,1.6.20,fixed,unstripped,png_set_PLTE,ram:0011f910,ram:0011f910,447,21
+libpng_cve_2015_8126,libpng,CVE-2015-8126,1.6.20,fixed,stripped,png_set_PLTE,ram:0011f910,ram:0011f910,447,21
+zlib_cve_2018_25032,zlib,CVE-2018-25032,1.2.11,affected,unstripped,deflate,ram:00106000,ram:00106000,127,30
+zlib_cve_2018_25032,zlib,CVE-2018-25032,1.2.11,affected,stripped,deflate,ram:00106000,ram:00106000,127,30
+zlib_cve_2018_25032,zlib,CVE-2018-25032,1.2.12,fixed,unstripped,deflate,ram:00106200,ram:00106200,129,30
+zlib_cve_2018_25032,zlib,CVE-2018-25032,1.2.12,fixed,stripped,deflate,ram:00106200,ram:00106200,129,30
+openssl_cve_2022_0778,openssl,CVE-2022-0778,1.1.1m,affected,unstripped,BN_mod_sqrt,ram:001c1400,ram:001c1400,6219,189
+openssl_cve_2022_0778,openssl,CVE-2022-0778,1.1.1m,affected,stripped,BN_mod_sqrt,ram:001c1400,ram:001c1400,6219,189
+openssl_cve_2022_0778,openssl,CVE-2022-0778,1.1.1n,fixed,unstripped,BN_mod_sqrt,ram:001c13f0,ram:001c13f0,6220,189
+openssl_cve_2022_0778,openssl,CVE-2022-0778,1.1.1n,fixed,stripped,BN_mod_sqrt,ram:001c13f0,ram:001c13f0,6220,189

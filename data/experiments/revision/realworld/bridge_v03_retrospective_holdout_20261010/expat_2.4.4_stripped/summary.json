@@ -1,0 +1,43 @@
+{
+  "binary": "expat_2.4.4_stripped",
+  "project_cve_cluster": "expat/CVE-2022-23852",
+  "variant": "stripped",
+  "binary_sha256": "de5fb51058bbe739e67cbbc5e06f05a14f0236bb1ff358a805cbeb763288b1e5",
+  "event_count": 297,
+  "contraction_events": 0,
+  "invalid_contract_events": 0,
+  "unique_action_groups": 1,
+  "caps": [
+    1,
+    100000
+  ],
+  "cap_runs": [
+    {
+      "cap": 1,
+      "status": "ok",
+      "seconds": 0.02511650021187961,
+      "error": "",
+      "candidate_count": 297,
+      "candidate_pool_sha256": "dd3b9d2f6a4ce5009204099e213ebf9c2b2f46f8fe10be989df186d7393a7d50"
+    },
+    {
+      "cap": 100000,
+      "status": "ok",
+      "seconds": 0.0077228001318871975,
+      "error": "",
+      "candidate_count": 297,
+      "candidate_pool_sha256": "dd3b9d2f6a4ce5009204099e213ebf9c2b2f46f8fe10be989df186d7393a7d50"
+    }
+  ],
+  "transitions": [
+    {
+      "before_cap": 1,
+      "after_cap": 100000,
+      "eligible": true,
+      "same_candidate_pool": true,
+      "status": "ok",
+      "event_count": 297
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,2642 @@
+{
+  "fixture": "/mnt/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.elf",
+  "binary_sha256": "a073d593e720eab3234636e1c151ac3042b5140f2b428c40a1c2f0d62b20e7ca",
+  "source_sha256": "3fb71cfd80ba15e4790f8d23e8220d1cb02530ee30b12b07f2790f626458d5f3",
+  "base_source_sha256": "ed9894be666fd54f6913bcea4525406ddd0d67dac450e8145e871102984c8153",
+  "image_digest": "sha256:808ecac4449b3c7f890bb035ccb33a09f5760f354076dce44a8419973f412e9a",
+  "schema": "prefix-runtime-fingerprint-v4",
+  "runs": [
+    {
+      "repetition": 1,
+      "baseline": {
+        "reuse": false,
+        "identified_targets": 3,
+        "postprocessing_reports": 3,
+        "report_signature": [
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198716,
+            "bbl_history": [
+              4198800,
+              4198716
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198750,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198766,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750,
+              4198697,
+              4198766
+            ]
+          }
+        ],
+        "counters": {
+          "prefix_executions": 3,
+          "prefix_cache_hits": 0,
+          "continuation_executions": 3,
+          "admission_attempts": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 0,
+          "termination_events": [
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.00787892399989687,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.11916190100009771,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.011063619999958973,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.12726447299996835,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.0064323859999149136,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.13812806500004626,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            }
+          ],
+          "requests": [
+            {
+              "key": null,
+              "refusal": "disabled",
+              "cache_size_before": 0
+            },
+            {
+              "key": null,
+              "refusal": "disabled",
+              "cache_size_before": 0
+            },
+            {
+              "key": null,
+              "refusal": "disabled",
+              "cache_size_before": 0
+            }
+          ]
+        },
+        "context": {
+          "binary_sha256": "a073d593e720eab3234636e1c151ac3042b5140f2b428c40a1c2f0d62b20e7ca",
+          "arbiter_source_sha256": "b52101d04b6bf5192097990ffa7bce8bfa313c0836ec50b9d94c92688488574d",
+          "dependencies": {
+            "angr": "9.2.42",
+            "claripy": "9.2.42",
+            "cle": "9.2.42",
+            "pyvex": "9.2.42"
+          },
+          "unknown_alias": false,
+          "partial_timeout": false,
+          "timeout_budget_s": 30.0,
+          "identity_scope": "pinned-runtime observable fingerprint, not exhaustive semantic identity"
+        },
+        "seconds": 1.6241003790000832
+      },
+      "reuse": {
+        "reuse": true,
+        "identified_targets": 3,
+        "postprocessing_reports": 3,
+        "report_signature": [
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198716,
+            "bbl_history": [
+              4198800,
+              4198716
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198750,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198766,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750,
+              4198697,
+              4198766
+            ]
+          }
+        ],
+        "counters": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 2,
+          "continuation_executions": 3,
+          "admission_attempts": 3,
+          "admitted_results": 1,
+          "rejected_admissions": 0,
+          "termination_events": [
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.007704410999849642,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": true,
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.10169226600010006,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_cache_hit",
+              "status": "reached_stop",
+              "elapsed_s": 0.0,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.12067759999990813,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_cache_hit",
+              "status": "reached_stop",
+              "elapsed_s": 0.0,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.14964405000000625,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            }
+          ],
+          "requests": [
+            {
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null,
+              "cache_size_before": 0
+            },
+            {
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null,
+              "cache_size_before": 1
+            },
+            {
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null,
+              "cache_size_before": 1
+            }
+          ]
+        },
+        "context": {
+          "binary_sha256": "a073d593e720eab3234636e1c151ac3042b5140f2b428c40a1c2f0d62b20e7ca",
+          "arbiter_source_sha256": "b52101d04b6bf5192097990ffa7bce8bfa313c0836ec50b9d94c92688488574d",
+          "dependencies": {
+            "angr": "9.2.42",
+            "claripy": "9.2.42",
+            "cle": "9.2.42",
+            "pyvex": "9.2.42"
+          },
+          "unknown_alias": false,
+          "partial_timeout": false,
+          "timeout_budget_s": 30.0,
+          "identity_scope": "pinned-runtime observable fingerprint, not exhaustive semantic identity"
+        },
+        "seconds": 1.383240891000014
+      },
+      "same_nonempty_report_signature": true,
+      "positive_reuse": true,
+      "admission_status_gate": true
+    },
+    {
+      "repetition": 2,
+      "baseline": {
+        "reuse": false,
+        "identified_targets": 3,
+        "postprocessing_reports": 3,
+        "report_signature": [
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198716,
+            "bbl_history": [
+              4198800,
+              4198716
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198750,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198766,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750,
+              4198697,
+              4198766
+            ]
+          }
+        ],
+        "counters": {
+          "prefix_executions": 3,
+          "prefix_cache_hits": 0,
+          "continuation_executions": 3,
+          "admission_attempts": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 0,
+          "termination_events": [
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.010049150999975609,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.10821351100003085,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.009587510999836013,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.12268611399986185,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.0069870720001290465,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.12622015099987038,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            }
+          ],
+          "requests": [
+            {
+              "key": null,
+              "refusal": "disabled",
+              "cache_size_before": 0
+            },
+            {
+              "key": null,
+              "refusal": "disabled",
+              "cache_size_before": 0
+            },
+            {
+              "key": null,
+              "refusal": "disabled",
+              "cache_size_before": 0
+            }
+          ]
+        },
+        "context": {
+          "binary_sha256": "a073d593e720eab3234636e1c151ac3042b5140f2b428c40a1c2f0d62b20e7ca",
+          "arbiter_source_sha256": "b52101d04b6bf5192097990ffa7bce8bfa313c0836ec50b9d94c92688488574d",
+          "dependencies": {
+            "angr": "9.2.42",
+            "claripy": "9.2.42",
+            "cle": "9.2.42",
+            "pyvex": "9.2.42"
+          },
+          "unknown_alias": false,
+          "partial_timeout": false,
+          "timeout_budget_s": 30.0,
+          "identity_scope": "pinned-runtime observable fingerprint, not exhaustive semantic identity"
+        },
+        "seconds": 1.5819673670000611
+      },
+      "reuse": {
+        "reuse": true,
+        "identified_targets": 3,
+        "postprocessing_reports": 3,
+        "report_signature": [
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198716,
+            "bbl_history": [
+              4198800,
+              4198716
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198750,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750
+            ]
+          },
+          {
+            "sink": null,
+            "function": 4198716,
+            "bbl": 4198766,
+            "bbl_history": [
+              4198800,
+              4198716,
+              4198697,
+              4198750,
+              4198697,
+              4198766
+            ]
+          }
+        ],
+        "counters": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 2,
+          "continuation_executions": 3,
+          "admission_attempts": 3,
+          "admitted_results": 1,
+          "rejected_admissions": 0,
+          "termination_events": [
+            {
+              "kind": "prefix_execution",
+              "status": "reached_stop",
+              "elapsed_s": 0.007999223999831884,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": true,
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.1046058480001193,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_cache_hit",
+              "status": "reached_stop",
+              "elapsed_s": 0.0,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.1191596109999864,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            },
+            {
+              "kind": "prefix_cache_hit",
+              "status": "reached_stop",
+              "elapsed_s": 0.0,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c"
+            },
+            {
+              "kind": "continuation",
+              "status": "reached_stop",
+              "elapsed_s": 0.12614580100012063,
+              "returned_normally": true,
+              "error": null,
+              "stashes": {
+                "active": 0,
+                "stashed": 0,
+                "pruned": 0,
+                "unsat": 0,
+                "errored": 0,
+                "deadended": 0,
+                "unconstrained": 0,
+                "found": 1,
+                "avoid": 0
+              },
+              "found": 1,
+              "active": 0,
+              "errored": 0,
+              "arbiter_timeout_received": false,
+              "admitted": false,
+              "key": null,
+              "refusal": "disabled"
+            }
+          ],
+          "requests": [
+            {
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null,
+              "cache_size_before": 0
+            },
+            {
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null,
+              "cache_size_before": 1
+            },
+            {
+              "key": "bbafc4a111f4f4e8ddd92a486605bcc489286b0284ac7aa06ce5039f35a0653c",
+              "refusal": null,
+              "cache_size_before": 1
+            }
+          ]
+        },
+        "context": {
+          "binary_sha256": "a073d593e720eab3234636e1c151ac3042b5140f2b428c40a1c2f0d62b20e7ca",
+          "arbiter_source_sha256": "b52101d04b6bf5192097990ffa7bce8bfa313c0836ec50b9d94c92688488574d",
+          "dependencies": {
+            "angr": "9.2.42",
+            "claripy": "9.2.42",
+            "cle": "9.2.42",
+            "pyvex": "9.2.42"
+          },
+          "unknown_alias": false,
+          "partial_timeout": false,
+          "timeout_budget_s": 30.0,
+          "identity_scope": "pinned-runtime observable fingerprint, not exhaustive semantic identity"
+        },
+        "seconds": 1.4256296420001036
+      },
+      "same_nonempty_report_signature": true,
+      "positive_reuse": true,
+      "admission_status_gate": true
+    }
+  ],
+  "control_matrix": [
+    {
+      "case": "hook_mutation",
+      "kind": "key_separation",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.0074581050000688265,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.00810468600002423,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "9cb9c6339d9505fd10365f93f74474439ced292d4345f1f2d0f8024737a755a8",
+          "refusal": null
+        },
+        "request": {
+          "key": "9cb9c6339d9505fd10365f93f74474439ced292d4345f1f2d0f8024737a755a8",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "loaded_memory_mutation",
+      "kind": "key_separation",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006906514999855062,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006713865000165242,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "71689d2e41488e3adac5c13f689a1dc0914b2ca3b00656aadd9bc487cc0dae50",
+          "refusal": null
+        },
+        "request": {
+          "key": "71689d2e41488e3adac5c13f689a1dc0914b2ca3b00656aadd9bc487cc0dae50",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "plugin_mutation",
+      "kind": "key_separation",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.007411569000169038,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.007377849000022252,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "b0b4a859c1f75efc87ed608d8218183ca4008069fe85216da1d36a53da30b4ef",
+          "refusal": null
+        },
+        "request": {
+          "key": "b0b4a859c1f75efc87ed608d8218183ca4008069fe85216da1d36a53da30b4ef",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "register_mutation",
+      "kind": "key_separation",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.007468811000080677,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006496028000128717,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "a1fdba99c8d707502fd0a7d41755c122c1018abfd482b0f38c67d8c7b8bfb42b",
+          "refusal": null
+        },
+        "request": {
+          "key": "a1fdba99c8d707502fd0a7d41755c122c1018abfd482b0f38c67d8c7b8bfb42b",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "state_memory_mutation",
+      "kind": "key_separation",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.0076838380000481266,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006194453000034628,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "5e19fc0d26b3c44788ce86159f417f639c35478bc36a2abd178416ba9a7575e2",
+          "refusal": null
+        },
+        "request": {
+          "key": "5e19fc0d26b3c44788ce86159f417f639c35478bc36a2abd178416ba9a7575e2",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "constraint_mutation",
+      "kind": "key_separation",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.009352476000003662,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.017627639000011186,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "dbb25b3e432b09c381a01dd332ab00122906cb883d2dc20e012398bf5afd7d8b",
+          "refusal": null
+        },
+        "request": {
+          "key": "dbb25b3e432b09c381a01dd332ab00122906cb883d2dc20e012398bf5afd7d8b",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "unknown_alias",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.007997263000106614,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 1
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006899225000097431,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": null,
+          "refusal": "injected_unknown_alias"
+        },
+        "request": {
+          "key": null,
+          "refusal": "injected_unknown_alias",
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "partial_timeout",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006691985000088607,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 1
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "injected_partial_timeout",
+          "elapsed_s": 0.0072834130000956065,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": null,
+          "refusal": "injected_partial_timeout"
+        },
+        "request": {
+          "key": null,
+          "refusal": "injected_partial_timeout",
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "timeout_flag",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.0074383510000188835,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 1
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "timeout_observed",
+          "elapsed_s": 0.007685933999937333,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": true,
+          "admitted": false,
+          "key": null,
+          "refusal": "arbiter_timeout_flag"
+        },
+        "request": {
+          "key": null,
+          "refusal": "arbiter_timeout_flag",
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "elapsed_budget",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.007860874000016338,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "timeout_observed",
+          "elapsed_s": 0.007474325999965004,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "c84b485df4bc191cc6671a56fded75ac78f269fed74aa5734c7c00fa3a2f8abf",
+          "refusal": null
+        },
+        "request": {
+          "key": "c84b485df4bc191cc6671a56fded75ac78f269fed74aa5734c7c00fa3a2f8abf",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "partial_frontier",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.009435437999854912,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "partial_frontier",
+          "elapsed_s": 5.314600002748193e-05,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 1,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 0,
+            "avoid": 0
+          },
+          "found": 0,
+          "active": 1,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "3e682069a6b63a5ae0a367c77ae5200b2cfdc8e3aeef9b749e99e9597fd2945b",
+          "refusal": null
+        },
+        "request": {
+          "key": "3e682069a6b63a5ae0a367c77ae5200b2cfdc8e3aeef9b749e99e9597fd2945b",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "interrupt",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.006767139999965366,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "interrupted",
+          "elapsed_s": 2.93900006909098e-06,
+          "returned_normally": false,
+          "error": "KeyboardInterrupt",
+          "stashes": {
+            "active": 1,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0
+          },
+          "found": 0,
+          "active": 1,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "8c68d78507a61d5a49d44e199cabcaa98128b5fd743ed8e52e3bda77f5a3300c",
+          "refusal": null
+        },
+        "request": {
+          "key": "8c68d78507a61d5a49d44e199cabcaa98128b5fd743ed8e52e3bda77f5a3300c",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": null,
+        "caught": "KeyboardInterrupt"
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    },
+    {
+      "case": "error",
+      "kind": "refusal",
+      "prefill": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 1,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "reached_stop",
+          "elapsed_s": 0.008617753999942579,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": true,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 0
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "unchanged": {
+        "delta": {
+          "prefix_executions": 0,
+          "prefix_cache_hits": 1,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_cache_hit",
+          "status": "reached_stop",
+          "elapsed_s": 0.0,
+          "returned_normally": true,
+          "error": null,
+          "stashes": {
+            "active": 0,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0,
+            "found": 1,
+            "avoid": 0
+          },
+          "found": 1,
+          "active": 0,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789"
+        },
+        "request": {
+          "key": "ee4ad90990d942b039f14ef049bbb55f85cedf67b8b410ee576bc8922865c789",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": true,
+        "caught": null
+      },
+      "mutation": {
+        "delta": {
+          "prefix_executions": 1,
+          "prefix_cache_hits": 0,
+          "admitted_results": 0,
+          "rejected_admissions": 0
+        },
+        "event": {
+          "kind": "prefix_execution",
+          "status": "error",
+          "elapsed_s": 3.944999889426981e-06,
+          "returned_normally": false,
+          "error": "RuntimeError",
+          "stashes": {
+            "active": 1,
+            "stashed": 0,
+            "pruned": 0,
+            "unsat": 0,
+            "errored": 0,
+            "deadended": 0,
+            "unconstrained": 0
+          },
+          "found": 0,
+          "active": 1,
+          "errored": 0,
+          "arbiter_timeout_received": false,
+          "admitted": false,
+          "key": "8c68d78507a61d5a49d44e199cabcaa98128b5fd743ed8e52e3bda77f5a3300c",
+          "refusal": null
+        },
+        "request": {
+          "key": "8c68d78507a61d5a49d44e199cabcaa98128b5fd743ed8e52e3bda77f5a3300c",
+          "refusal": null,
+          "cache_size_before": 1
+        },
+        "chained_proxy": null,
+        "caught": "RuntimeError"
+      },
+      "passed": true,
+      "scope": "same-cache controlled mutation; alias/timeout/exception controls are injections"
+    }
+  ],
+  "clone_control": {
+    "checks": {
+      "nested_globals": true,
+      "memory": true,
+      "register": true
+    },
+    "passed": true,
+    "scope": "tested globals, memory and registers only"
+  },
+  "concrete_execution": {
+    "runs": [
+      {
+        "command": [
+          "/mnt/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.elf"
+        ],
+        "returncode": 39,
+        "stdout": "",
+        "stderr": "",
+        "expected": 39,
+        "passed": true
+      },
+      {
+        "command": [
+          "/mnt/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.elf",
+          "fixture_arg"
+        ],
+        "returncode": 42,
+        "stdout": "",
+        "stderr": "",
+        "expected": 42,
+        "passed": true
+      },
+      {
+        "command": [
+          "/mnt/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.elf",
+          "fixture_arg",
+          "fixture_arg",
+          "fixture_arg",
+          "fixture_arg"
+        ],
+        "returncode": 51,
+        "stdout": "",
+        "stderr": "",
+        "expected": 51,
+        "passed": true
+      }
+    ],
+    "inventory_command": [
+      "objdump",
+      "-d",
+      "/mnt/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.elf"
+    ],
+    "inventory_returncode": 0,
+    "inventory_stdout": "\n/mnt/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.elf:     file format elf64-x86-64\n\n\nDisassembly of section .init:\n\n0000000000001000 <_init>:\n    1000:\tf3 0f 1e fa          \tendbr64 \n    1004:\t48 83 ec 08          \tsub    $0x8,%rsp\n    1008:\t48 8b 05 d9 2f 00 00 \tmov    0x2fd9(%rip),%rax        # 3fe8 <__gmon_start__>\n    100f:\t48 85 c0             \ttest   %rax,%rax\n    1012:\t74 02                \tje     1016 <_init+0x16>\n    1014:\tff d0                \tcallq  *%rax\n    1016:\t48 83 c4 08          \tadd    $0x8,%rsp\n    101a:\tc3                   \tretq   \n\nDisassembly of section .plt:\n\n0000000000001020 <.plt>:\n    1020:\tff 35 a2 2f 00 00    \tpushq  0x2fa2(%rip)        # 3fc8 <_GLOBAL_OFFSET_TABLE_+0x8>\n    1026:\tf2 ff 25 a3 2f 00 00 \tbnd jmpq *0x2fa3(%rip)        # 3fd0 <_GLOBAL_OFFSET_TABLE_+0x10>\n    102d:\t0f 1f 00             \tnopl   (%rax)\n\nDisassembly of section .plt.got:\n\n0000000000001030 <__cxa_finalize@plt>:\n    1030:\tf3 0f 1e fa          \tendbr64 \n    1034:\tf2 ff 25 bd 2f 00 00 \tbnd jmpq *0x2fbd(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>\n    103b:\t0f 1f 44 00 00       \tnopl   0x0(%rax,%rax,1)\n\nDisassembly of section .text:\n\n0000000000001040 <_start>:\n    1040:\tf3 0f 1e fa          \tendbr64 \n    1044:\t31 ed                \txor    %ebp,%ebp\n    1046:\t49 89 d1             \tmov    %rdx,%r9\n    1049:\t5e                   \tpop    %rsi\n    104a:\t48 89 e2             \tmov    %rsp,%rdx\n    104d:\t48 83 e4 f0          \tand    $0xfffffffffffffff0,%rsp\n    1051:\t50                   \tpush   %rax\n    1052:\t54                   \tpush   %rsp\n    1053:\t4c 8d 05 e6 01 00 00 \tlea    0x1e6(%rip),%r8        # 1240 <__libc_csu_fini>\n    105a:\t48 8d 0d 6f 01 00 00 \tlea    0x16f(%rip),%rcx        # 11d0 <__libc_csu_init>\n    1061:\t48 8d 3d 43 01 00 00 \tlea    0x143(%rip),%rdi        # 11ab <main>\n    1068:\tff 15 72 2f 00 00    \tcallq  *0x2f72(%rip)        # 3fe0 <__libc_start_main@GLIBC_2.2.5>\n    106e:\tf4                   \thlt    \n    106f:\t90                   \tnop\n\n0000000000001070 <deregister_tm_clones>:\n    1070:\t48 8d 3d 99 2f 00 00 \tlea    0x2f99(%rip),%rdi        # 4010 <__TMC_END__>\n    1077:\t48 8d 05 92 2f 00 00 \tlea    0x2f92(%rip),%rax        # 4010 <__TMC_END__>\n    107e:\t48 39 f8             \tcmp    %rdi,%rax\n    1081:\t74 15                \tje     1098 <deregister_tm_clones+0x28>\n    1083:\t48 8b 05 4e 2f 00 00 \tmov    0x2f4e(%rip),%rax        # 3fd8 <_ITM_deregisterTMCloneTable>\n    108a:\t48 85 c0             \ttest   %rax,%rax\n    108d:\t74 09                \tje     1098 <deregister_tm_clones+0x28>\n    108f:\tff e0                \tjmpq   *%rax\n    1091:\t0f 1f 80 00 00 00 00 \tnopl   0x0(%rax)\n    1098:\tc3                   \tretq   \n    1099:\t0f 1f 80 00 00 00 00 \tnopl   0x0(%rax)\n\n00000000000010a0 <register_tm_clones>:\n    10a0:\t48 8d 3d 69 2f 00 00 \tlea    0x2f69(%rip),%rdi        # 4010 <__TMC_END__>\n    10a7:\t48 8d 35 62 2f 00 00 \tlea    0x2f62(%rip),%rsi        # 4010 <__TMC_END__>\n    10ae:\t48 29 fe             \tsub    %rdi,%rsi\n    10b1:\t48 89 f0             \tmov    %rsi,%rax\n    10b4:\t48 c1 ee 3f          \tshr    $0x3f,%rsi\n    10b8:\t48 c1 f8 03          \tsar    $0x3,%rax\n    10bc:\t48 01 c6             \tadd    %rax,%rsi\n    10bf:\t48 d1 fe             \tsar    %rsi\n    10c2:\t74 14                \tje     10d8 <register_tm_clones+0x38>\n    10c4:\t48 8b 05 25 2f 00 00 \tmov    0x2f25(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable>\n    10cb:\t48 85 c0             \ttest   %rax,%rax\n    10ce:\t74 08                \tje     10d8 <register_tm_clones+0x38>\n    10d0:\tff e0                \tjmpq   *%rax\n    10d2:\t66 0f 1f 44 00 00    \tnopw   0x0(%rax,%rax,1)\n    10d8:\tc3                   \tretq   \n    10d9:\t0f 1f 80 00 00 00 00 \tnopl   0x0(%rax)\n\n00000000000010e0 <__do_global_dtors_aux>:\n    10e0:\tf3 0f 1e fa          \tendbr64 \n    10e4:\t80 3d 25 2f 00 00 00 \tcmpb   $0x0,0x2f25(%rip)        # 4010 <__TMC_END__>\n    10eb:\t75 2b                \tjne    1118 <__do_global_dtors_aux+0x38>\n    10ed:\t55                   \tpush   %rbp\n    10ee:\t48 83 3d 02 2f 00 00 \tcmpq   $0x0,0x2f02(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>\n    10f5:\t00 \n    10f6:\t48 89 e5             \tmov    %rsp,%rbp\n    10f9:\t74 0c                \tje     1107 <__do_global_dtors_aux+0x27>\n    10fb:\t48 8b 3d 06 2f 00 00 \tmov    0x2f06(%rip),%rdi        # 4008 <__dso_handle>\n    1102:\te8 29 ff ff ff       \tcallq  1030 <__cxa_finalize@plt>\n    1107:\te8 64 ff ff ff       \tcallq  1070 <deregister_tm_clones>\n    110c:\tc6 05 fd 2e 00 00 01 \tmovb   $0x1,0x2efd(%rip)        # 4010 <__TMC_END__>\n    1113:\t5d                   \tpop    %rbp\n    1114:\tc3                   \tretq   \n    1115:\t0f 1f 00             \tnopl   (%rax)\n    1118:\tc3                   \tretq   \n    1119:\t0f 1f 80 00 00 00 00 \tnopl   0x0(%rax)\n\n0000000000001120 <frame_dummy>:\n    1120:\tf3 0f 1e fa          \tendbr64 \n    1124:\te9 77 ff ff ff       \tjmpq   10a0 <register_tm_clones>\n\n0000000000001129 <target_sink>:\n    1129:\tf3 0f 1e fa          \tendbr64 \n    112d:\t55                   \tpush   %rbp\n    112e:\t48 89 e5             \tmov    %rsp,%rbp\n    1131:\t89 7d fc             \tmov    %edi,-0x4(%rbp)\n    1134:\t8b 45 fc             \tmov    -0x4(%rbp),%eax\n    1137:\t83 c0 01             \tadd    $0x1,%eax\n    113a:\t5d                   \tpop    %rbp\n    113b:\tc3                   \tretq   \n\n000000000000113c <shared_prefix>:\n    113c:\tf3 0f 1e fa          \tendbr64 \n    1140:\t55                   \tpush   %rbp\n    1141:\t48 89 e5             \tmov    %rsp,%rbp\n    1144:\t48 83 ec 18          \tsub    $0x18,%rsp\n    1148:\t89 7d ec             \tmov    %edi,-0x14(%rbp)\n    114b:\t8b 45 ec             \tmov    -0x14(%rbp),%eax\n    114e:\t83 c0 0a             \tadd    $0xa,%eax\n    1151:\t89 45 f0             \tmov    %eax,-0x10(%rbp)\n    1154:\t8b 45 f0             \tmov    -0x10(%rbp),%eax\n    1157:\t89 c7                \tmov    %eax,%edi\n    1159:\te8 cb ff ff ff       \tcallq  1129 <target_sink>\n    115e:\t89 45 f4             \tmov    %eax,-0xc(%rbp)\n    1161:\t8b 45 f0             \tmov    -0x10(%rbp),%eax\n    1164:\t83 c0 01             \tadd    $0x1,%eax\n    1167:\t89 c7                \tmov    %eax,%edi\n    1169:\te8 bb ff ff ff       \tcallq  1129 <target_sink>\n    116e:\t89 45 f8             \tmov    %eax,-0x8(%rbp)\n    1171:\t8b 45 f0             \tmov    -0x10(%rbp),%eax\n    1174:\t83 c0 02             \tadd    $0x2,%eax\n    1177:\t89 c7                \tmov    %eax,%edi\n    1179:\te8 ab ff ff ff       \tcallq  1129 <target_sink>\n    117e:\t89 45 fc             \tmov    %eax,-0x4(%rbp)\n    1181:\t8b 55 f4             \tmov    -0xc(%rbp),%edx\n    1184:\t8b 45 f8             \tmov    -0x8(%rbp),%eax\n    1187:\t01 c2                \tadd    %eax,%edx\n    1189:\t8b 45 fc             \tmov    -0x4(%rbp),%eax\n    118c:\t01 d0                \tadd    %edx,%eax\n    118e:\tc9                   \tleaveq \n    118f:\tc3                   \tretq   \n\n0000000000001190 <driver>:\n    1190:\tf3 0f 1e fa          \tendbr64 \n    1194:\t55                   \tpush   %rbp\n    1195:\t48 89 e5             \tmov    %rsp,%rbp\n    1198:\t48 83 ec 08          \tsub    $0x8,%rsp\n    119c:\t89 7d fc             \tmov    %edi,-0x4(%rbp)\n    119f:\t8b 45 fc             \tmov    -0x4(%rbp),%eax\n    11a2:\t89 c7                \tmov    %eax,%edi\n    11a4:\te8 93 ff ff ff       \tcallq  113c <shared_prefix>\n    11a9:\tc9                   \tleaveq \n    11aa:\tc3                   \tretq   \n\n00000000000011ab <main>:\n    11ab:\tf3 0f 1e fa          \tendbr64 \n    11af:\t55                   \tpush   %rbp\n    11b0:\t48 89 e5             \tmov    %rsp,%rbp\n    11b3:\t48 83 ec 10          \tsub    $0x10,%rsp\n    11b7:\t89 7d fc             \tmov    %edi,-0x4(%rbp)\n    11ba:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    11be:\t8b 45 fc             \tmov    -0x4(%rbp),%eax\n    11c1:\t89 c7                \tmov    %eax,%edi\n    11c3:\te8 c8 ff ff ff       \tcallq  1190 <driver>\n    11c8:\tc9                   \tleaveq \n    11c9:\tc3                   \tretq   \n    11ca:\t66 0f 1f 44 00 00    \tnopw   0x0(%rax,%rax,1)\n\n00000000000011d0 <__libc_csu_init>:\n    11d0:\tf3 0f 1e fa          \tendbr64 \n    11d4:\t41 57                \tpush   %r15\n    11d6:\t4c 8d 3d 13 2c 00 00 \tlea    0x2c13(%rip),%r15        # 3df0 <__frame_dummy_init_array_entry>\n    11dd:\t41 56                \tpush   %r14\n    11df:\t49 89 d6             \tmov    %rdx,%r14\n    11e2:\t41 55                \tpush   %r13\n    11e4:\t49 89 f5             \tmov    %rsi,%r13\n    11e7:\t41 54                \tpush   %r12\n    11e9:\t41 89 fc             \tmov    %edi,%r12d\n    11ec:\t55                   \tpush   %rbp\n    11ed:\t48 8d 2d 04 2c 00 00 \tlea    0x2c04(%rip),%rbp        # 3df8 <__do_global_dtors_aux_fini_array_entry>\n    11f4:\t53                   \tpush   %rbx\n    11f5:\t4c 29 fd             \tsub    %r15,%rbp\n    11f8:\t48 83 ec 08          \tsub    $0x8,%rsp\n    11fc:\te8 ff fd ff ff       \tcallq  1000 <_init>\n    1201:\t48 c1 fd 03          \tsar    $0x3,%rbp\n    1205:\t74 1f                \tje     1226 <__libc_csu_init+0x56>\n    1207:\t31 db                \txor    %ebx,%ebx\n    1209:\t0f 1f 80 00 00 00 00 \tnopl   0x0(%rax)\n    1210:\t4c 89 f2             \tmov    %r14,%rdx\n    1213:\t4c 89 ee             \tmov    %r13,%rsi\n    1216:\t44 89 e7             \tmov    %r12d,%edi\n    1219:\t41 ff 14 df          \tcallq  *(%r15,%rbx,8)\n    121d:\t48 83 c3 01          \tadd    $0x1,%rbx\n    1221:\t48 39 dd             \tcmp    %rbx,%rbp\n    1224:\t75 ea                \tjne    1210 <__libc_csu_init+0x40>\n    1226:\t48 83 c4 08          \tadd    $0x8,%rsp\n    122a:\t5b                   \tpop    %rbx\n    122b:\t5d                   \tpop    %rbp\n    122c:\t41 5c                \tpop    %r12\n    122e:\t41 5d                \tpop    %r13\n    1230:\t41 5e                \tpop    %r14\n    1232:\t41 5f                \tpop    %r15\n    1234:\tc3                   \tretq   \n    1235:\t66 66 2e 0f 1f 84 00 \tdata16 nopw %cs:0x0(%rax,%rax,1)\n    123c:\t00 00 00 00 \n\n0000000000001240 <__libc_csu_fini>:\n    1240:\tf3 0f 1e fa          \tendbr64 \n    1244:\tc3                   \tretq   \n\nDisassembly of section .fini:\n\n0000000000001248 <_fini>:\n    1248:\tf3 0f 1e fa          \tendbr64 \n    124c:\t48 83 ec 08          \tsub    $0x8,%rsp\n    1250:\t48 83 c4 08          \tadd    $0x8,%rsp\n    1254:\tc3                   \tretq   \n",
+    "inventory_stderr": "",
+    "target_sink_calls": [
+      "1159",
+      "1169",
+      "1179"
+    ],
+    "passed": true,
+    "scope": "concrete arithmetic and call inventory, not a defect oracle"
+  },
+  "claim_boundary": "controlled fingerprint mechanism only; no semantic equivalence, defect or timing claim",
+  "gates": {
+    "nonempty_signatures": true,
+    "positive_reuse": true,
+    "admission_status": true,
+    "lifecycle_controls": true,
+    "clone_isolation": true,
+    "concrete_execution": true
+  },
+  "all_gates_passed": true
+}

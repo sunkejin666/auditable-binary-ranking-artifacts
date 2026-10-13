@@ -1,0 +1,50 @@
+{
+  "artifact_id": "fresh_binary_only_20261011_stack",
+  "selection": "local Downloads\\stack_challenge.zip; source absent from the supplied archive",
+  "archive": {
+    "path": "experiments\\revision\\fresh_binary_only_20261011_stack\\raw\\stack_challenge.zip",
+    "size": 869241,
+    "sha256": "79efb0c50e4cc5c6c3b5c19a007c13b0b0a245335480f00e2649a1cf37fe9fa9",
+    "entries": [
+      {"path": "stack_challenge/libc-2.31.so", "size": 2029592},
+      {"path": "stack_challenge/stack_challenge", "size": 7056}
+    ]
+  },
+  "files": [
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261011_stack\\raw\\stack_challenge",
+      "size": 7056,
+      "sha256": "ff47a9d0c592446c5a9089474e33c4757b74236fefffd0c3834e9ab75053152d"
+    },
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261011_stack\\raw\\libc-2.31.so",
+      "size": 2029592,
+      "sha256": "fa2be2458b59a6123bf561e67b3d5d850431e7d05cacb6435483d1e47eff6de5"
+    }
+  ],
+  "elf_properties": {
+    "file_description": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header",
+    "entry_point": "0x405ca8",
+    "section_header_count": 0,
+    "packed_markers": [
+      "This file is packed with the UPX executable packer",
+      "UPX 5.02"
+    ],
+    "candidate_function_rows": 15,
+    "candidate_entry_min": "0x40550d",
+    "candidate_entry_max": "0x405e27",
+    "program_header_audit": "analysis/elf_layout_audit.json",
+    "observed_pc": "0x401510",
+    "observed_pc_mapping": "mapped_non_executable_zero_fill",
+    "upx_probe": "UPX 5.1.1 returned NotPackedException; UPX markers remain descriptive metadata only",
+    "runtime_layout_audit": "verifier/runtime_layout_audit.json",
+    "runtime_observation": "0x401510 was mapped r-x in /memfd:upx (deleted) during three GDB replays; bytes began c3 and GDB decoded ret"
+  },
+  "scorer_isolation": {
+    "input": "raw/stack_challenge",
+    "excluded": ["source", "patch", "challenge write-up", "verifier output", "crash PC", "target mapping"],
+    "facts_generator": "Ghidra 12.1.2 address-facts export",
+    "candidate_population": "all 15 recovered internal executable function rows"
+  },
+  "claim_boundary": "binary-only challenge negative case; not a production cohort, unknown-vulnerability result, exploitability proof, or mature-tool comparison"
+}

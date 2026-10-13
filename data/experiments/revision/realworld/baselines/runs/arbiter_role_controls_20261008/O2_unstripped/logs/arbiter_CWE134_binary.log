@@ -1,0 +1,119 @@
+2026-10-08 09:46:45,157 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2026-10-08 09:46:45,353 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2026-10-08 09:46:45,353 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2026-10-08 09:46:45,354 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102c
+2026-10-08 09:46:45,354 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2026-10-08 09:46:45,355 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103e
+2026-10-08 09:46:45,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2026-10-08 09:46:45,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104e
+2026-10-08 09:46:45,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2026-10-08 09:46:45,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105e
+2026-10-08 09:46:45,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2026-10-08 09:46:45,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40106e
+2026-10-08 09:46:45,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2026-10-08 09:46:45,360 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40107e
+2026-10-08 09:46:45,360 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2026-10-08 09:46:45,361 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40108e
+2026-10-08 09:46:45,361 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2026-10-08 09:46:45,361 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40109e
+2026-10-08 09:46:45,362 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2026-10-08 09:46:45,362 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010b0
+2026-10-08 09:46:45,362 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010c0
+2026-10-08 09:46:45,363 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2026-10-08 09:46:45,363 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010e0
+2026-10-08 09:46:45,363 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f0
+2026-10-08 09:46:45,364 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2026-10-08 09:46:45,364 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401110
+2026-10-08 09:46:45,364 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401120
+2026-10-08 09:46:45,365 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401149
+2026-10-08 09:46:45,365 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401150
+2026-10-08 09:46:45,366 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2026-10-08 09:46:45,366 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401190
+2026-10-08 09:46:45,367 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4011c5
+2026-10-08 09:46:45,368 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4011c9
+2026-10-08 09:46:45,368 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4011d0
+2026-10-08 09:46:45,369 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4011d9
+2026-10-08 09:46:45,369 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4011e0
+2026-10-08 09:46:45,369 - arbiter.master_chief.sa_recon - DEBUG - Adding target function constant_format:0x4011e0
+2026-10-08 09:46:45,370 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4011fe
+2026-10-08 09:46:45,370 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401200
+2026-10-08 09:46:45,371 - arbiter.master_chief.sa_recon - DEBUG - Adding target function parameter_format:0x401200
+2026-10-08 09:46:45,371 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401214
+2026-10-08 09:46:45,371 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401220
+2026-10-08 09:46:45,372 - arbiter.master_chief.sa_recon - DEBUG - Adding target function stream_format:0x401220
+2026-10-08 09:46:45,372 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401234
+2026-10-08 09:46:45,372 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401240
+2026-10-08 09:46:45,375 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401256
+2026-10-08 09:46:45,376 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401260
+2026-10-08 09:46:45,376 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401277
+2026-10-08 09:46:45,377 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401280
+2026-10-08 09:46:45,377 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401299
+2026-10-08 09:46:45,377 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2026-10-08 09:46:45,378 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012be
+2026-10-08 09:46:45,378 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012c0
+2026-10-08 09:46:45,378 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401306
+2026-10-08 09:46:45,379 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2026-10-08 09:46:45,379 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401322
+2026-10-08 09:46:45,379 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401330
+2026-10-08 09:46:45,380 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401347
+2026-10-08 09:46:45,380 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401350
+2026-10-08 09:46:45,381 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401371
+2026-10-08 09:46:45,381 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401380
+2026-10-08 09:46:45,381 - arbiter.master_chief.sa_recon - DEBUG - Adding target function memory_format:0x401380
+2026-10-08 09:46:45,382 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401397
+2026-10-08 09:46:45,382 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4013a0
+2026-10-08 09:46:45,383 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4013e5
+2026-10-08 09:46:45,383 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4013f0
+2026-10-08 09:46:45,383 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4013fa
+2026-10-08 09:46:45,384 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401400
+2026-10-08 09:46:45,385 - arbiter.master_chief.sa_recon - DEBUG - Adding target function unsupported_wrapper:0x401400
+2026-10-08 09:46:45,385 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40141c
+2026-10-08 09:46:45,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2026-10-08 09:46:45,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2026-10-08 09:46:45,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2026-10-08 09:46:45,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2026-10-08 09:46:45,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500020
+2026-10-08 09:46:45,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500028
+2026-10-08 09:46:45,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2026-10-08 09:46:45,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2026-10-08 09:46:45,396 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x4011e0
+2026-10-08 09:46:45,396 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x4011e0
+2026-10-08 09:46:45,421 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x4011e0 (call_depth=1)
+2026-10-08 09:46:45,424 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x4011e0
+2026-10-08 09:46:45,425 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x4011e0
+2026-10-08 09:46:45,426 - arbiter.master_chief.sa_advanced - ERROR - Got constant value
+2026-10-08 09:46:45,426 - arbiter.master_chief.sa_advanced - INFO - No valid sinks in function @ 0x4011e0
+2026-10-08 09:46:45,431 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401200
+2026-10-08 09:46:45,431 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401200
+2026-10-08 09:46:45,453 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401200 (call_depth=1)
+2026-10-08 09:46:45,456 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401200
+2026-10-08 09:46:45,457 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401200
+2026-10-08 09:46:45,457 - arbiter.master_chief.sa_advanced - ERROR - Could not find target instruction
+2026-10-08 09:46:45,458 - arbiter.master_chief.sa_advanced - INFO - No valid sinks in function @ 0x401200
+2026-10-08 09:46:45,462 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401220
+2026-10-08 09:46:45,462 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401220
+2026-10-08 09:46:45,524 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401220 (call_depth=1)
+2026-10-08 09:46:45,526 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401220
+2026-10-08 09:46:45,526 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401220
+2026-10-08 09:46:45,529 - arbiter.master_chief.sa_advanced - ERROR - Could not find target instruction
+2026-10-08 09:46:45,529 - arbiter.master_chief.sa_advanced - INFO - No valid sinks in function @ 0x401220
+2026-10-08 09:46:45,542 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401380
+2026-10-08 09:46:45,543 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401380
+2026-10-08 09:46:45,559 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401380 (call_depth=1)
+2026-10-08 09:46:45,561 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401380
+2026-10-08 09:46:45,562 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401380
+2026-10-08 09:46:45,563 - arbiter.master_chief.sa_advanced - INFO - 1 sinks in function @ 0x401380
+2026-10-08 09:46:45,570 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401400
+2026-10-08 09:46:45,570 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401400
+2026-10-08 09:46:45,595 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401400 (call_depth=1)
+2026-10-08 09:46:45,597 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401400
+2026-10-08 09:46:45,598 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401400
+2026-10-08 09:46:45,599 - arbiter.master_chief.sa_advanced - ERROR - Got constant value
+2026-10-08 09:46:45,600 - arbiter.master_chief.sa_advanced - INFO - No valid sinks in function @ 0x401400
+2026-10-08 09:46:45,624 - arbiter.master_chief.symbolic_execution - DEBUG - Creating initial state for memory_format
+2026-10-08 09:46:45,630 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x401380 => 0x401380
+2026-10-08 09:46:45,631 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2026-10-08 09:46:45,855 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2026-10-08 09:46:45,865 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : printf
+2026-10-08 09:46:45,919 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2026-10-08 09:46:45,924 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join

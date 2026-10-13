@@ -1,0 +1,34 @@
+[
+  {
+    "version": "1.2.11",
+    "n": 31475,
+    "returncode": 0,
+    "elapsed_seconds": 4.109181880950928,
+    "index_oob": false,
+    "diagnostic_tail": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\rN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\r\u0000\n\u0000"
+  },
+  {
+    "version": "1.2.11",
+    "n": 31476,
+    "returncode": 1,
+    "elapsed_seconds": 0.12817645072937012,
+    "index_oob": true,
+    "diagnostic_tail": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\rN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\r\u0000\n\u0000/mnt/c/Users/孙科锦/Desktop/期刊论文/项目/官方模板/被拒修改版/experiments/revision/realworld/projects_v0_4/source_trees/zlib-1.2.11/trees.c:1091:20: runtime error: index 767 out of bounds for type 'uch [512]'\n"
+  },
+  {
+    "version": "1.2.12",
+    "n": 31475,
+    "returncode": 0,
+    "elapsed_seconds": 0.11034870147705078,
+    "index_oob": false,
+    "diagnostic_tail": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\rN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\r\u0000\n\u0000"
+  },
+  {
+    "version": "1.2.12",
+    "n": 31476,
+    "returncode": 0,
+    "elapsed_seconds": 0.10478353500366211,
+    "index_oob": false,
+    "diagnostic_tail": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\rN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\r\u0000\n\u0000"
+  }
+]

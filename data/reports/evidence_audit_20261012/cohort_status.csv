@@ -1,0 +1,6 @@
+cohort,status,n
+holdout,incomplete_scores,16
+holdout,ok,170
+holdout,analysis_failure,6
+distribution,incomplete_scores,8
+distribution,ok,24

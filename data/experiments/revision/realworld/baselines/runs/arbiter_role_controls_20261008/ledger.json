@@ -1,0 +1,246 @@
+[
+  {
+    "id": "O0_unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O0.so",
+    "binary_sha256": "d3f1276ad38e7598c16818b242b6e961211a0899e60c8f732373afe30d22865c",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--name",
+      "paper-arbiter-control-b04b383d275d",
+      "--pull=never",
+      "--network=none",
+      "--memory=2g",
+      "--cpus=1",
+      "--pids-limit=256",
+      "--entrypoint=python",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\run_arbiter_role_controls.py,target=/runner.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O0.so,target=/input/binary,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\source\\arbiter-0b55c19431015a1c259c3a94a6aca0c8d923c6a0\\vuln_templates\\CWE134.py,target=/input/CWE134.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\runs\\arbiter_role_controls_20261008\\O0_unstripped,target=/output",
+      "--workdir=/output",
+      "sha256:808ecac4449b3c7f890bb035ccb33a09f5760f354076dce44a8419973f412e9a",
+      "/runner.py",
+      "--inside"
+    ],
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 6.172000000020489,
+    "native_reports": [
+      {
+        "bbl": "0x401206",
+        "containing_symbols": [
+          "parameter_format"
+        ],
+        "sha256": "d0b8f4291c2b07d2f663dd8a2eec163142df1b53a5a7d56e40656f1deb7ccc6c"
+      },
+      {
+        "bbl": "0x401229",
+        "containing_symbols": [
+          "stream_format"
+        ],
+        "sha256": "f072255b15adc1323cf984a08cb3de0eab886bd5574cc132f4e1f25ad3ce70da"
+      },
+      {
+        "bbl": "0x4013de",
+        "containing_symbols": [
+          "memory_format"
+        ],
+        "sha256": "9874e97c1c6893bb1a07a840aad4d39392bea492742172a86ddaee985d623ecb"
+      }
+    ],
+    "raw_report_file_count": 3,
+    "output_sha256": {
+      "ArbiterReport_0x401206": "d0b8f4291c2b07d2f663dd8a2eec163142df1b53a5a7d56e40656f1deb7ccc6c",
+      "ArbiterReport_0x401229": "f072255b15adc1323cf984a08cb3de0eab886bd5574cc132f4e1f25ad3ce70da",
+      "ArbiterReport_0x4013de": "9874e97c1c6893bb1a07a840aad4d39392bea492742172a86ddaee985d623ecb",
+      "loader.json": "5e78021e35bb9c7a1c2b455c13d16d81c06521424c2b72a81de8e6b314c98f72",
+      "stderr.log": "2aefd9eb27dc0e62916f7261a78fb0fcda0929e381ba06bb63fc75c1607c0af9",
+      "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json\\DDA.json": "7a6bba1495a3eb1f3eea204c27a61b5aca91947d0f76196ee25ef914c5743907",
+      "json\\Recon.json": "69230b1e6422766e93ed03a97c3bcd6648968cb21b5cc5d4d8c3ee6da5b3aec4",
+      "json\\UCSE.json": "a6c59c10356852b4a2f375e6a2b1f11caedb973ee92c2bb8463f101fdc8ea2ce",
+      "logs\\arbiter_CWE134_binary.log": "b0665ddba838b8cba98269a4ed71e306fceb3a516042ff187d9adba5d7f107c1"
+    }
+  },
+  {
+    "id": "O0_stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O0_stripped.so",
+    "binary_sha256": "e7482305ad06ee90ff576707ef47f9f5929fe4119fe3dd4b8b65d3308937dbfc",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--name",
+      "paper-arbiter-control-c3a603e15fe8",
+      "--pull=never",
+      "--network=none",
+      "--memory=2g",
+      "--cpus=1",
+      "--pids-limit=256",
+      "--entrypoint=python",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\run_arbiter_role_controls.py,target=/runner.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O0_stripped.so,target=/input/binary,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\source\\arbiter-0b55c19431015a1c259c3a94a6aca0c8d923c6a0\\vuln_templates\\CWE134.py,target=/input/CWE134.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\runs\\arbiter_role_controls_20261008\\O0_stripped,target=/output",
+      "--workdir=/output",
+      "sha256:808ecac4449b3c7f890bb035ccb33a09f5760f354076dce44a8419973f412e9a",
+      "/runner.py",
+      "--inside"
+    ],
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 3.906999999890104,
+    "native_reports": [
+      {
+        "bbl": "0x401206",
+        "containing_symbols": [
+          "parameter_format"
+        ],
+        "sha256": "d0b8f4291c2b07d2f663dd8a2eec163142df1b53a5a7d56e40656f1deb7ccc6c"
+      },
+      {
+        "bbl": "0x401229",
+        "containing_symbols": [
+          "stream_format"
+        ],
+        "sha256": "f072255b15adc1323cf984a08cb3de0eab886bd5574cc132f4e1f25ad3ce70da"
+      },
+      {
+        "bbl": "0x4013de",
+        "containing_symbols": [
+          "memory_format"
+        ],
+        "sha256": "9874e97c1c6893bb1a07a840aad4d39392bea492742172a86ddaee985d623ecb"
+      }
+    ],
+    "raw_report_file_count": 3,
+    "output_sha256": {
+      "ArbiterReport_0x401206": "d0b8f4291c2b07d2f663dd8a2eec163142df1b53a5a7d56e40656f1deb7ccc6c",
+      "ArbiterReport_0x401229": "f072255b15adc1323cf984a08cb3de0eab886bd5574cc132f4e1f25ad3ce70da",
+      "ArbiterReport_0x4013de": "9874e97c1c6893bb1a07a840aad4d39392bea492742172a86ddaee985d623ecb",
+      "loader.json": "e98328a512d9627b3af6617c0bf702a7182b67d6d696e3ff59a008f15191cc85",
+      "stderr.log": "b91049886f4b5ea97c2aebda695d84eed17bb9faaae4e19a79b420664a65c3fc",
+      "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json\\DDA.json": "7a6bba1495a3eb1f3eea204c27a61b5aca91947d0f76196ee25ef914c5743907",
+      "json\\Recon.json": "69230b1e6422766e93ed03a97c3bcd6648968cb21b5cc5d4d8c3ee6da5b3aec4",
+      "json\\UCSE.json": "a6c59c10356852b4a2f375e6a2b1f11caedb973ee92c2bb8463f101fdc8ea2ce",
+      "logs\\arbiter_CWE134_binary.log": "872fec0224b9092095bf49fe4ffd7d745ea4a448e846a5624087845a3986a1f4"
+    }
+  },
+  {
+    "id": "O2_unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O2.so",
+    "binary_sha256": "5eb5b735f2c9d8b7226c0049e89d86086d47e9b55a429f46d187e356decf19e3",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--name",
+      "paper-arbiter-control-0e25c330ac5a",
+      "--pull=never",
+      "--network=none",
+      "--memory=2g",
+      "--cpus=1",
+      "--pids-limit=256",
+      "--entrypoint=python",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\run_arbiter_role_controls.py,target=/runner.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O2.so,target=/input/binary,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\source\\arbiter-0b55c19431015a1c259c3a94a6aca0c8d923c6a0\\vuln_templates\\CWE134.py,target=/input/CWE134.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\runs\\arbiter_role_controls_20261008\\O2_unstripped,target=/output",
+      "--workdir=/output",
+      "sha256:808ecac4449b3c7f890bb035ccb33a09f5760f354076dce44a8419973f412e9a",
+      "/runner.py",
+      "--inside"
+    ],
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 3.718000000109896,
+    "native_reports": [
+      {
+        "bbl": "0x401380",
+        "containing_symbols": [
+          "memory_format"
+        ],
+        "sha256": "d31396859b513aea76257b8c76b99a5b2916adce2884bac0ea77097ba37ab2c8"
+      }
+    ],
+    "raw_report_file_count": 1,
+    "output_sha256": {
+      "ArbiterReport_0x401380": "d31396859b513aea76257b8c76b99a5b2916adce2884bac0ea77097ba37ab2c8",
+      "loader.json": "3a20bf547e158c13647df9ec4ccfc87b1e4bb4d12cfd352de2988224d5628de1",
+      "stderr.log": "b172ef445dc7f5aeb36574d064fd5af60ed968415b0a92e58bec9bfd3ea26821",
+      "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json\\DDA.json": "04686c41f63e81d4e2a48b9dbef741b2dde8382cf4064fda4691bb636ce033f9",
+      "json\\Recon.json": "aaff0a288e72fbe8bcb8b327341d03180ea0e1b90b56705923fa91af42be34d9",
+      "json\\UCSE.json": "b4c816b66a7dfd31bad5f2d15aede0e5d513580492ddfeb325fb51c9209f39a4",
+      "logs\\arbiter_CWE134_binary.log": "0f52d30801bdce65fbb1e49b4e5e06d97689f5850572c19037cc32402becd312"
+    }
+  },
+  {
+    "id": "O2_stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O2_stripped.so",
+    "binary_sha256": "32ca9a3d800373777345da0d4e36d63e5c7d942aa03bfbab85a6840855b59d5e",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--name",
+      "paper-arbiter-control-7625bd593c9c",
+      "--pull=never",
+      "--network=none",
+      "--memory=2g",
+      "--cpus=1",
+      "--pids-limit=256",
+      "--entrypoint=python",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\run_arbiter_role_controls.py,target=/runner.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\argument_roles\\fixtures\\contract_v02_controlled_20261008\\contract_O2_stripped.so,target=/input/binary,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\source\\arbiter-0b55c19431015a1c259c3a94a6aca0c8d923c6a0\\vuln_templates\\CWE134.py,target=/input/CWE134.py,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\baselines\\runs\\arbiter_role_controls_20261008\\O2_stripped,target=/output",
+      "--workdir=/output",
+      "sha256:808ecac4449b3c7f890bb035ccb33a09f5760f354076dce44a8419973f412e9a",
+      "/runner.py",
+      "--inside"
+    ],
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 3.702999999979511,
+    "native_reports": [
+      {
+        "bbl": "0x401380",
+        "containing_symbols": [
+          "memory_format"
+        ],
+        "sha256": "d31396859b513aea76257b8c76b99a5b2916adce2884bac0ea77097ba37ab2c8"
+      }
+    ],
+    "raw_report_file_count": 1,
+    "output_sha256": {
+      "ArbiterReport_0x401380": "d31396859b513aea76257b8c76b99a5b2916adce2884bac0ea77097ba37ab2c8",
+      "loader.json": "93783ed3d94891455ca1747d36c7ecda3f62db7411da3566aa2d6f374ee74dd9",
+      "stderr.log": "868668b3ca173989a0be506970439e37ba03883c469c60c153f9a883f22d054f",
+      "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json\\DDA.json": "04686c41f63e81d4e2a48b9dbef741b2dde8382cf4064fda4691bb636ce033f9",
+      "json\\Recon.json": "aaff0a288e72fbe8bcb8b327341d03180ea0e1b90b56705923fa91af42be34d9",
+      "json\\UCSE.json": "b4c816b66a7dfd31bad5f2d15aede0e5d513580492ddfeb325fb51c9209f39a4",
+      "logs\\arbiter_CWE134_binary.log": "d628f2521ea7b2da5a7907bb6da983501c685200fa5bf655bc130d3292b20907"
+    }
+  }
+]

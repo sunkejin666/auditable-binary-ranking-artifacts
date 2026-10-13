@@ -1,0 +1,73 @@
+{
+  "artifact": "fresh_binary_only_20261011_stack",
+  "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261011_stack\\raw\\stack_challenge",
+  "entry_point": "0x405ca8",
+  "observed_pc": "0x401510",
+  "program_headers": [
+    {
+      "index": 0,
+      "type": "LOAD",
+      "offset": 0,
+      "vaddr": 4194304,
+      "filesz": 4096,
+      "memsz": 16528,
+      "flags": "RW",
+      "align": 4096,
+      "file_range": [
+        4194304,
+        4198400
+      ],
+      "memory_range": [
+        4194304,
+        4210832
+      ],
+      "pc_in_memory": true,
+      "pc_in_file_backed": false,
+      "pc_in_zero_fill": true
+    },
+    {
+      "index": 1,
+      "type": "LOAD",
+      "offset": 0,
+      "vaddr": 4214784,
+      "filesz": 6285,
+      "memsz": 6285,
+      "flags": "RE",
+      "align": 4096,
+      "file_range": [
+        4214784,
+        4221069
+      ],
+      "memory_range": [
+        4214784,
+        4221069
+      ],
+      "pc_in_memory": false,
+      "pc_in_file_backed": false,
+      "pc_in_zero_fill": false
+    }
+  ],
+  "executable_load_count": 1,
+  "pc_is_in_executable_load": false,
+  "pc_mapping_status": "on_disk_mapped_non_executable_zero_fill",
+  "candidate_population": {
+    "count": 15,
+    "entry_min": "0x40550d",
+    "entry_max": "0x405e27",
+    "pc_in_candidate_entry_range": false,
+    "pc_exact_entry_match": false
+  },
+  "interpretation": {
+    "pc_is_in_rw_zero_fill": true,
+    "target_rank": null,
+    "reason": "In the raw on-disk ELF image, the observed RIP is in an RW zero-fill range and outside the recovered executable candidate population; runtime mapping is audited separately.",
+    "runtime_audit": "../verifier/runtime_layout_audit.json"
+  },
+  "upx_probe": {
+    "command": "upx.exe -t raw/stack_challenge",
+    "version_or_stdout": "Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.1.1       Markus Oberhumer, Laszlo Molnar & John Reiser    Mar 5th 2026\n\n\nTested 0 files.",
+    "stderr": "upx: C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261011_stack\\raw\\stack_challenge: NotPackedException: not packed by UPX",
+    "exit_code": 2,
+    "status": "not_packed_by_upx"
+  }
+}

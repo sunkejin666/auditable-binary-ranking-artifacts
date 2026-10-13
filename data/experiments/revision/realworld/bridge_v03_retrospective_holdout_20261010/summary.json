@@ -1,0 +1,523 @@
+{
+  "protocol": "sound-structural-search-cap-recovery-v0.3",
+  "runs": [
+    {
+      "binary": "expat_2.4.3_stripped",
+      "project_cve_cluster": "expat/CVE-2022-23852",
+      "variant": "stripped",
+      "binary_sha256": "220e3fae77ed5750fc7f6c5f5575afc4ae292706419307fcbb77470f584b2ae5",
+      "event_count": 297,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.025537600042298436,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "32fcaf54d5ec52819d12b201a2ddc9dce7107e53979d2b1c3ab56a90a93878ff"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.008938699960708618,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "32fcaf54d5ec52819d12b201a2ddc9dce7107e53979d2b1c3ab56a90a93878ff"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 297
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "expat_2.4.3_unstripped",
+      "project_cve_cluster": "expat/CVE-2022-23852",
+      "variant": "unstripped",
+      "binary_sha256": "5f061aaaf3cd54a6252119422460edcc29ad6e99d1cf59d12e78a5eef83b5a91",
+      "event_count": 297,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.023868200136348605,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "02d824aae84a19a7c8ccaa4a8fb6cc472b1403e6bb15da6883f0902ccd059b91"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.008386799832805991,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "02d824aae84a19a7c8ccaa4a8fb6cc472b1403e6bb15da6883f0902ccd059b91"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 297
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "expat_2.4.4_stripped",
+      "project_cve_cluster": "expat/CVE-2022-23852",
+      "variant": "stripped",
+      "binary_sha256": "de5fb51058bbe739e67cbbc5e06f05a14f0236bb1ff358a805cbeb763288b1e5",
+      "event_count": 297,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.02511650021187961,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "dd3b9d2f6a4ce5009204099e213ebf9c2b2f46f8fe10be989df186d7393a7d50"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.0077228001318871975,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "dd3b9d2f6a4ce5009204099e213ebf9c2b2f46f8fe10be989df186d7393a7d50"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 297
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "expat_2.4.4_unstripped",
+      "project_cve_cluster": "expat/CVE-2022-23852",
+      "variant": "unstripped",
+      "binary_sha256": "611039142da3858ca86281bfd4695ca4be9775c97759db2d5999f097d34896dd",
+      "event_count": 297,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.02520049992017448,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "3f72da47d437ab052129d077e39f0cb68afaa173656c7fa4023863fcb0fe5484"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.008103099884465337,
+          "error": "",
+          "candidate_count": 297,
+          "candidate_pool_sha256": "3f72da47d437ab052129d077e39f0cb68afaa173656c7fa4023863fcb0fe5484"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 297
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libarchive_3.1.2_stripped",
+      "project_cve_cluster": "libarchive/CVE-2016-1541",
+      "variant": "stripped",
+      "binary_sha256": "7306ce89aa19ce70aa6f28f37ea3f8681a6564dd38e37307bb792063ac7834cb",
+      "event_count": 1137,
+      "contraction_events": 247,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.1365678000729531,
+          "error": "",
+          "candidate_count": 1137,
+          "candidate_pool_sha256": "8b2cdf5508a6a1a35572bc13df599d35fce37782caba36825ee376b6fcfef33a"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.10571440006606281,
+          "error": "",
+          "candidate_count": 1137,
+          "candidate_pool_sha256": "8b2cdf5508a6a1a35572bc13df599d35fce37782caba36825ee376b6fcfef33a"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 1137
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libarchive_3.1.2_unstripped",
+      "project_cve_cluster": "libarchive/CVE-2016-1541",
+      "variant": "unstripped",
+      "binary_sha256": "0b7a9e42a9b6322663b66783bfa7d1dd29db4c667560321bc6439edb3a0693d0",
+      "event_count": 1153,
+      "contraction_events": 247,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.09838109998963773,
+          "error": "",
+          "candidate_count": 1153,
+          "candidate_pool_sha256": "c2fca2e812b5d7d491ddc92a97619f992eb8b705502f33364bea2e8ba0e30935"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.09318859991617501,
+          "error": "",
+          "candidate_count": 1153,
+          "candidate_pool_sha256": "c2fca2e812b5d7d491ddc92a97619f992eb8b705502f33364bea2e8ba0e30935"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 1153
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libarchive_3.2.0_stripped",
+      "project_cve_cluster": "libarchive/CVE-2016-1541",
+      "variant": "stripped",
+      "binary_sha256": "9871f661b75d756abc24762256f7df2f79da34f89eca40d014b4843491ce8f9b",
+      "event_count": 1258,
+      "contraction_events": 270,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.10280229989439249,
+          "error": "",
+          "candidate_count": 1258,
+          "candidate_pool_sha256": "71fc64728d359d391e205041ee0b55429a7e8569453c0c442f323c84dd9f52bd"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.12335729994811118,
+          "error": "",
+          "candidate_count": 1258,
+          "candidate_pool_sha256": "71fc64728d359d391e205041ee0b55429a7e8569453c0c442f323c84dd9f52bd"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 1258
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libarchive_3.2.0_unstripped",
+      "project_cve_cluster": "libarchive/CVE-2016-1541",
+      "variant": "unstripped",
+      "binary_sha256": "a91632f6d70f74e8d472bf93c362ba5e3ded318f05a7d1d766710e74c08c7e4d",
+      "event_count": 1277,
+      "contraction_events": 270,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.10727869998663664,
+          "error": "",
+          "candidate_count": 1277,
+          "candidate_pool_sha256": "ebccade0092395dd1eb802cb24cbf9b291c25696ab42460e79fcaee8d6841308"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.10205199988558888,
+          "error": "",
+          "candidate_count": 1277,
+          "candidate_pool_sha256": "ebccade0092395dd1eb802cb24cbf9b291c25696ab42460e79fcaee8d6841308"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 1277
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libjpeg-turbo_1.5.90_stripped",
+      "project_cve_cluster": "libjpeg-turbo/CVE-2018-14498",
+      "variant": "stripped",
+      "binary_sha256": "435e3da270f297a4b5715965c1d2193335b4bed2dcd23f605bb8274d24dbfd60",
+      "event_count": 57,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.021604100009426475,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "8f744d3d9ec1ba230c391ec508a902aa276c7a03208ebc3328ffdd949c5a052b"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.0040923000779002905,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "8f744d3d9ec1ba230c391ec508a902aa276c7a03208ebc3328ffdd949c5a052b"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 57
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libjpeg-turbo_1.5.90_unstripped",
+      "project_cve_cluster": "libjpeg-turbo/CVE-2018-14498",
+      "variant": "unstripped",
+      "binary_sha256": "8c9151269e6fd02f8d64149a913dee16cf8014764d67d84a4b4d81a33311d26f",
+      "event_count": 57,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.020085100084543228,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "8f744d3d9ec1ba230c391ec508a902aa276c7a03208ebc3328ffdd949c5a052b"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.0038199000991880894,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "8f744d3d9ec1ba230c391ec508a902aa276c7a03208ebc3328ffdd949c5a052b"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 57
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libjpeg-turbo_2.0.0_stripped",
+      "project_cve_cluster": "libjpeg-turbo/CVE-2018-14498",
+      "variant": "stripped",
+      "binary_sha256": "7a838d6b6cdb6948e6c79a351734c7e07c044cc50b970a052e0abef0befa6a28",
+      "event_count": 57,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.02319630002602935,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "ffeea4cd92e6cc0950f6c800d3582e8196779d5711dd734d42f7ec7ee2f38c9c"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.004383299965411425,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "ffeea4cd92e6cc0950f6c800d3582e8196779d5711dd734d42f7ec7ee2f38c9c"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 57
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "binary": "libjpeg-turbo_2.0.0_unstripped",
+      "project_cve_cluster": "libjpeg-turbo/CVE-2018-14498",
+      "variant": "unstripped",
+      "binary_sha256": "28ba35b411b3cd6730f957835f4418b5c1082f8e6772c6178a1e014c02707ee1",
+      "event_count": 57,
+      "contraction_events": 0,
+      "invalid_contract_events": 0,
+      "unique_action_groups": 1,
+      "caps": [
+        1,
+        100000
+      ],
+      "cap_runs": [
+        {
+          "cap": 1,
+          "status": "ok",
+          "seconds": 0.02000149991363287,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "ffeea4cd92e6cc0950f6c800d3582e8196779d5711dd734d42f7ec7ee2f38c9c"
+        },
+        {
+          "cap": 100000,
+          "status": "ok",
+          "seconds": 0.0039687000680714846,
+          "error": "",
+          "candidate_count": 57,
+          "candidate_pool_sha256": "ffeea4cd92e6cc0950f6c800d3582e8196779d5711dd734d42f7ec7ee2f38c9c"
+        }
+      ],
+      "transitions": [
+        {
+          "before_cap": 1,
+          "after_cap": 100000,
+          "eligible": true,
+          "same_candidate_pool": true,
+          "status": "ok",
+          "event_count": 57
+        }
+      ],
+      "status": "ok"
+    }
+  ],
+  "external_requests": 0,
+  "scope": "existing real ELF facts; protocol smoke/development only"
+}

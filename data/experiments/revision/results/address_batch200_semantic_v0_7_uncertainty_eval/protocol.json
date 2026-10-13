@@ -1,0 +1,15 @@
+{
+  "evaluation_type": "address_keyed_provenance_aware_target_rank_interval",
+  "candidate_views": {
+    "all_functions": "full recovered internal executable bodies",
+    "shared_sink": "intersection by normalized dangerous-call host"
+  },
+  "cluster_policy": "original and stripped observations are paired within sample_id; source-template family is used for grouping only",
+  "interval_interpretation": "lower and upper evidence bounds around the v0.5-compatible risk score; not probabilities or exploitability bounds",
+  "input_sha256": {
+    "experiments\\revision\\stripped\\address_features\\address_batch200\\address_mapping.csv": "5320e07e426d50a532dc99ea71b8e9c311e3d57b5cfd9eb95f8b71c67bb48a7d",
+    "experiments\\legacy\\manifests\\batch200_manifest.csv": "1db2e81fe81f75be33b18219cf59dcb88fe8f06a1d4c5ca80fe8da6bf603d849",
+    "experiments\\revision\\address_model\\config_semantic_v0_5.json": "1662942df37cf43848916e8c3bbf5376d81959a8af4d4b6035a277c608b2e3a3",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\evaluate_address_uncertainty.py": "e8cb6e985f2cb80dd94e6cca6af3b5d93d0f545f2ef7642fb17fa41793b4781d"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "binary": "openssl_1.1.1m_stripped",
+  "project_cve_cluster": "openssl/CVE-2022-0778",
+  "variant": "stripped",
+  "binary_sha256": "3b6b61f9e656822630e5d9d1b79424b601be7eb16a56c9d53e281c04b1733e8f",
+  "event_count": 6219,
+  "contraction_events": 182,
+  "invalid_contract_events": 0,
+  "unique_action_groups": 1,
+  "caps": [
+    1,
+    100000
+  ],
+  "cap_runs": [
+    {
+      "cap": 1,
+      "status": "ok",
+      "seconds": 0.31805139989592135,
+      "error": "",
+      "candidate_count": 6219,
+      "candidate_pool_sha256": "e28d83dba62071fe4ce98e0f63b17dbf8529b23bb39ba68ae04f93b9de6fc988"
+    },
+    {
+      "cap": 100000,
+      "status": "ok",
+      "seconds": 0.2945408998057246,
+      "error": "",
+      "candidate_count": 6219,
+      "candidate_pool_sha256": "e28d83dba62071fe4ce98e0f63b17dbf8529b23bb39ba68ae04f93b9de6fc988"
+    }
+  ],
+  "transitions": [
+    {
+      "before_cap": 1,
+      "after_cap": 100000,
+      "eligible": true,
+      "same_candidate_pool": true,
+      "status": "ok",
+      "event_count": 6219
+    }
+  ],
+  "status": "ok"
+}

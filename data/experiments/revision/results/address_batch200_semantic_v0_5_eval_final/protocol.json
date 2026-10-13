@@ -1,0 +1,178 @@
+{
+  "evaluation_type": "address_keyed_target_retrieval",
+  "resolved_configuration": {
+    "weights": {
+      "danger": 2.0,
+      "reach": 1.5,
+      "distance": 1.0,
+      "path": 0.5,
+      "cfg": 0.4
+    },
+    "semantic_weight": 1.5,
+    "semantic_base": 0.85,
+    "semantic_context_window": 8,
+    "semantic_context_weight": 0.35,
+    "max_depth": 4,
+    "alpha": 0.25,
+    "top_k": 3,
+    "path_cap": 10000,
+    "search_state_cap": 100000,
+    "path_normalizer": 10.0,
+    "method": "bounded operand-context semantic evidence v0.5",
+    "semantic_event_policy": "x86 repeated MOVS and STOS plus bounded preceding-register setup evidence; no value, data-flow, length, or bounds inference"
+  },
+  "resolved_dangerous_rules": {
+    "gets": [
+      "input",
+      "CWE-120;CWE-121",
+      1.0
+    ],
+    "strcpy": [
+      "string_copy",
+      "CWE-120;CWE-121",
+      1.0
+    ],
+    "strcat": [
+      "string_concat",
+      "CWE-120;CWE-121",
+      0.95
+    ],
+    "sprintf": [
+      "format_write",
+      "CWE-120;CWE-134",
+      0.95
+    ],
+    "vsprintf": [
+      "format",
+      "CWE-120,CWE-134",
+      0.95
+    ],
+    "printf": [
+      "format_output",
+      "CWE-134",
+      0.65
+    ],
+    "fprintf": [
+      "format_output",
+      "CWE-134",
+      0.6
+    ],
+    "scanf": [
+      "input",
+      "CWE-120;CWE-134",
+      0.75
+    ],
+    "memcpy": [
+      "memory_copy",
+      "CWE-120;CWE-122",
+      0.8
+    ],
+    "memmove": [
+      "memory_copy",
+      "CWE-120;CWE-122",
+      0.65
+    ],
+    "system": [
+      "command_exec",
+      "CWE-78",
+      1.0
+    ],
+    "popen": [
+      "command_exec",
+      "CWE-78",
+      0.95
+    ],
+    "execve": [
+      "command_exec",
+      "CWE-78",
+      0.85
+    ],
+    "free": [
+      "heap_free",
+      "CWE-415;CWE-416",
+      0.45
+    ],
+    "malloc": [
+      "heap_alloc",
+      "CWE-190;CWE-122",
+      0.35
+    ],
+    "calloc": [
+      "heap_alloc",
+      "CWE-190;CWE-122",
+      0.5
+    ],
+    "execle": [
+      "command_exec",
+      "CWE-78",
+      0.5
+    ],
+    "execl": [
+      "command_exec",
+      "CWE-78",
+      0.5
+    ],
+    "execlp": [
+      "command_exec",
+      "CWE-78",
+      0.5
+    ],
+    "execv": [
+      "command_exec",
+      "CWE-78",
+      0.5
+    ],
+    "execvp": [
+      "command_exec",
+      "CWE-78",
+      0.5
+    ],
+    "read": [
+      "input",
+      "CWE-120;CWE-121;CWE-122",
+      0.5
+    ],
+    "realloc": [
+      "heap_alloc",
+      "CWE-190;CWE-122",
+      0.5
+    ],
+    "recv": [
+      "input",
+      "CWE-120;CWE-121;CWE-122",
+      0.5
+    ]
+  },
+  "resolved_source_rules": [
+    "argv",
+    "fgets",
+    "fread",
+    "fscanf",
+    "getenv",
+    "getopt",
+    "gets",
+    "read",
+    "recv",
+    "recvfrom",
+    "scanf",
+    "sscanf"
+  ],
+  "input_sha256": {
+    "experiments\\revision\\stripped\\address_features\\address_batch200\\address_mapping.csv": "5320e07e426d50a532dc99ea71b8e9c311e3d57b5cfd9eb95f8b71c67bb48a7d",
+    "experiments\\legacy\\manifests\\batch200_manifest.csv": "1db2e81fe81f75be33b18219cf59dcb88fe8f06a1d4c5ca80fe8da6bf603d849",
+    "experiments\\revision\\address_model\\config_semantic_v0_5.json": "1662942df37cf43848916e8c3bbf5376d81959a8af4d4b6035a277c608b2e3a3",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\evaluate_address_pairs.py": "dae5e6cfd5d48886f5e39df7052c39c7fc390c9ce47a438e2a1c9edceb188263",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\address_model\\score.py": "41e21c45dc9c02e53f0bea7927e899eb2d03117cd22b67df999bb4d79f924f7b",
+    "experiments\\legacy\\configs\\dangerous_functions.csv": "58f10fc0e73cd452cfd7775d5e44375b51038b56fe64f0ae050ebcbdefebec69",
+    "experiments\\legacy\\configs\\input_sources.csv": "9c6495e5b405e36643f0cffa600b8586c5f808affc746bb02938450bcd6f98e8"
+  },
+  "candidate_views": {
+    "all_functions": "full recovered internal executable bodies",
+    "shared_sink": "intersection by normalized dangerous-call host"
+  },
+  "population_budget": "full recovered function population for both views",
+  "tie_policy": "analytic uniform permutation inside equal-score groups",
+  "missing_target_policy": "zero hit and reciprocal rank; missing conditional rank; censored effort population+1",
+  "analysis_failure_policy": "retain zero-hit and zero-RR rows for each method and view; unknown population, candidate count/fraction and effort are blank; summary effort/fraction denominators are reported separately",
+  "label_warning": "Juliet bad-function labels are designated retrieval targets, not exhaustive vulnerability labels"
+}

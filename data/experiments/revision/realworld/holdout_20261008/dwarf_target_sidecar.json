@@ -1,0 +1,206 @@
+[
+  {
+    "project": "expat",
+    "version": "2.4.3",
+    "label": "affected",
+    "binary_sha256": "5f061aaaf3cd54a6252119422460edcc29ad6e99d1cf59d12e78a5eef83b5a91",
+    "target_symbol": "XML_GetBuffer",
+    "target_source": "xmlparse.c",
+    "matches": [
+      {
+        "source_file": "xmlparse.c",
+        "target_ranges": [
+          [
+            35952,
+            36804
+          ]
+        ],
+        "containing_function": "XML_GetBuffer",
+        "containing_entry": 35952,
+        "mapping_kind": "exact_target_body"
+      }
+    ]
+  },
+  {
+    "project": "expat",
+    "version": "2.4.4",
+    "label": "fixed",
+    "binary_sha256": "611039142da3858ca86281bfd4695ca4be9775c97759db2d5999f097d34896dd",
+    "target_symbol": "XML_GetBuffer",
+    "target_source": "xmlparse.c",
+    "matches": [
+      {
+        "source_file": "xmlparse.c",
+        "target_ranges": [
+          [
+            35952,
+            36784
+          ]
+        ],
+        "containing_function": "XML_GetBuffer",
+        "containing_entry": 35952,
+        "mapping_kind": "exact_target_body"
+      }
+    ]
+  },
+  {
+    "project": "libarchive",
+    "version": "3.1.2",
+    "label": "affected",
+    "binary_sha256": "0b7a9e42a9b6322663b66783bfa7d1dd29db4c667560321bc6439edb3a0693d0",
+    "target_symbol": "zip_read_mac_metadata",
+    "target_source": "archive_read_support_format_zip.c",
+    "matches": [
+      {
+        "source_file": "archive_read_support_format_zip.c",
+        "target_ranges": [
+          [
+            308027,
+            308104
+          ],
+          [
+            309079,
+            309531
+          ],
+          [
+            309536,
+            309853
+          ],
+          [
+            310270,
+            310312
+          ],
+          [
+            310317,
+            310437
+          ],
+          [
+            310463,
+            310488
+          ],
+          [
+            310543,
+            310608
+          ],
+          [
+            310753,
+            310825
+          ],
+          [
+            310855,
+            310902
+          ]
+        ],
+        "containing_function": "archive_read_format_zip_seekable_read_header",
+        "containing_entry": 307712,
+        "mapping_kind": "inlined_target_container"
+      }
+    ]
+  },
+  {
+    "project": "libarchive",
+    "version": "3.2.0",
+    "label": "fixed",
+    "binary_sha256": "a91632f6d70f74e8d472bf93c362ba5e3ded318f05a7d1d766710e74c08c7e4d",
+    "target_symbol": "zip_read_mac_metadata",
+    "target_source": "archive_read_support_format_zip.c",
+    "matches": [
+      {
+        "source_file": "archive_read_support_format_zip.c",
+        "target_ranges": [
+          [
+            332445,
+            332568
+          ],
+          [
+            332816,
+            333334
+          ],
+          [
+            333344,
+            333530
+          ],
+          [
+            334586,
+            334633
+          ],
+          [
+            334662,
+            334798
+          ],
+          [
+            334849,
+            334916
+          ],
+          [
+            334985,
+            335022
+          ],
+          [
+            335043,
+            335070
+          ],
+          [
+            335075,
+            335097
+          ],
+          [
+            335102,
+            335134
+          ],
+          [
+            335139,
+            335181
+          ]
+        ],
+        "containing_function": "archive_read_format_zip_seekable_read_header",
+        "containing_entry": 332112,
+        "mapping_kind": "inlined_target_container"
+      }
+    ]
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "1.5.90",
+    "label": "affected",
+    "binary_sha256": "8c9151269e6fd02f8d64149a913dee16cf8014764d67d84a4b4d81a33311d26f",
+    "target_symbol": "get_8bit_row",
+    "target_source": "rdbmp.c",
+    "matches": [
+      {
+        "source_file": "rdbmp.c",
+        "target_ranges": [
+          [
+            25776,
+            26761
+          ]
+        ],
+        "containing_function": "get_8bit_row",
+        "containing_entry": 25776,
+        "mapping_kind": "exact_target_body"
+      }
+    ]
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "2.0.0",
+    "label": "fixed",
+    "binary_sha256": "28ba35b411b3cd6730f957835f4418b5c1082f8e6772c6178a1e014c02707ee1",
+    "target_symbol": "get_8bit_row",
+    "target_source": "rdbmp.c",
+    "matches": [
+      {
+        "source_file": "rdbmp.c",
+        "target_ranges": [
+          [
+            25776,
+            26911
+          ]
+        ],
+        "containing_function": "get_8bit_row",
+        "containing_entry": 25776,
+        "mapping_kind": "exact_target_body"
+      }
+    ]
+  }
+]

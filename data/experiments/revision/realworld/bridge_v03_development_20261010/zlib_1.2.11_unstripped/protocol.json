@@ -1,0 +1,22 @@
+{
+  "bridge": "sound-structural-search-cap-recovery-v0.3",
+  "facts": "experiments\\revision\\realworld\\projects_v0_5\\ghidra_runs\\zlib_1.2.11_unstripped\\facts",
+  "caps": [
+    1,
+    100000
+  ],
+  "component": "declared_structural_score_interval",
+  "failure_policy": "timeout, exception, invalid value, or non-nested proposal preserves the prior interval",
+  "pool_policy": "emit candidate events only when adjacent successful caps have identical candidate pools",
+  "cost_policy": "wall time is shared by all candidate events with the same shared_cost_group and is counted once",
+  "binary_sha256": "0941f7d418597510ce791c340efc579afb8597787c03e926a164517d57415b4a",
+  "source_hashes": {
+    "scorer": "dbb1fd098b183183acb6a638564291e9d21d3e0861fbc9da06b5a141f1edbe17",
+    "runner": "b1488bc152258018aec9124a55afda8c38a6b086e28055e8f91924b198bd3548",
+    "event_logger": "aad3c098c1f46ecad7010cd8c0bc07e18a5d1ccdcff848a9e000e4b351952feb",
+    "legacy_helpers": "171be57624b298c2d37fa7b8efeec157b68efbad6245db8ab8089d1c50b20f04"
+  },
+  "combined_tool_sha256": "c7de220e7f93eeb6624b4e411a0a0aa990ae85ed01479f448d975f43a39afe89",
+  "protocol_sha256": "c1348a85e01e0279e7cf85df35eea83acf30f36e67a61b9c7abbb0da9a5e4a7c",
+  "interpretation": "protocol hardening for a declared structural score; not vulnerability evidence"
+}

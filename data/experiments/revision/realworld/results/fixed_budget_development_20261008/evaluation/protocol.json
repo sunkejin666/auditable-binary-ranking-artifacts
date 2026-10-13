@@ -1,0 +1,39 @@
+{
+  "evaluation_type": "fixed_budget_target_retrieval",
+  "candidate_pool": "one predeclared population per case, reused by every method",
+  "identity_policy": "explicit (case_id, function_id); addresses are local to each binary",
+  "budget_unit": "candidate functions; NOT elapsed time or measured analyst effort",
+  "budgets": {
+    "top_k": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "percentages": [
+      1,
+      5,
+      10
+    ]
+  },
+  "tie_policy": "uniform expectation within an exactly equal score group; best/worst bounds",
+  "failure_policy": "missing targets, incomplete scores, non-finite scores and analysis failures remain explicit; hits and RR are zero, unknown rank/effort are blank",
+  "interpretation": "target retrieval under documented labels; not vulnerability detection or exploitability",
+  "input_sha256": {
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\population.csv": "270fb015ca1dacafda29e7c42b3544e3549f22c10499d1a6e768f91edd33f69a",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\targets.csv": "593044d61a4e27581b76c7783f2ddb7505f73cd06a35eeca72854ddf7d4612b2",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fixed_budget.py": "508a08b125a477dcf8a3dfc593f4008caea41e943ac9f541dd4f66a81f9b53af",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\callchain_reachability.csv": "e84f83d6a255fecfbac6523dc70c25c4db7014a1e5b4ef9c9ea51e624f1808de",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\cfg_complexity.csv": "8a8321fb672ab723975de66e6f4ec78aafef4254d265b8f417d725847b58ecb3",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\cwe_checker_warning_count_adapter.csv": "fb00ab27c8ef7b089d2530e0010938a7c08a87f7c43a627d90b15854a234271c",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\dangerous_count.csv": "7678607d749ccbe03ccf7b874cfee8c1a0df03e2929690c0f196d6148bbc1133",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\dangerous_match.csv": "13990af428e0cc853bff4073a8a192fe8d151d85d779de75568c2550d1525c0c",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\dangerous_plus_callchain.csv": "2a51b50d56ab7ef2cccb8a6f80a857ea6d561c822369fa97573b2485a0244bc7",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\directional_callchain_reachability.csv": "9958798783d6f963f51facc99bf238813650e0e34457932133dad45572579982",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\full_method.csv": "d38f4fd63d08554b7e919c4e44976c23e3c2af28887ab85da8e46a1cde3a952a",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\inline_memory_event.csv": "f110b48088a6f350e70183fd834ed3b81e8f602a3bf3acb5cc79308812d670ec",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\semantic_event_plus_callchain.csv": "fe619db01326a352962c5c81d8fce056693c5d269d664cb651c12b49131b2ede",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\scores\\semantic_fusion.csv": "ef9b6add0d9744d0d7d287ce12daa5106922824ddeefa37307457590725dad85",
+    "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\results\\fixed_budget_development_20261008\\inputs\\failures.csv": "809ccac5ba3a8546539bae0f8a8b32014c43760514df9d8a6ac0040715904e88"
+  }
+}

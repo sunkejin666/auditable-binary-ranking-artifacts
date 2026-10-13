@@ -1,0 +1,302 @@
+{
+  "groups": {
+    "JULIET_METRICS": {
+      "files": [
+        "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/per_binary_metrics.csv",
+        "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/protocol.json",
+        "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/run_ledger.csv"
+      ],
+      "interpretation_boundary": [
+        "The rounded manuscript values 0.4992, 0.8921, 0.6772 and 0.3903, 0.9445, 0.6129 agree with raw all-functions means.",
+        "The 400 observations are 200 original/stripped pairs, not 400 independent vulnerabilities.",
+        "Earlier handoff checked identical Top-1 and Top-5 outcomes for all 200 original/stripped pairs and mean absolute expected-rank shift 0.0 for full_method and dangerous_plus_callchain. That pairing result was retained rather than re-run in this continuation."
+      ]
+    },
+    "JULIET_BOOTSTRAP": {
+      "files": [
+        "experiments/revision/results/address_batch200_configured_eval/original/all_functions/paired_family_bootstrap.csv",
+        "experiments/revision/results/address_batch200_configured_eval/per_binary_metrics.csv"
+      ],
+      "interpretation_boundary": [
+        "Earlier handoff joined full_method and dangerous_plus_callchain between configured and semantic-v0.5 metric tables over sample_id, condition and scope: all 800 keys per method matched, with zero differences in population, rank/tie, RR or hit fields.",
+        "This aggregate bootstrap uses the 200 original observations clustered into 68 source-template families. It is distinct from the 400-condition paired family decomposition and its within-CWE sample-ID bootstrap.",
+        "Initially misplaced after Fresh Binary-only Protocol Cases in manuscript_revision_v1_0_polished.tex lines 288\u2013296; subsequently observed moved into Controlled Juliet retrieval in evaluation_revision_v1_0_polished.tex.",
+        "The signs support the stated mixed trade-off, not uniform superiority."
+      ]
+    },
+    "UNCERTAINTY_356_100": {
+      "files": [
+        "experiments/revision/evaluate_address_uncertainty.py",
+        "experiments/revision/evaluate_uncertainty.py",
+        "experiments/revision/results/address_batch200_semantic_v0_7_uncertainty_eval/per_binary.csv",
+        "experiments/revision/results/address_batch200_semantic_v0_7_uncertainty_eval/protocol.json",
+        "experiments/revision/results/address_batch200_semantic_v0_7_uncertainty_eval/summary.csv"
+      ],
+      "interpretation_boundary": [
+        "Possible Top-1 means target_rank_best <= 1; guaranteed Top-1 means target_rank_worst <= 1. Equality is adverse in the worst-rank calculation, preserving ties.",
+        "These are deterministic score-envelope and tie bounds from recorded scorer variants. They are not statistical confidence intervals, sound bounds on unobserved vulnerability risk, or independently confirmed defect labels.",
+        "All 400 designated targets being present/retrieved does not mean all are retrieved at a small review budget."
+      ]
+    },
+    "DEVELOPMENT_EXTERNAL": {
+      "files": [
+        "experiments/revision/realworld/results/fixed_budget_development_20261008/evaluation/per_case_metrics.csv",
+        "experiments/revision/realworld/results/fixed_budget_development_20261008/evaluation/protocol.json",
+        "experiments/revision/realworld/results/fixed_budget_development_20261008/inputs/adapter_manifest.json",
+        "experiments/revision/realworld/results/fixed_budget_development_20261008/inputs/case_audit.csv",
+        "experiments/revision/realworld/results/fixed_budget_development_20261008/inputs/failures.csv",
+        "experiments/revision/realworld/results/fixed_budget_development_20261008/native_external_results.csv"
+      ],
+      "interpretation_boundary": [
+        "The seven-row table is a conditional development-cohort comparison, separate from the 12-condition frozen cohort with six external successes.",
+        "task_supported is a field in native_external_results.csv, not adapter_manifest.json. A draft attribution to the adapter manifest was corrected in the later TeX/Markdown.",
+        "The seven successful rows have task_supported=1 but matched_target_warning_count=0. The affected stripped libpng target warnings are CWE476; the other six successful rows show CWE676 at the targets.",
+        "The support flag does not establish exact CVE-CWE semantic matching. Generic warning counts must not be presented as confirmation of the documented CVE.",
+        "Five development adapter failures include four OpenSSL rows with task_supported=0 and one libpng row with task_supported=1. The manuscript should retain failure and support as distinct dimensions."
+      ]
+    },
+    "FROZEN_EXTERNAL": {
+      "files": [
+        "experiments/revision/realworld/distribution_20261008/evaluation_frozen/per_condition.csv",
+        "experiments/revision/realworld/distribution_20261008/evaluation_frozen/summary.json",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/external_native_and_runtime.csv",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/external_success_conditions.csv",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/per_condition.csv",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/summary.json"
+      ],
+      "interpretation_boundary": [
+        "These row counts are reporting-method observations, not numbers of independently verified vulnerabilities.",
+        "The distinction between six holdout successes and seven development successes is now explicit in reviewed prose and later captions."
+      ]
+    },
+    "EXPAT_CWE_MAPPING": {
+      "files": [
+        "experiments/revision/realworld/distribution_20261008/evaluation_frozen/expat_2.4.3-1_distribution_stripped/external/result.json",
+        "experiments/revision/realworld/distribution_20261008/evaluation_frozen/expat_2.4.4-1_distribution_stripped/external/result.json",
+        "experiments/revision/realworld/distribution_20261008/evaluation_frozen/external_native_and_runtime.csv",
+        "experiments/revision/realworld/run_distribution_frozen.py"
+      ],
+      "interpretation_boundary": [
+        "The native target warnings describe memcpy/memmove use in XML_GetBuffer under CWE676. The zero CWE190 match is a result under the declared adapter category mapping, not a vulnerability-free result.",
+        "The later Markdown directly names two native CWE-676 warnings per condition and zero matches under the declared CWE-190 adapter family."
+      ]
+    },
+    "BINARY_ONLY_A": {
+      "files": [
+        "experiments/revision/fresh_binary_only_20261010/analysis/cwe_native_audit.json",
+        "experiments/revision/fresh_binary_only_20261010/analysis/facts/functions.csv",
+        "experiments/revision/fresh_binary_only_20261010/analysis/fresh_rankings.json",
+        "experiments/revision/fresh_binary_only_20261010/raw/manifest.json",
+        "experiments/revision/fresh_binary_only_20261010/verifier/verifier_report.json"
+      ],
+      "interpretation_boundary": [
+        "Length 0 was clean. The crash maps to a callee while structural and simple dangerous-call/call-chain rankings favor the caller.",
+        "Native cwe_checker includes the callee in its warning set but does not provide the shared function ranking.",
+        "Crash-containing function is not synonymous with independently established root-cause function."
+      ]
+    },
+    "BINARY_ONLY_B": {
+      "files": [
+        "experiments/revision/fresh_binary_only_20261011_stack/analysis/elf_layout_audit.json",
+        "experiments/revision/fresh_binary_only_20261011_stack/analysis/ranking_audit.json",
+        "experiments/revision/fresh_binary_only_20261011_stack/native_tool/cwe_checker_native_result.json",
+        "experiments/revision/fresh_binary_only_20261011_stack/raw/manifest.json",
+        "experiments/revision/fresh_binary_only_20261011_stack/verifier/runtime_layout_audit.json",
+        "experiments/revision/fresh_binary_only_20261011_stack/verifier/verifier_report.json"
+      ],
+      "interpretation_boundary": [
+        "The raw ELF places the PC in RW zero-fill outside the executable load; runtime GDB finds it r-x in /memfd:upx (deleted), decoding ret, on all three runs.",
+        "Runtime mapping does not repair the missing static candidate identity. No target rank is assigned.",
+        "The successful native process emitted an empty warning list with a missing-jump-target diagnostic; it is not evidence of a clean or safe program.",
+        "The earlier handoff contained a typo in one manifest path (202611_stack); the retained directory is 20261011_stack."
+      ]
+    },
+    "RECOVERY_COUNTS": {
+      "files": [
+        "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_stripped/protocol.json",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/recovery_bridge_v03.py",
+        "experiments/revision/realworld/run_recovery_bridge_v03.py"
+      ],
+      "interpretation_boundary": [
+        "Caps are 1 and 100000. Event SHA-256 chains and canonical hashes of sorted candidate IDs were independently recomputed; counts were not accepted solely from summary.json.",
+        "Both cohorts have zero actual timeout/exception/invalid-contract events. Zero failure-state errors in these logs is correct, but natural failure preservation is not empirically exercised by these cohort runs.",
+        "The declared intervals concern a structural score on recovered inputs, not latent vulnerability risk."
+      ]
+    },
+    "RECOVERY_TARGETS": {
+      "files": [
+        "experiments/revision/realworld/baselines/inputs/realworld/target_mapping.csv",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_stripped/recovery_events.jsonl",
+        "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_unstripped/recovery_events.jsonl",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/target_mapping.csv"
+      ],
+      "interpretation_boundary": [
+        "Every listed result holds for stripped and unstripped observations.",
+        "The same contractions occur in affected and fixed variants and can remove an optimistic best rank. They do not establish vulnerability-state discrimination.",
+        "Existing reports/RECOVERY_BRIDGE_V03_*_TARGET_EFFECT_20261010.json were located but were not used to substitute for recomputation."
+      ]
+    },
+    "EXPAT_UPSTREAM_SEQUENCE": {
+      "files": [
+        "experiments/revision/realworld/validation/expat_upstream_overflow_20261009_retry3/results.json",
+        "experiments/revision/realworld/validation/expat_upstream_overflow_test.c",
+        "experiments/revision/realworld/validation/run_expat_upstream_overflow.py"
+      ],
+      "interpretation_boundary": [
+        "Upstream parses one newline before requesting INT_MAX - expectedKeepValue + 1; expectedKeepValue=1, so the local INT_MAX request is equivalent.",
+        "The local harness records parser status, request, boolean buffer result, error and zero writes; it does not write the huge requested length.",
+        "The runner uses a normal sequential library loop and stores library hashes. This confirms saved API behavior, not concrete memory corruption or exploitability, and is not an independent rerun by this reviewer."
+      ]
+    },
+    "ZLIB_WITNESS": {
+      "files": [
+        "experiments/revision/realworld/zlib_fixed_witness_20261010/runs/AUDIT_ZLIB_FIXED_WITNESS_20261010.json",
+        "experiments/revision/realworld/zlib_fixed_witness_20261010/runs/boundary_targeted.json",
+        "experiments/revision/realworld/zlib_fixed_witness_20261010/runs/manifest_full.json"
+      ],
+      "interpretation_boundary": [
+        "The earlier handoff found no numerical witness mismatch in the saved zlib evidence. It inspected the 4320-case-per-release manifest and boundary-targeted output.",
+        "This continuation did not regenerate sanitizer matrices, recompile affected/fixed releases, or independently trace the reported index to exploitability.",
+        "The reviewed Markdown distinguishes 1140 nonzero sanitizer-matrix invocations from a separate targeted debug assertion and avoids reporting an uninstrumented release-binary crash."
+      ]
+    },
+    "REUSE_COUNTS_AND_SIGNATURES": {
+      "files": [
+        "experiments/revision/realworld/validation/arbiter_prefix_reuse_probe_20261008_controlled/enhanced_v4_final/probe_source.py",
+        "experiments/revision/realworld/validation/arbiter_prefix_reuse_probe_20261008_controlled/enhanced_v4_final/results.json"
+      ],
+      "interpretation_boundary": [
+        "The delegated reviewer compared complete baseline/reuse signature arrays in runs[0] and runs[1]; they match in both repetitions. probe_source.py:385\u2013386 runs no-reuse then reuse in each normal repetition loop.",
+        "The three signatures are distinct from each other (different bbl and bbl_history); each is preserved between arms. Initial wording 'All three ... are identical' was ambiguous.",
+        "Recommended and later observed wording: 'The three nonempty Arbiter report signatures match between the no-reuse and reuse arms in each repetition.'",
+        "Signatures contain sink:null, function, bbl and bbl_history. This is a controlled fingerprint mechanism observation, not defect confirmation, full state equivalence or timing benefit.",
+        "Mutation/control claims beyond the requested counts and array equality were not exhaustively re-audited in this bounded check."
+      ]
+    },
+    "METHOD": {
+      "files": [
+        "experiments/revision/address_model/config_semantic_v0_5.json",
+        "experiments/revision/address_model/config_semantic_v0_5_strict.json",
+        "experiments/revision/address_model/config_semantic_v0_6c_directional_replace.json",
+        "experiments/revision/address_model/score.py",
+        "experiments/revision/evaluate_rankings.py",
+        "experiments/revision/evaluate_uncertainty.py"
+      ],
+      "interpretation_boundary": ""
+    },
+    "PROVENANCE": {
+      "files": [
+        "experiments/legacy/manifests/batch200_manifest.csv",
+        "experiments/legacy/manifests/batch200_sources.csv",
+        "experiments/legacy/tools/analysis_scripts/select_juliet_pilot.py",
+        "experiments/revision/realworld/holdout_20261008/artifact_manifest.json",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/target_mapping.csv",
+        "experiments/revision/stripped/manifest.csv"
+      ],
+      "interpretation_boundary": ""
+    },
+    "CWE_DECOMPOSITION": {
+      "files": [
+        "experiments/revision/bootstrap_family_effects_20261012.py",
+        "experiments/revision/reconcile_manuscript_20261012.py",
+        "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/per_binary_metrics.csv"
+      ],
+      "interpretation_boundary": "50 sample IDs/CWE, paired representations; template dependence remains within CWE; exploratory intervals, no multiplicity-adjusted significance."
+    },
+    "RANKS": {
+      "files": [
+        "experiments/revision/realworld/distribution_20261008/evaluation_frozen/per_condition.csv",
+        "experiments/revision/realworld/holdout_20261008/evaluation_frozen/per_condition.csv"
+      ],
+      "interpretation_boundary": "Structural and role arrays are different scorers; recovery-specific ranks use a third formulation."
+    },
+    "ARBITER_SMOKE": {
+      "files": [
+        "experiments/revision/realworld/baselines/runs/arbiter_cwe252_example_20261008/status.json",
+        "experiments/revision/realworld/baselines/runs/arbiter_official_smoke_20261008_retry1/status.json",
+        "experiments/revision/realworld/baselines/runs/arbiter_role_controls_20261008/O2_unstripped/logs/arbiter_CWE134_binary.log",
+        "experiments/revision/realworld/baselines/runs/arbiter_role_controls_20261008/ledger.json"
+      ],
+      "interpretation_boundary": "Environment checks, not matched holdout comparisons."
+    }
+  },
+  "scope": "Selected saved records and implementation files for result auditing. This is not a complete end-to-end reproduction environment.",
+  "table_mapping": {
+    "1": [
+      "PROVENANCE"
+    ],
+    "2": [
+      "JULIET_METRICS"
+    ],
+    "3": [
+      "CWE_DECOMPOSITION",
+      "JULIET_BOOTSTRAP"
+    ],
+    "4": [
+      "FROZEN_EXTERNAL"
+    ],
+    "5": [
+      "RANKS"
+    ],
+    "6": [
+      "EXPAT_UPSTREAM_SEQUENCE"
+    ],
+    "7": [
+      "ZLIB_WITNESS"
+    ],
+    "8": [
+      "DEVELOPMENT_EXTERNAL"
+    ]
+  },
+  "figure_mapping": {
+    "1": [
+      "METHOD"
+    ],
+    "2": [
+      "METHOD",
+      "PROVENANCE"
+    ],
+    "3": [
+      "JULIET_METRICS",
+      "CWE_DECOMPOSITION"
+    ],
+    "4": [
+      "FROZEN_EXTERNAL",
+      "DEVELOPMENT_EXTERNAL"
+    ],
+    "5": [
+      "BINARY_ONLY_A",
+      "BINARY_ONLY_B"
+    ]
+  }
+}

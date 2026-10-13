@@ -1,0 +1,60 @@
+[
+  {
+    "project": "expat",
+    "version": "2.4.3",
+    "previous_status": "build_failure",
+    "status": "artifacts_collected",
+    "symbols": [
+      "0000000000008c70 T XML_GetBuffer"
+    ],
+    "text_sha256": "cc16d6a13fa52f9c300d37c1a85b6fa984ae941a4e957f82dc882b32de70294c"
+  },
+  {
+    "project": "expat",
+    "version": "2.4.4",
+    "previous_status": "build_failure",
+    "status": "artifacts_collected",
+    "symbols": [
+      "0000000000008c70 T XML_GetBuffer"
+    ],
+    "text_sha256": "5a6fa139c64bbcef47ea65e466bcf174568417a086215fb0450e78f0bdbab6ef"
+  },
+  {
+    "project": "libarchive",
+    "version": "3.1.2",
+    "previous_status": "built",
+    "status": "artifacts_collected",
+    "symbols": [],
+    "text_sha256": "3c260b6ccd418fff80c536a507c057398c7967128569b37396759acdbaedfa2e"
+  },
+  {
+    "project": "libarchive",
+    "version": "3.2.0",
+    "previous_status": "built",
+    "status": "artifacts_collected",
+    "symbols": [],
+    "text_sha256": "7f36462329276ec65b2e596417674a16c38e7b43574c70c46fd2d466aa8a2f3e"
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "1.5.90",
+    "previous_status": "built",
+    "status": "artifacts_collected",
+    "symbols": [
+      "00000000000064b0 t get_8bit_row",
+      "0000000000007c80 t get_8bit_row"
+    ],
+    "text_sha256": "b8df2e85a85eaa6537f4e8c7fe85394cc3bea1b79471156c897a1d0a216863b7"
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "2.0.0",
+    "previous_status": "built",
+    "status": "artifacts_collected",
+    "symbols": [
+      "00000000000064b0 t get_8bit_row",
+      "0000000000007d50 t get_8bit_row"
+    ],
+    "text_sha256": "73e6e76d86475a4cc078b5518aa70119f38d31188f98636ab85e28adc38280da"
+  }
+]

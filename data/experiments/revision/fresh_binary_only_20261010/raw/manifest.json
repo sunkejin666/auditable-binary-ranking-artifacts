@@ -1,0 +1,35 @@
+{
+  "archive": {
+    "path": "experiments\\revision\\fresh_binary_only_20261010\\raw\\ssstack.zip",
+    "size": 11808,
+    "sha256": "c455bce4bdbe1d1ffbfa4d17c3b012c2f139421cb62c530f13d5fee4da6177f0"
+  },
+  "files": [
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261010\\raw\\extracted\\attachment.bin",
+      "size": 17008,
+      "sha256": "18fdcfea720b5fbef5bc849ff2dbcf92a5c6b230bcc07b4b41335708514483bb"
+    },
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261010\\raw\\extracted\\Dockerfile",
+      "size": 1522,
+      "sha256": "fcd19234bf7098246f1a3777469517e3cff490a4e930e1546bccde8c8a06cf9a"
+    },
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261010\\raw\\extracted\\README.md",
+      "size": 1343,
+      "sha256": "9b98552f4946077351586fea17b662b724227fa214a941d1b353c8dc203b9171"
+    },
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261010\\raw\\extracted\\ssstack.bin",
+      "size": 17008,
+      "sha256": "18fdcfea720b5fbef5bc849ff2dbcf92a5c6b230bcc07b4b41335708514483bb"
+    },
+    {
+      "path": "experiments\\revision\\fresh_binary_only_20261010\\raw\\extracted\\ssstack.stripped.bin",
+      "size": 14552,
+      "sha256": "416cd94d95b3d4a1a00c411b35e2f37ba1f4eb293b276f5e0bf57e6a1899c82d"
+    }
+  ],
+  "selection": "ssstack binary from local binary-only challenge archive; source absent"
+}

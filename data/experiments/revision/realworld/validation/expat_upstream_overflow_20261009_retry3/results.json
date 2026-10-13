@@ -1,0 +1,68 @@
+{
+  "harness_source": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\validation\\expat_upstream_overflow_test.c",
+  "harness_source_sha256": "4a35798af3eb2cbcd61721db5a317d30de70395c1731a4b16a5c036993e17b1a",
+  "executable": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\validation\\expat_upstream_overflow_20261009_retry3\\expat_upstream_overflow_test",
+  "results": [
+    {
+      "library": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\expat-2.4.3\\build\\libexpat.so.1.8.3",
+      "library_sha256": "5f061aaaf3cd54a6252119422460edcc29ad6e99d1cf59d12e78a5eef83b5a91",
+      "command": [
+        "wsl",
+        "-d",
+        "Ubuntu-24.04",
+        "--exec",
+        "/mnt/c/Users/\u5b59\u79d1\u9526/Desktop/\u671f\u520a\u8bba\u6587/\u9879\u76ee/\u5b98\u65b9\u6a21\u677f/\u88ab\u62d2\u4fee\u6539\u7248/experiments/revision/realworld/validation/expat_upstream_overflow_20261009_retry3/expat_upstream_overflow_test",
+        "/mnt/c/Users/\u5b59\u79d1\u9526/Desktop/\u671f\u520a\u8bba\u6587/\u9879\u76ee/\u5b98\u65b9\u6a21\u677f/\u88ab\u62d2\u4fee\u6539\u7248/experiments/revision/realworld/holdout_20261008/builds_expat_retry/expat-2.4.3/build/libexpat.so.1.8.3"
+      ],
+      "returncode": 0,
+      "seconds": 0.1410000000614673,
+      "stdout": "{\"parsed\":1,\"request\":2147483647,\"buffer_returned\":true,\"error\":0,\"writes_performed\":0}\n",
+      "stderr": "wsl: \u68c0\u6d4b\u5230 localhost \u4ee3\u7406\u914d\u7f6e\uff0c\u4f46\u672a\u955c\u50cf\u5230 WSL\u3002NAT \u6a21\u5f0f\u4e0b\u7684 WSL \u4e0d\u652f\u6301 localhost \u4ee3\u7406\u3002\r\n",
+      "observation": {
+        "parsed": 1,
+        "request": 2147483647,
+        "buffer_returned": true,
+        "error": 0,
+        "writes_performed": 0
+      },
+      "version": "2.4.3",
+      "label": "affected",
+      "oracle": {
+        "expected_fixed_behavior": false,
+        "legacy_vulnerable_behavior": true,
+        "independent_confirmation": true
+      }
+    },
+    {
+      "library": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\expat-2.4.4\\build\\libexpat.so.1.8.4",
+      "library_sha256": "611039142da3858ca86281bfd4695ca4be9775c97759db2d5999f097d34896dd",
+      "command": [
+        "wsl",
+        "-d",
+        "Ubuntu-24.04",
+        "--exec",
+        "/mnt/c/Users/\u5b59\u79d1\u9526/Desktop/\u671f\u520a\u8bba\u6587/\u9879\u76ee/\u5b98\u65b9\u6a21\u677f/\u88ab\u62d2\u4fee\u6539\u7248/experiments/revision/realworld/validation/expat_upstream_overflow_20261009_retry3/expat_upstream_overflow_test",
+        "/mnt/c/Users/\u5b59\u79d1\u9526/Desktop/\u671f\u520a\u8bba\u6587/\u9879\u76ee/\u5b98\u65b9\u6a21\u677f/\u88ab\u62d2\u4fee\u6539\u7248/experiments/revision/realworld/holdout_20261008/builds_expat_retry/expat-2.4.4/build/libexpat.so.1.8.4"
+      ],
+      "returncode": 0,
+      "seconds": 0.125,
+      "stdout": "{\"parsed\":1,\"request\":2147483647,\"buffer_returned\":false,\"error\":1,\"writes_performed\":0}\n",
+      "stderr": "wsl: \u68c0\u6d4b\u5230 localhost \u4ee3\u7406\u914d\u7f6e\uff0c\u4f46\u672a\u955c\u50cf\u5230 WSL\u3002NAT \u6a21\u5f0f\u4e0b\u7684 WSL \u4e0d\u652f\u6301 localhost \u4ee3\u7406\u3002\r\n",
+      "observation": {
+        "parsed": 1,
+        "request": 2147483647,
+        "buffer_returned": false,
+        "error": 1,
+        "writes_performed": 0
+      },
+      "version": "2.4.4",
+      "label": "fixed",
+      "oracle": {
+        "expected_fixed_behavior": true,
+        "legacy_vulnerable_behavior": false,
+        "independent_confirmation": true
+      }
+    }
+  ],
+  "claim_boundary": "independent API-level reproduction; no concrete memory-corruption witness"
+}

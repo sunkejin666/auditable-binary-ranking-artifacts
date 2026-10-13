@@ -1,0 +1,43 @@
+{
+  "binary": "libjpeg-turbo_1.5.90_unstripped",
+  "project_cve_cluster": "libjpeg-turbo/CVE-2018-14498",
+  "variant": "unstripped",
+  "binary_sha256": "8c9151269e6fd02f8d64149a913dee16cf8014764d67d84a4b4d81a33311d26f",
+  "event_count": 57,
+  "contraction_events": 0,
+  "invalid_contract_events": 0,
+  "unique_action_groups": 1,
+  "caps": [
+    1,
+    100000
+  ],
+  "cap_runs": [
+    {
+      "cap": 1,
+      "status": "ok",
+      "seconds": 0.020085100084543228,
+      "error": "",
+      "candidate_count": 57,
+      "candidate_pool_sha256": "8f744d3d9ec1ba230c391ec508a902aa276c7a03208ebc3328ffdd949c5a052b"
+    },
+    {
+      "cap": 100000,
+      "status": "ok",
+      "seconds": 0.0038199000991880894,
+      "error": "",
+      "candidate_count": 57,
+      "candidate_pool_sha256": "8f744d3d9ec1ba230c391ec508a902aa276c7a03208ebc3328ffdd949c5a052b"
+    }
+  ],
+  "transitions": [
+    {
+      "before_cap": 1,
+      "after_cap": 100000,
+      "eligible": true,
+      "same_candidate_pool": true,
+      "status": "ok",
+      "event_count": 57
+    }
+  ],
+  "status": "ok"
+}

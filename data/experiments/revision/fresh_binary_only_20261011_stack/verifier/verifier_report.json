@@ -1,0 +1,103 @@
+{
+  "verifier": "independent_regular_file_replay_and_gdb_v1",
+  "scope": "no-section binary-only challenge with a loader-created runtime image; source absent from supplied archive",
+  "binary": {
+    "path": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261011_stack\\raw\\stack_challenge",
+    "size": 7056,
+    "sha256": "ff47a9d0c592446c5a9089474e33c4757b74236fefffd0c3834e9ab75053152d"
+  },
+  "inputs": {
+    "pair_96": {
+      "path": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261011_stack\\verifier\\clean_control_pair96.txt",
+      "size": 384,
+      "sha256": "8f3d46368016399bdedf5c117feeabc216fcec33e83c73aa42ebd6fd43a42d9d",
+      "meaning": "A\\nB\\n repeated 96 times"
+    },
+    "pair_104": {
+      "path": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\fresh_binary_only_20261011_stack\\verifier\\crash_witness_pair104.txt",
+      "size": 416,
+      "sha256": "9c01fd20127798070d0383effea2a54ec45a3746c588418ad7fe6b3818d14137",
+      "meaning": "A\\nB\\n repeated 104 times"
+    }
+  },
+  "repeated_runs": [
+    {
+      "input": "pair_96.txt",
+      "runs": [
+        {
+          "input": "pair_96.txt",
+          "returncode": 0,
+          "classification": "clean",
+          "launcher_returncode": 0,
+          "stdout_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+        },
+        {
+          "input": "pair_96.txt",
+          "returncode": 0,
+          "classification": "clean",
+          "launcher_returncode": 0,
+          "stdout_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+        },
+        {
+          "input": "pair_96.txt",
+          "returncode": 0,
+          "classification": "clean",
+          "launcher_returncode": 0,
+          "stdout_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+          "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+        }
+      ]
+    },
+    {
+      "input": "pair_104.txt",
+      "runs": [
+        {
+          "input": "pair_104.txt",
+          "returncode": 139,
+          "classification": "segmentation_fault",
+          "launcher_returncode": 0,
+          "stdout_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+          "stderr_sha256": "e689488683d0f9840adb1951df665caa14c1f966f15bdf3c120b03fb9bd9d298"
+        },
+        {
+          "input": "pair_104.txt",
+          "returncode": 139,
+          "classification": "segmentation_fault",
+          "launcher_returncode": 0,
+          "stdout_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+          "stderr_sha256": "997fd1b9d9f0806f00d817b4f35ce84bcbc4cf16fd108b86ebfbc47808a4b1f7"
+        },
+        {
+          "input": "pair_104.txt",
+          "returncode": 139,
+          "classification": "segmentation_fault",
+          "launcher_returncode": 0,
+          "stdout_sha256": "690e07064753123c967bbac0180f32da6a753a5bd8b79a47644cef58e776d9f0",
+          "stderr_sha256": "6f671f24b10b4ae8210302fa1f5b318dd6039a169b8e9143cd65ca155751b36f"
+        }
+      ]
+    }
+  ],
+  "gdb": {
+    "returncode": 0,
+    "sigsegv_observed": true,
+    "crash_pc": "0x401510",
+    "trace_sha256": "8a5bde20341cad48dfea35df8f105da12816ce2234bfbe1adf5998bd7fb3943e"
+  },
+  "candidate_population": 15,
+  "independent_target_mapping": {
+    "status": "unmapped",
+    "crash_pc": "0x401510",
+    "function": null,
+    "candidate_entry_min": "0x40550d",
+    "candidate_entry_max": "0x405e27",
+    "reason": "crash PC is below the minimum recovered candidate entry"
+  },
+  "interpretation": {
+    "behavior_endpoint": "pair_96 clean control versus reproducible pair_104 SIGSEGV",
+    "ranking_endpoint": "not evaluable for a verified target because the crash PC does not map to the recovered candidate population",
+    "claim_boundary": "missingness/negative failure-analysis case; no target rank, unknown-vulnerability, exploitability, or mature-tool superiority claim"
+  }
+}

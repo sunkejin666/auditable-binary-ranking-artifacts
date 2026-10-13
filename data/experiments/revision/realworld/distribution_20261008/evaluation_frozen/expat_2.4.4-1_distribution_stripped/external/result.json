@@ -1,0 +1,1631 @@
+[
+  {
+    "name": "CWE252",
+    "version": "0.1",
+    "addresses": [
+      "001052c2",
+      "001052f6"
+    ],
+    "tids": [
+      "instr_001052c2_2",
+      "instr_001052f6_3"
+    ],
+    "symbols": [
+      "strtoul"
+    ],
+    "other": [
+      [
+        "reason=empty_state"
+      ]
+    ],
+    "description": "(Unchecked Return Value) There is no check of the return value of 001052c2 (strtoul)."
+  },
+  {
+    "name": "CWE252",
+    "version": "0.1",
+    "addresses": [
+      "001052c2",
+      "001055f5"
+    ],
+    "tids": [
+      "instr_001052c2_2",
+      "instr_001055f5_2"
+    ],
+    "symbols": [
+      "strtoul"
+    ],
+    "other": [
+      [
+        "reason=return_no_taint"
+      ]
+    ],
+    "description": "(Unchecked Return Value) There is no check of the return value of 001052c2 (strtoul)."
+  },
+  {
+    "name": "CWE252",
+    "version": "0.1",
+    "addresses": [
+      "001052c2",
+      "00107597"
+    ],
+    "tids": [
+      "instr_001052c2_2",
+      "instr_00107597_2"
+    ],
+    "symbols": [
+      "strtoul"
+    ],
+    "other": [
+      [
+        "reason=isolated_returns_no_reg_taint"
+      ]
+    ],
+    "description": "(Unchecked Return Value) There is no check of the return value of 001052c2 (strtoul)."
+  },
+  {
+    "name": "CWE252",
+    "version": "0.1",
+    "addresses": [
+      "001052c2",
+      "00107af4"
+    ],
+    "tids": [
+      "instr_001052c2_2",
+      "instr_00107af4_2"
+    ],
+    "symbols": [
+      "strtoul"
+    ],
+    "other": [
+      [
+        "reason=empty_state"
+      ]
+    ],
+    "description": "(Unchecked Return Value) There is no check of the return value of 001052c2 (strtoul)."
+  },
+  {
+    "name": "CWE252",
+    "version": "0.1",
+    "addresses": [
+      "001052c2",
+      "00107b40"
+    ],
+    "tids": [
+      "instr_001052c2_2",
+      "instr_00107b40_2"
+    ],
+    "symbols": [
+      "strtoul"
+    ],
+    "other": [
+      [
+        "reason=empty_state"
+      ]
+    ],
+    "description": "(Unchecked Return Value) There is no check of the return value of 001052c2 (strtoul)."
+  },
+  {
+    "name": "CWE252",
+    "version": "0.1",
+    "addresses": [
+      "001052c2",
+      "00107d86"
+    ],
+    "tids": [
+      "instr_001052c2_2",
+      "instr_00107d86_2"
+    ],
+    "symbols": [
+      "strtoul"
+    ],
+    "other": [
+      [
+        "reason=empty_state"
+      ]
+    ],
+    "description": "(Unchecked Return Value) There is no check of the return value of 001052c2 (strtoul)."
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106218"
+    ],
+    "tids": [
+      "instr_00106218_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106218 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106335"
+    ],
+    "tids": [
+      "instr_00106335_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106335 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106531"
+    ],
+    "tids": [
+      "instr_00106531_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106531 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001068b4"
+    ],
+    "tids": [
+      "instr_001068b4_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001068b4 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001068cc"
+    ],
+    "tids": [
+      "instr_001068cc_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001068cc may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106a83"
+    ],
+    "tids": [
+      "instr_00106a83_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106a83 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106a86"
+    ],
+    "tids": [
+      "instr_00106a86_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106a86 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106d53"
+    ],
+    "tids": [
+      "instr_00106d53_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106d53 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106dd5"
+    ],
+    "tids": [
+      "instr_00106dd5_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106dd5 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106f7b"
+    ],
+    "tids": [
+      "instr_00106f7b_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106f7b may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00106f7e"
+    ],
+    "tids": [
+      "instr_00106f7e_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00106f7e may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001070d3"
+    ],
+    "tids": [
+      "instr_001070d3_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001070d3 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001070d7"
+    ],
+    "tids": [
+      "instr_001070d7_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001070d7 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010716b"
+    ],
+    "tids": [
+      "instr_0010716b_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010716b may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010716f"
+    ],
+    "tids": [
+      "instr_0010716f_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010716f may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00107680"
+    ],
+    "tids": [
+      "instr_00107680_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00107680 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00107684"
+    ],
+    "tids": [
+      "instr_00107684_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00107684 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010768d"
+    ],
+    "tids": [
+      "instr_0010768d_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010768d may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001076f8"
+    ],
+    "tids": [
+      "instr_001076f8_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001076f8 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010c124"
+    ],
+    "tids": [
+      "instr_0010c124_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010c124 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010c2a5"
+    ],
+    "tids": [
+      "instr_0010c2a5_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010c2a5 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010c3c6"
+    ],
+    "tids": [
+      "instr_0010c3c6_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010c3c6 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010c5cb"
+    ],
+    "tids": [
+      "instr_0010c5cb_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010c5cb may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010c653"
+    ],
+    "tids": [
+      "instr_0010c653_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010c653 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010ca21"
+    ],
+    "tids": [
+      "instr_0010ca21_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010ca21 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010d56b"
+    ],
+    "tids": [
+      "instr_0010d56b_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010d56b may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010d56e"
+    ],
+    "tids": [
+      "instr_0010d56e_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010d56e may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010d600"
+    ],
+    "tids": [
+      "instr_0010d600_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010d600 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010d79b"
+    ],
+    "tids": [
+      "instr_0010d79b_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010d79b may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010d79e"
+    ],
+    "tids": [
+      "instr_0010d79e_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010d79e may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010daac"
+    ],
+    "tids": [
+      "instr_0010daac_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010daac may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010dabc"
+    ],
+    "tids": [
+      "instr_0010dabc_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010dabc may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010dacb"
+    ],
+    "tids": [
+      "instr_0010dacb_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010dacb may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010dad6"
+    ],
+    "tids": [
+      "instr_0010dad6_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010dad6 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010dad9"
+    ],
+    "tids": [
+      "instr_0010dad9_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010dad9 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010e0d1"
+    ],
+    "tids": [
+      "instr_0010e0d1_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010e0d1 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010e0ea"
+    ],
+    "tids": [
+      "instr_0010e0ea_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010e0ea may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010e64a"
+    ],
+    "tids": [
+      "instr_0010e64a_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010e64a may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010e66a"
+    ],
+    "tids": [
+      "instr_0010e66a_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010e66a may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f1ac"
+    ],
+    "tids": [
+      "instr_0010f1ac_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f1ac may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f2ca"
+    ],
+    "tids": [
+      "instr_0010f2ca_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f2ca may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f2d1"
+    ],
+    "tids": [
+      "instr_0010f2d1_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f2d1 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f303"
+    ],
+    "tids": [
+      "instr_0010f303_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f303 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f306"
+    ],
+    "tids": [
+      "instr_0010f306_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f306 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f3f7"
+    ],
+    "tids": [
+      "instr_0010f3f7_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f3f7 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f3fe"
+    ],
+    "tids": [
+      "instr_0010f3fe_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f3fe may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f433"
+    ],
+    "tids": [
+      "instr_0010f433_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f433 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f436"
+    ],
+    "tids": [
+      "instr_0010f436_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f436 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f5e7"
+    ],
+    "tids": [
+      "instr_0010f5e7_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f5e7 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f5f2"
+    ],
+    "tids": [
+      "instr_0010f5f2_5"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f5f2 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f631"
+    ],
+    "tids": [
+      "instr_0010f631_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f631 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f635"
+    ],
+    "tids": [
+      "instr_0010f635_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f635 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f639"
+    ],
+    "tids": [
+      "instr_0010f639_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f639 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f63d"
+    ],
+    "tids": [
+      "instr_0010f63d_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f63d may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f641"
+    ],
+    "tids": [
+      "instr_0010f641_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f641 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f7cb"
+    ],
+    "tids": [
+      "instr_0010f7cb_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f7cb may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010f7ce"
+    ],
+    "tids": [
+      "instr_0010f7ce_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010f7ce may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010fc53"
+    ],
+    "tids": [
+      "instr_0010fc53_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010fc53 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010fc56"
+    ],
+    "tids": [
+      "instr_0010fc56_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010fc56 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010fe0c"
+    ],
+    "tids": [
+      "instr_0010fe0c_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010fe0c may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010ffd4"
+    ],
+    "tids": [
+      "instr_0010ffd4_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010ffd4 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010ffdf"
+    ],
+    "tids": [
+      "instr_0010ffdf_5"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010ffdf may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0010fff6"
+    ],
+    "tids": [
+      "instr_0010fff6_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0010fff6 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0011018b"
+    ],
+    "tids": [
+      "instr_0011018b_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0011018b may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0011018e"
+    ],
+    "tids": [
+      "instr_0011018e_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0011018e may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110342"
+    ],
+    "tids": [
+      "instr_00110342_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110342 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110346"
+    ],
+    "tids": [
+      "instr_00110346_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110346 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0011034c"
+    ],
+    "tids": [
+      "instr_0011034c_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0011034c may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0011034f"
+    ],
+    "tids": [
+      "instr_0011034f_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0011034f may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110352"
+    ],
+    "tids": [
+      "instr_00110352_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110352 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110403"
+    ],
+    "tids": [
+      "instr_00110403_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110403 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110406"
+    ],
+    "tids": [
+      "instr_00110406_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110406 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001106f2"
+    ],
+    "tids": [
+      "instr_001106f2_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001106f2 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0011070f"
+    ],
+    "tids": [
+      "instr_0011070f_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0011070f may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110750"
+    ],
+    "tids": [
+      "instr_00110750_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110750 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110754"
+    ],
+    "tids": [
+      "instr_00110754_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110754 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110758"
+    ],
+    "tids": [
+      "instr_00110758_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110758 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110762"
+    ],
+    "tids": [
+      "instr_00110762_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110762 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001108cc"
+    ],
+    "tids": [
+      "instr_001108cc_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001108cc may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110afb"
+    ],
+    "tids": [
+      "instr_00110afb_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110afb may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110b0a"
+    ],
+    "tids": [
+      "instr_00110b0a_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110b0a may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "00110b25"
+    ],
+    "tids": [
+      "instr_00110b25_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 00110b25 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001110b5"
+    ],
+    "tids": [
+      "instr_001110b5_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001110b5 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001110be"
+    ],
+    "tids": [
+      "instr_001110be_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001110be may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001110c1"
+    ],
+    "tids": [
+      "instr_001110c1_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001110c1 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001110c4"
+    ],
+    "tids": [
+      "instr_001110c4_1"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001110c4 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001110c7"
+    ],
+    "tids": [
+      "instr_001110c7_0"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001110c7 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001112b0"
+    ],
+    "tids": [
+      "instr_001112b0_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001112b0 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001112bf"
+    ],
+    "tids": [
+      "instr_001112bf_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001112bf may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "001112d8"
+    ],
+    "tids": [
+      "instr_001112d8_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 001112d8 may result in a NULL dereference"
+  },
+  {
+    "name": "CWE476",
+    "version": "0.2",
+    "addresses": [
+      "0011feca"
+    ],
+    "tids": [
+      "instr_0011feca_2"
+    ],
+    "symbols": [],
+    "other": [],
+    "description": "(NULL Pointer Dereference) Memory access at 0011feca may result in a NULL dereference"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00104b9d"
+    ],
+    "tids": [
+      "instr_00104b9d_2"
+    ],
+    "symbols": [
+      "FUN_00104b50"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_00104b50 (00104b9d) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00104cb0"
+    ],
+    "tids": [
+      "instr_00104cb0_2"
+    ],
+    "symbols": [
+      "FUN_00104c30"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_00104c30 (00104cb0) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00104fcb"
+    ],
+    "tids": [
+      "instr_00104fcb_2"
+    ],
+    "symbols": [
+      "FUN_00104f00"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_00104f00 (00104fcb) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0010508b"
+    ],
+    "tids": [
+      "instr_0010508b_2"
+    ],
+    "symbols": [
+      "FUN_00104f00"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_00104f00 (0010508b) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "001051d1"
+    ],
+    "tids": [
+      "instr_001051d1_2"
+    ],
+    "symbols": [
+      "FUN_00105190"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_00105190 (001051d1) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00105e1e"
+    ],
+    "tids": [
+      "instr_00105e1e_2"
+    ],
+    "symbols": [
+      "FUN_00105bf0"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memset"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_00105bf0 (00105e1e) -> memset"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00109021"
+    ],
+    "tids": [
+      "instr_00109021_2"
+    ],
+    "symbols": [
+      "XML_GetBuffer"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memmove"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) XML_GetBuffer (00109021) -> memmove"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00109117"
+    ],
+    "tids": [
+      "instr_00109117_2"
+    ],
+    "symbols": [
+      "XML_GetBuffer"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) XML_GetBuffer (00109117) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "00109399"
+    ],
+    "tids": [
+      "instr_00109399_2"
+    ],
+    "symbols": [
+      "XML_Parse"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) XML_Parse (00109399) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0010cb31"
+    ],
+    "tids": [
+      "instr_0010cb31_2"
+    ],
+    "symbols": [
+      "FUN_0010c0a0"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0010c0a0 (0010cb31) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0010ce6d"
+    ],
+    "tids": [
+      "instr_0010ce6d_2"
+    ],
+    "symbols": [
+      "FUN_0010c0a0"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0010c0a0 (0010ce6d) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0010ceb9"
+    ],
+    "tids": [
+      "instr_0010ceb9_2"
+    ],
+    "symbols": [
+      "FUN_0010c0a0"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0010c0a0 (0010ceb9) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0010da53"
+    ],
+    "tids": [
+      "instr_0010da53_2"
+    ],
+    "symbols": [
+      "FUN_0010d290"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcmp"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0010d290 (0010da53) -> memcmp"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0011f721"
+    ],
+    "tids": [
+      "instr_0011f721_2"
+    ],
+    "symbols": [
+      "FUN_0011f6d0"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0011f6d0 (0011f721) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0011f76c"
+    ],
+    "tids": [
+      "instr_0011f76c_2"
+    ],
+    "symbols": [
+      "FUN_0011f6d0"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0011f6d0 (0011f76c) -> memcpy"
+  },
+  {
+    "name": "CWE676",
+    "version": "0.1",
+    "addresses": [
+      "0011f8f7"
+    ],
+    "tids": [
+      "instr_0011f8f7_2"
+    ],
+    "symbols": [
+      "FUN_0011f860"
+    ],
+    "other": [
+      [
+        "dangerous_function",
+        "memcpy"
+      ]
+    ],
+    "description": "(Use of Potentially Dangerous Function) FUN_0011f860 (0011f8f7) -> memcpy"
+  }
+]

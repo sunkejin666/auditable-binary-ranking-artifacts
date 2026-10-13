@@ -1,0 +1,356 @@
+{
+  "status": "PASS",
+  "checks": {
+    "copied_file_hashes": {
+      "status": "PASS",
+      "files": 169
+    },
+    "Juliet sample IDs": {
+      "value": 200,
+      "status": "PASS"
+    },
+    "Juliet symbol conditions": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "Juliet method denominator/callchain_reachability": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "callchain_reachability/hit_1_expected": {
+      "value": "0.2627",
+      "status": "PASS"
+    },
+    "callchain_reachability/hit_5_expected": {
+      "value": "0.5052",
+      "status": "PASS"
+    },
+    "callchain_reachability/rr_expected": {
+      "value": "0.3868",
+      "status": "PASS"
+    },
+    "Juliet method denominator/cfg_complexity": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "cfg_complexity/hit_1_expected": {
+      "value": "0.2998",
+      "status": "PASS"
+    },
+    "cfg_complexity/hit_5_expected": {
+      "value": "0.5522",
+      "status": "PASS"
+    },
+    "cfg_complexity/rr_expected": {
+      "value": "0.4227",
+      "status": "PASS"
+    },
+    "Juliet method denominator/dangerous_count": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "dangerous_count/hit_1_expected": {
+      "value": "0.0975",
+      "status": "PASS"
+    },
+    "dangerous_count/hit_5_expected": {
+      "value": "0.7155",
+      "status": "PASS"
+    },
+    "dangerous_count/rr_expected": {
+      "value": "0.3175",
+      "status": "PASS"
+    },
+    "Juliet method denominator/dangerous_match": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "dangerous_match/hit_1_expected": {
+      "value": "0.0457",
+      "status": "PASS"
+    },
+    "dangerous_match/hit_5_expected": {
+      "value": "0.2287",
+      "status": "PASS"
+    },
+    "dangerous_match/rr_expected": {
+      "value": "0.1677",
+      "status": "PASS"
+    },
+    "Juliet method denominator/dangerous_plus_callchain": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "dangerous_plus_callchain/hit_1_expected": {
+      "value": "0.3903",
+      "status": "PASS"
+    },
+    "dangerous_plus_callchain/hit_5_expected": {
+      "value": "0.9445",
+      "status": "PASS"
+    },
+    "dangerous_plus_callchain/rr_expected": {
+      "value": "0.6129",
+      "status": "PASS"
+    },
+    "Juliet method denominator/full_method": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "full_method/hit_1_expected": {
+      "value": "0.4992",
+      "status": "PASS"
+    },
+    "full_method/hit_5_expected": {
+      "value": "0.8921",
+      "status": "PASS"
+    },
+    "full_method/rr_expected": {
+      "value": "0.6772",
+      "status": "PASS"
+    },
+    "Juliet method denominator/inline_memory_event": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "inline_memory_event/hit_1_expected": {
+      "value": "0.0280",
+      "status": "PASS"
+    },
+    "inline_memory_event/hit_5_expected": {
+      "value": "0.1117",
+      "status": "PASS"
+    },
+    "inline_memory_event/rr_expected": {
+      "value": "0.0960",
+      "status": "PASS"
+    },
+    "Juliet method denominator/semantic_event_plus_callchain": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "semantic_event_plus_callchain/hit_1_expected": {
+      "value": "0.0280",
+      "status": "PASS"
+    },
+    "semantic_event_plus_callchain/hit_5_expected": {
+      "value": "0.1117",
+      "status": "PASS"
+    },
+    "semantic_event_plus_callchain/rr_expected": {
+      "value": "0.0960",
+      "status": "PASS"
+    },
+    "Juliet method denominator/semantic_fusion": {
+      "value": 400,
+      "status": "PASS"
+    },
+    "semantic_fusion/hit_1_expected": {
+      "value": "0.4992",
+      "status": "PASS"
+    },
+    "semantic_fusion/hit_5_expected": {
+      "value": "0.8921",
+      "status": "PASS"
+    },
+    "semantic_fusion/rr_expected": {
+      "value": "0.6772",
+      "status": "PASS"
+    },
+    "CWE-121/wins ties losses": {
+      "value": [
+        94,
+        6,
+        0
+      ],
+      "status": "PASS"
+    },
+    "CWE-121/hit_1_expected": {
+      "value": "0.1550",
+      "status": "PASS"
+    },
+    "CWE-121/hit_5_expected": {
+      "value": "0.0010",
+      "status": "PASS"
+    },
+    "CWE-121/rr_expected": {
+      "value": "0.1618",
+      "status": "PASS"
+    },
+    "CWE-122/wins ties losses": {
+      "value": [
+        0,
+        76,
+        24
+      ],
+      "status": "PASS"
+    },
+    "CWE-122/hit_1_expected": {
+      "value": "-0.0933",
+      "status": "PASS"
+    },
+    "CWE-122/hit_5_expected": {
+      "value": "-0.2400",
+      "status": "PASS"
+    },
+    "CWE-122/rr_expected": {
+      "value": "-0.1426",
+      "status": "PASS"
+    },
+    "CWE-134/wins ties losses": {
+      "value": [
+        48,
+        52,
+        0
+      ],
+      "status": "PASS"
+    },
+    "CWE-134/hit_1_expected": {
+      "value": "0.1340",
+      "status": "PASS"
+    },
+    "CWE-134/hit_5_expected": {
+      "value": "0.0293",
+      "status": "PASS"
+    },
+    "CWE-134/rr_expected": {
+      "value": "0.1179",
+      "status": "PASS"
+    },
+    "CWE-78/wins ties losses": {
+      "value": [
+        24,
+        76,
+        0
+      ],
+      "status": "PASS"
+    },
+    "CWE-78/hit_1_expected": {
+      "value": "0.2400",
+      "status": "PASS"
+    },
+    "CWE-78/hit_5_expected": {
+      "value": "0.0000",
+      "status": "PASS"
+    },
+    "CWE-78/rr_expected": {
+      "value": "0.1200",
+      "status": "PASS"
+    },
+    "Representation pairs per method": {
+      "value": 200,
+      "status": "PASS"
+    },
+    "holdout_20261008/method-record states": {
+      "value": {
+        "incomplete_scores": 16,
+        "ok": 170,
+        "analysis_failure": 6
+      },
+      "status": "PASS"
+    },
+    "distribution_20261008/method-record states": {
+      "value": {
+        "incomplete_scores": 8,
+        "ok": 24
+      },
+      "status": "PASS"
+    },
+    "Role-comparator complete conditions": {
+      "value": 8,
+      "status": "PASS"
+    },
+    "Structural-score complete conditions": {
+      "value": 14,
+      "status": "PASS"
+    },
+    "Jointly successful development adapter conditions": {
+      "value": 7,
+      "status": "PASS"
+    },
+    "Failed development adapter conditions": {
+      "value": 5,
+      "status": "PASS"
+    },
+    "Development Top-1/full": {
+      "value": "0.000",
+      "status": "PASS"
+    },
+    "Development Top-1/adapter": {
+      "value": "0.000",
+      "status": "PASS"
+    },
+    "Development Top-3/full": {
+      "value": "0.143",
+      "status": "PASS"
+    },
+    "Development Top-3/adapter": {
+      "value": "0.000",
+      "status": "PASS"
+    },
+    "Development Top-5/full": {
+      "value": "0.429",
+      "status": "PASS"
+    },
+    "Development Top-5/adapter": {
+      "value": "0.571",
+      "status": "PASS"
+    },
+    "Development Top-10/full": {
+      "value": "0.571",
+      "status": "PASS"
+    },
+    "Development Top-10/adapter": {
+      "value": "0.571",
+      "status": "PASS"
+    },
+    "zlib invocations": {
+      "value": {
+        "1.2.11": 4320,
+        "1.2.12": 4320
+      },
+      "status": "PASS"
+    },
+    "zlib nonzero exits": {
+      "value": {
+        "1.2.11": 1140
+      },
+      "status": "PASS"
+    },
+    "bridge_v03_development_20261010/events and contractions": {
+      "value": [
+        27178,
+        840
+      ],
+      "status": "PASS"
+    },
+    "bridge_v03_retrospective_holdout_20261010/events and contractions": {
+      "value": [
+        6241,
+        1034
+      ],
+      "status": "PASS"
+    },
+    "Prefix-reuse serial repetitions": {
+      "value": 2,
+      "status": "PASS"
+    },
+    "Prefix execution counts/1": {
+      "value": [
+        3,
+        1,
+        2
+      ],
+      "status": "PASS"
+    },
+    "Prefix execution counts/2": {
+      "value": [
+        3,
+        1,
+        2
+      ],
+      "status": "PASS"
+    }
+  },
+  "scope": "Saved-record consistency checks; no binary experiment or bootstrap resampling was rerun."
+}

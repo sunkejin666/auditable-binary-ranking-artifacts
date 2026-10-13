@@ -1,0 +1,12 @@
+name,category,key_args
+argv,program_argument,argv
+fgets,stdin_input,buf;size;stream
+fscanf,file_input,stream;format
+getenv,environment_input,name
+getopt,argv_input,argc;argv;optstring
+gets,stdin_input,buf
+read,fd_input,fd;buf;count
+recv,socket_input,sockfd;buf;len;flags
+recvfrom,socket_input,sockfd;buf;len;flags;src_addr;addrlen
+scanf,stdin_input,format
+sscanf,string_parse,str;format

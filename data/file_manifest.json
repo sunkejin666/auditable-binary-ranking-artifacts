@@ -1,0 +1,847 @@
+[
+  {
+    "path": "experiments/legacy/configs/dangerous_functions.csv",
+    "bytes": 1013,
+    "sha256": "58f10fc0e73cd452cfd7775d5e44375b51038b56fe64f0ae050ebcbdefebec69"
+  },
+  {
+    "path": "experiments/legacy/configs/input_sources.csv",
+    "bytes": 387,
+    "sha256": "9c6495e5b405e36643f0cffa600b8586c5f808affc746bb02938450bcd6f98e8"
+  },
+  {
+    "path": "experiments/legacy/manifests/batch200_manifest.csv",
+    "bytes": 150794,
+    "sha256": "1db2e81fe81f75be33b18219cf59dcb88fe8f06a1d4c5ca80fe8da6bf603d849"
+  },
+  {
+    "path": "experiments/legacy/manifests/batch200_sources.csv",
+    "bytes": 127150,
+    "sha256": "82f88fe431a6fc05c7a3c9c8582c45264a388d84b33fe4e6b3f1d55c92ec7b8e"
+  },
+  {
+    "path": "experiments/legacy/tools/analysis_scripts/select_juliet_pilot.py",
+    "bytes": 6902,
+    "sha256": "ffc505afc090c68c3e6948116db825339bd7126cdd6e0426e14740a6a52729af"
+  },
+  {
+    "path": "experiments/revision/address_model/CLI_HANDOFF.md",
+    "bytes": 2293,
+    "sha256": "9d9a4d4f211e2e358c52953a65526cc33c44134b5162794507cb499e0376a543"
+  },
+  {
+    "path": "experiments/revision/address_model/config.json",
+    "bytes": 286,
+    "sha256": "e1d19e62f0e3b3cb93cc08f6a93dd7113c7cb06f20f770a999b918ed9b1bfbf3"
+  },
+  {
+    "path": "experiments/revision/address_model/config_semantic_v0_4.json",
+    "bytes": 442,
+    "sha256": "aa6c6529a3b7f460b350fa9870755dbf916d6171038c80caa86eecd11688ea09"
+  },
+  {
+    "path": "experiments/revision/address_model/config_semantic_v0_5.json",
+    "bytes": 550,
+    "sha256": "1662942df37cf43848916e8c3bbf5376d81959a8af4d4b6035a277c608b2e3a3"
+  },
+  {
+    "path": "experiments/revision/address_model/config_semantic_v0_5_strict.json",
+    "bytes": 609,
+    "sha256": "4944f822a43be4089e8f09343da6b4f996a5626980c538cf897d08bfa5437a26"
+  },
+  {
+    "path": "experiments/revision/address_model/config_semantic_v0_6_directional.json",
+    "bytes": 899,
+    "sha256": "3e39724645e40fa48bda1aac7139a2d41bcf72d9c78a4e1868bf401663907f68"
+  },
+  {
+    "path": "experiments/revision/address_model/config_semantic_v0_6_directional_replace.json",
+    "bytes": 915,
+    "sha256": "42628badc3c88bd56a7dedb2a469aa5442ccfa8713db6c5c7d783cf96179ed75"
+  },
+  {
+    "path": "experiments/revision/address_model/config_semantic_v0_6c_directional_replace.json",
+    "bytes": 925,
+    "sha256": "9b6b0d1e5cd40a27480bc5bd816eaf076dcd1c56314e7235990238042f4ff330"
+  },
+  {
+    "path": "experiments/revision/address_model/run_pilot.py",
+    "bytes": 2667,
+    "sha256": "9f4bd086c0e77c8de77d7c812c3450585025c6bf57504c9af0d0821c4561b77d"
+  },
+  {
+    "path": "experiments/revision/address_model/score.py",
+    "bytes": 51916,
+    "sha256": "171be57624b298c2d37fa7b8efeec157b68efbad6245db8ab8089d1c50b20f04"
+  },
+  {
+    "path": "experiments/revision/address_model/test_score.py",
+    "bytes": 22608,
+    "sha256": "10a59c3e655b9d17490d94aa1df733ff41871209d9dbb14dbbaf788e6dc23faa"
+  },
+  {
+    "path": "experiments/revision/bootstrap_family_effects_20261012.py",
+    "bytes": 1446,
+    "sha256": "2bf8b8152d493f1f605930c8769d90e77e19a98926dbac68f74323acc85147b8"
+  },
+  {
+    "path": "experiments/revision/evaluate_address_uncertainty.py",
+    "bytes": 9331,
+    "sha256": "d15a377bf2b45158c4d15549c46e56b56e641fa05f87201a56dc55d5d71d1365"
+  },
+  {
+    "path": "experiments/revision/evaluate_rankings.py",
+    "bytes": 9917,
+    "sha256": "5f183c9f78b1cc19bc3cef5c2d845229cef75df2810f746229f3b9509fb1dbdb"
+  },
+  {
+    "path": "experiments/revision/evaluate_uncertainty.py",
+    "bytes": 12987,
+    "sha256": "d83b7fe3dfc0ca67ef7d5a2ebcabcdf560a24419d43d9662bd4b29a1b19f4320"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261010/analysis/cwe_native_audit.json",
+    "bytes": 3057,
+    "sha256": "bdffe9be5be77c45c4c9afad61cb5cbf1f15705a2406b942f7716cabe06d1d05"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261010/analysis/facts/functions.csv",
+    "bytes": 6399,
+    "sha256": "6f5bcdc7b838e43d9b1758944f4c72cbd327554cf057dd01cb0af956754a4757"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261010/analysis/fresh_rankings.json",
+    "bytes": 10105,
+    "sha256": "d2b68077c8f680e443e63b868e1f9a88477c76cc86133f26c28311dd6808bfe6"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261010/raw/manifest.json",
+    "bytes": 1419,
+    "sha256": "4cd1ca26ca114bf46445d8ceacc894d98e7edfd895be9272ef01230806a0135b"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261010/verifier/verifier_report.json",
+    "bytes": 5193,
+    "sha256": "764a771b1d241b152610432b1d16b062b2645ce9b852f0013c71da5106c726e4"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261011_stack/analysis/elf_layout_audit.json",
+    "bytes": 2519,
+    "sha256": "94c49409a1bce16cdd4701775f7b926b2434b22aebb27d4a65dd69ee5c63301f"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261011_stack/analysis/ranking_audit.json",
+    "bytes": 8027,
+    "sha256": "33a58b5f86aae7b8c475e9842922aa8b43ee4218febd0ae1fe92b464f9bf10e0"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261011_stack/native_tool/cwe_checker_native_result.json",
+    "bytes": 1551,
+    "sha256": "bd3c44104215bce83aa7338a8b3afb8136960bc4b4f233dd0aaedb5e08019112"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261011_stack/raw/manifest.json",
+    "bytes": 2330,
+    "sha256": "8e98c4fc7010732ed31c341673318eed4efdde1f3987e0c672fba6f3c8a4c4d8"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261011_stack/verifier/runtime_layout_audit.json",
+    "bytes": 8437,
+    "sha256": "e3f6eb7c9cfd5c33fea41b9a0ba20888f683d359ebbdae6e50e78bc0610d1316"
+  },
+  {
+    "path": "experiments/revision/fresh_binary_only_20261011_stack/verifier/verifier_report.json",
+    "bytes": 4648,
+    "sha256": "52e4df4f1a0dbd61c30ddb3cd1a4e9dfc22ec553a985fb1b87b404343d0064b1"
+  },
+  {
+    "path": "experiments/revision/realworld/baselines/inputs/realworld/target_mapping.csv",
+    "bytes": 1463,
+    "sha256": "a4706168234dcec0cc2d653df7fda88b75004e6f84e9010dc49912a3181adec2"
+  },
+  {
+    "path": "experiments/revision/realworld/baselines/runs/arbiter_cwe252_example_20261008/status.json",
+    "bytes": 2175,
+    "sha256": "0541409b60d186e7e61310725f58eb5f304cdf31c634b37d92906c685f6a9020"
+  },
+  {
+    "path": "experiments/revision/realworld/baselines/runs/arbiter_official_smoke_20261008_retry1/status.json",
+    "bytes": 1746,
+    "sha256": "dafafbb168900228ca69d1a024dc20fedfbc097658b280f4480a9421ae723e65"
+  },
+  {
+    "path": "experiments/revision/realworld/baselines/runs/arbiter_role_controls_20261008/O2_unstripped/logs/arbiter_CWE134_binary.log",
+    "bytes": 11682,
+    "sha256": "0f52d30801bdce65fbb1e49b4e5e06d97689f5850572c19037cc32402becd312"
+  },
+  {
+    "path": "experiments/revision/realworld/baselines/runs/arbiter_role_controls_20261008/ledger.json",
+    "bytes": 14065,
+    "sha256": "d8fdd978b693380885cfd207dc035c35f49432cf82d682b2abfa16727db12330"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_stripped/protocol.json",
+    "bytes": 1347,
+    "sha256": "5f32ea01ea1aa235084d9527147e4b0951acfe0b702f16693444871b23d8e176"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_stripped/recovery_events.jsonl",
+    "bytes": 516102,
+    "sha256": "d204e4a37b8911ec92ab1786447f690afaaa493b75653232c64c5925332c65fe"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_stripped/summary.json",
+    "bytes": 1097,
+    "sha256": "c5cc23bdd12a69e2f57c3e3bbd677b8fffd07599795583cbd3b442e007ba5599"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_unstripped/protocol.json",
+    "bytes": 1349,
+    "sha256": "71c204a281550f1e87bc9c0d74117438587d36d72a0135042ac24ef5d0531804"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_unstripped/recovery_events.jsonl",
+    "bytes": 518784,
+    "sha256": "f57ee28095f2f1f2d5ffaa8f27db17f06bfe66397276db6e3f6a3b36b68609cd"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.18_unstripped/summary.json",
+    "bytes": 1099,
+    "sha256": "a5d8b8c20377e40b6d99e5b5dc9b53bda0c0fe93da28976f2b739a4339a2fb7e"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_stripped/protocol.json",
+    "bytes": 1347,
+    "sha256": "306e4f9a7f8adc6c132bfdcec5e8338c9fef75870fc11a42a904bf2d2b1ca124"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_stripped/recovery_events.jsonl",
+    "bytes": 516183,
+    "sha256": "03c1a4eac68d379c0d9f7a32ffce94b8bf7ea82799599729a7caaa44b30846dc"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_stripped/summary.json",
+    "bytes": 1097,
+    "sha256": "22e634b99664d0aa4067125a308c7d927ca6ef24900f90fbe0b7f72ff95f8dc6"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_unstripped/protocol.json",
+    "bytes": 1349,
+    "sha256": "0677e9dfdfe035797438a45df92ef10eb66e7fc56b64bb4ed9f52851b529f217"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_unstripped/recovery_events.jsonl",
+    "bytes": 518865,
+    "sha256": "ee049e5d18e4e345c32270c1fa6f71ee8093ca6852f540e662539a16d346c1e7"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/libpng_1.6.20_unstripped/summary.json",
+    "bytes": 1100,
+    "sha256": "babda1f8f8c1e33393ea26248a53e61bda534bf856e38f2de4a2c62283e40ec7"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_stripped/protocol.json",
+    "bytes": 1348,
+    "sha256": "aaa8d5f6dcdcabb17af180f887f7418001d7f33543e3f55dea64cde79f3d7b55"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_stripped/recovery_events.jsonl",
+    "bytes": 7182872,
+    "sha256": "fc38785b7338178590db814d7e167b6dc2910ebfb2a5a49ea264be05e2c95792"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_stripped/summary.json",
+    "bytes": 1102,
+    "sha256": "f12021be6b684f2a0c88624d6f362555bd48671f04a79d8f3c0897e523380653"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_unstripped/protocol.json",
+    "bytes": 1350,
+    "sha256": "1cce51f4cb95daf59310fc8dff82d08489b95f21b6c96173cf7bb8fd6314742e"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_unstripped/recovery_events.jsonl",
+    "bytes": 7226405,
+    "sha256": "984fd3b2ccd7c315182bba4ba002c68d31d72c2e4bebe6c01908e862699dc1d6"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1m_unstripped/summary.json",
+    "bytes": 1106,
+    "sha256": "41ec274053ce565e1eb0911792f780699c15520ab28d1e69f9105186096511bc"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_stripped/protocol.json",
+    "bytes": 1348,
+    "sha256": "156cb4f188bb0fb612f8a77a09e3ee40fd2bbd9c1a98e69c4426504b985c1f20"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_stripped/recovery_events.jsonl",
+    "bytes": 7190245,
+    "sha256": "c4e9ab77a07c271ad4f520d29845de593d82061fead009820df361488f9bdd22"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_stripped/summary.json",
+    "bytes": 1102,
+    "sha256": "200c58bcb0d983c30caba5c404d7b9607dc07cea4a21a0b20adee323ba2db289"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_unstripped/protocol.json",
+    "bytes": 1350,
+    "sha256": "4b694bf8f99858c4a005b847b439a279fe0dde9a8ba6223451253aa8fdc08fd3"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_unstripped/recovery_events.jsonl",
+    "bytes": 7227565,
+    "sha256": "905e643ac40399ce932bc687bdc8dc272c51a69b45ad478fc23f1187b7fc31b2"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/openssl_1.1.1n_unstripped/summary.json",
+    "bytes": 1107,
+    "sha256": "a81293c502ea3fc492a01a759d84148ce368493c3993d606b403fe6864373ac7"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/summary.json",
+    "bytes": 15477,
+    "sha256": "2d7df7630f78e2d62134cccadfda94d6ef17307f9d5e32bfa3f019e3e43a5704"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_stripped/protocol.json",
+    "bytes": 1345,
+    "sha256": "24902394e5a793e44c4c7c17410684030339d13506fea415742566e7777e19b2"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_stripped/recovery_events.jsonl",
+    "bytes": 147722,
+    "sha256": "7fe9b788259038c58342c18ff5cb0207da1a2e959e0c47f6c80225563151cda9"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_stripped/summary.json",
+    "bytes": 1094,
+    "sha256": "9c902ca9663795fd86ff23412cea126922306e2908f9e342cf394bf72a1afad2"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_unstripped/protocol.json",
+    "bytes": 1347,
+    "sha256": "2241337cd290b4a78bcb9505d82031a0ee903315d878f54dd5f4c38cc3766f19"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_unstripped/recovery_events.jsonl",
+    "bytes": 148484,
+    "sha256": "62d410a3f880d51fbb5a9f76b72bf069136a664b16edf1cf82535e7f17464e13"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.11_unstripped/summary.json",
+    "bytes": 1099,
+    "sha256": "abcdd6d21ec7a31511dcfba0bf509d5c8f17726b7446b839b8cc567f79e839ee"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_stripped/protocol.json",
+    "bytes": 1345,
+    "sha256": "30666e997595cdb0baad7512c85bc2d35818230c46e57cd35af32b11660b30d2"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_stripped/recovery_events.jsonl",
+    "bytes": 150016,
+    "sha256": "b67a2217d9d707b56e1fd1240b3710b5f567e1fc06e691ff896b4f607a2cf714"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_stripped/summary.json",
+    "bytes": 1095,
+    "sha256": "46c3b2c8b863f67b8a845ad4d572c5f86afc333e24131677d700d255061f01e8"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_unstripped/protocol.json",
+    "bytes": 1347,
+    "sha256": "0af7d23bb7560d73ff17190b8b3fe5aa06653300ccdb7c596a2ad3f16eee20c5"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_unstripped/recovery_events.jsonl",
+    "bytes": 150790,
+    "sha256": "074e09f499364df30446234e3628675bc3463f4771e14bf3c74a6db3a25bd5ca"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_development_20261010/zlib_1.2.12_unstripped/summary.json",
+    "bytes": 1099,
+    "sha256": "efacee3b9411d365e795e4ffd8fa2fb2f5a93b0311d6d9bf660140e3b2e43d8d"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_stripped/protocol.json",
+    "bytes": 1354,
+    "sha256": "a30b5c6dc732539ce07f27837737adfc1646643d7423caa1ff230b4a0b765d2f"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_stripped/recovery_events.jsonl",
+    "bytes": 341563,
+    "sha256": "8b85bdf5e11da75125fdb6ea9fc93831e58495fdeaeff6a613deb3908797bf30"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_stripped/summary.json",
+    "bytes": 1095,
+    "sha256": "53993c4514c3c6efb9158f637779640b3a15d7b1bf8d92b42311b1396b59e7ff"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_unstripped/protocol.json",
+    "bytes": 1356,
+    "sha256": "f8a99f1a97c48a46555f30481f1bef28c546455232b12e4f100f981f9b4b08f9"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_unstripped/recovery_events.jsonl",
+    "bytes": 343345,
+    "sha256": "df7965a928ba063f2c2dfc364d316e44edc61c0767501ebf1968ae56aa7e6d51"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.3_unstripped/summary.json",
+    "bytes": 1099,
+    "sha256": "cd5530e0062e0b0f5ec07cac4fd076363bcdc6ffd0c0978ca9a4b3d6d441ca8f"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_stripped/protocol.json",
+    "bytes": 1354,
+    "sha256": "a733ca29ad7cf6edb56c89ed9c8f1ddaa67a9e0384a427ffdb599338a1857309"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_stripped/recovery_events.jsonl",
+    "bytes": 341860,
+    "sha256": "1b52f3095463b62a9580db7bd496fbcf72d3fd9e425913abac846f1b5e65a75b"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_stripped/summary.json",
+    "bytes": 1095,
+    "sha256": "5b5e9cdc25db149302c025400cf6369bac4d043dc240bef34ec33a3fbe6875a9"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_unstripped/protocol.json",
+    "bytes": 1356,
+    "sha256": "a82c8d8696d74a9174378cd41aaa842f5f380b6cf7417bff085c212c0bc4a5a0"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_unstripped/recovery_events.jsonl",
+    "bytes": 343345,
+    "sha256": "ec818ea4344451dba638b15b58cbf1c918ac162c65eeabcdc81c8b500ab31ee5"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/expat_2.4.4_unstripped/summary.json",
+    "bytes": 1098,
+    "sha256": "06e018e01d5e63762796b9d9ef635f27f8f187a22b567232e08cfedb67ad4bc1"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_stripped/protocol.json",
+    "bytes": 1359,
+    "sha256": "46612e79bfb48078b2f3af965c917fa294180db13f632a49ac22c8beec5fe445"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_stripped/recovery_events.jsonl",
+    "bytes": 1339846,
+    "sha256": "27a498b65ab82d004e9fdede8cf7806913adca3a0946b80117c19b78dc3d4561"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_stripped/summary.json",
+    "bytes": 1107,
+    "sha256": "5090c1110dcbad59087fdf6e763c2e77719b96bc5ce16dda0507d235f11320bb"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_unstripped/protocol.json",
+    "bytes": 1361,
+    "sha256": "4cf2e590dcb87c0ae1998a62376a33c97e7effce6604e991135f329ecb6b9f94"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_unstripped/recovery_events.jsonl",
+    "bytes": 1365340,
+    "sha256": "9d87be9155af780cdb7687d8ec9fc392fae31dbee58204af83a90d7ce0e42447"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.1.2_unstripped/summary.json",
+    "bytes": 1112,
+    "sha256": "ff9295d0cbeecef0057e00616267f6379bfee9126dca0ab822a35e83a104fbf1"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_stripped/protocol.json",
+    "bytes": 1359,
+    "sha256": "790b6759e6dc05cf005f49b25fdd22a33cabd67fe34e236282f3b1987a48c3d5"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_stripped/recovery_events.jsonl",
+    "bytes": 1481943,
+    "sha256": "bbd84b8a16d358930bec39fafd93ae4f8f63353fafd44fdc884024ca2b972c8d"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_stripped/summary.json",
+    "bytes": 1108,
+    "sha256": "53122f6547ac8477f4ecb3d0995806669cc841bd2a0367635358c3d7a4f46115"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_unstripped/protocol.json",
+    "bytes": 1361,
+    "sha256": "79d9e3cbac304404493c334dc759d0d40e8230998f0fa50a09447e779ea42dbc"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_unstripped/recovery_events.jsonl",
+    "bytes": 1511664,
+    "sha256": "2ca1659833506cdea8a305e54cf785de3e0937b87983e669e7711f50a0ea11f5"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libarchive_3.2.0_unstripped/summary.json",
+    "bytes": 1112,
+    "sha256": "551bfd1953d6828cd9b73c5cdf680ad55d47c8f11f87cde0ffc45fa93213a056"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_stripped/protocol.json",
+    "bytes": 1363,
+    "sha256": "f1db79b0b640f748d948f60b87082ddfaeab88f90ed3a01412f8adcf8d9c9583"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_stripped/recovery_events.jsonl",
+    "bytes": 67239,
+    "sha256": "163dc3439fe523c7e8fea9fcfa3d956b3841012ffa503580ed179304c4be39b3"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_stripped/summary.json",
+    "bytes": 1109,
+    "sha256": "ab653e054022d97aaa4fab733ddd55772c303b596eecebbfc135dff71eda5d24"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_unstripped/protocol.json",
+    "bytes": 1365,
+    "sha256": "d876d8e2600d9993803d704d493189b7d065cab41b944a2e9fa22a634b013990"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_unstripped/recovery_events.jsonl",
+    "bytes": 67581,
+    "sha256": "a692b523d7d087911f5aa6fb7c8a3e13c01c19c356ab09eb6d24117f5c6ee44c"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_1.5.90_unstripped/summary.json",
+    "bytes": 1113,
+    "sha256": "9d4be7db1ab0eca2f31ac15462d8954184b1d94ab897beb66be69c14128ee231"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_stripped/protocol.json",
+    "bytes": 1362,
+    "sha256": "cc4457078811d8b8866f442c3fe7624df62e8f7fb7e1a0bc0c6a675c2dca2c9b"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_stripped/recovery_events.jsonl",
+    "bytes": 67068,
+    "sha256": "50f517c5cdf0bf94dcfb781294e33093c1b66987a93f1003ede1cc39af9ab747"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_stripped/summary.json",
+    "bytes": 1106,
+    "sha256": "5c5f707b4a67e553608f949a80840317c9d2ce9a8ac3c343305b8326ec676559"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_unstripped/protocol.json",
+    "bytes": 1364,
+    "sha256": "a1648524d666825eebfe47654f51d132d9a9e4551d277145109ae7018ea34648"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_unstripped/recovery_events.jsonl",
+    "bytes": 67467,
+    "sha256": "5edc1daba4db6043de743f0fe528ebec8da3e683c2b87c7b058410cde594471b"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/libjpeg-turbo_2.0.0_unstripped/summary.json",
+    "bytes": 1111,
+    "sha256": "a9a3792cb7651fc71e6aeafe52ce8b0baf6bbf5872a94b0e2126a692c940d567"
+  },
+  {
+    "path": "experiments/revision/realworld/bridge_v03_retrospective_holdout_20261010/summary.json",
+    "bytes": 15545,
+    "sha256": "0a256ef4885f81583393f55e00ef3ba3bd8891c727d33e920b4ad25347e96475"
+  },
+  {
+    "path": "experiments/revision/realworld/distribution_20261008/evaluation_frozen/expat_2.4.3-1_distribution_stripped/external/result.json",
+    "bytes": 34231,
+    "sha256": "e474b40c6afc62e36e9c14e5bb65f036eec619c13a3d56e01fa1a9b316350baa"
+  },
+  {
+    "path": "experiments/revision/realworld/distribution_20261008/evaluation_frozen/expat_2.4.4-1_distribution_stripped/external/result.json",
+    "bytes": 34231,
+    "sha256": "2e719caca1f8172f116f991cc436a7557dd633d8fb86c821e36a7945d6ce18ca"
+  },
+  {
+    "path": "experiments/revision/realworld/distribution_20261008/evaluation_frozen/external_native_and_runtime.csv",
+    "bytes": 796,
+    "sha256": "8ac586b18be2d3aad2506a6533ae07104fd74ccab08c9d12098250c6773587e7"
+  },
+  {
+    "path": "experiments/revision/realworld/distribution_20261008/evaluation_frozen/per_condition.csv",
+    "bytes": 11187,
+    "sha256": "0ac96b5e488ba927f9d210d30bf83107608dc788b9af5a7f3f869ba3728525c0"
+  },
+  {
+    "path": "experiments/revision/realworld/distribution_20261008/evaluation_frozen/summary.json",
+    "bytes": 1760,
+    "sha256": "54340a3d83cdc8c6e863d4deb0a3636c30bf638e3218e49e139671767ad3abf5"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/artifact_manifest.json",
+    "bytes": 10557,
+    "sha256": "cfc44ec27c8563a91d716e70633074f87201169827159cda99724ae1c21f9139"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/collection_ledger.json",
+    "bytes": 1754,
+    "sha256": "27daaa16470aaca6684fc93e73320488d6c8b8c9df9b7418efb38df923ba251c"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/dwarf_target_sidecar.json",
+    "bytes": 4827,
+    "sha256": "fb2d029835f420d0a9b6c26fe33afb2e198cc50b3bdf3bb7ada3c5a8c6dcaa5c"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/evaluation_frozen/external_native_and_runtime.csv",
+    "bytes": 3756,
+    "sha256": "4a7f5776b45657d349749daf5cc05baed6b883cc69c69f7f9c9b00042c3e4d4f"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/evaluation_frozen/external_success_conditions.csv",
+    "bytes": 32887,
+    "sha256": "a5fd7d0e91653a57ba5466200ea1b4df26cd1dcea1737181735c4794feaeafc6"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/evaluation_frozen/per_condition.csv",
+    "bytes": 65379,
+    "sha256": "cb2adb326e6099f36139facfbcfb06c0af37b9594bc378b4364d145863d84683"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/evaluation_frozen/summary.json",
+    "bytes": 1848,
+    "sha256": "f0374d6b16032659379401dbf1e5b6b601cb3ac80123a47b46b40e5e7247319f"
+  },
+  {
+    "path": "experiments/revision/realworld/holdout_20261008/evaluation_frozen/target_mapping.csv",
+    "bytes": 9657,
+    "sha256": "fd810c9988feb2b694b93ca72c49b5df37ab43bc4edb1caf809ed3504186ecdd"
+  },
+  {
+    "path": "experiments/revision/realworld/recovery_bridge_v03.py",
+    "bytes": 6729,
+    "sha256": "aad3c098c1f46ecad7010cd8c0bc07e18a5d1ccdcff848a9e000e4b351952feb"
+  },
+  {
+    "path": "experiments/revision/realworld/results/fixed_budget_development_20261008/evaluation/per_case_metrics.csv",
+    "bytes": 36456,
+    "sha256": "4e80d01f2cc3d4e80bfb27463500bfeb5c091ea46af63055a5749c640f841935"
+  },
+  {
+    "path": "experiments/revision/realworld/results/fixed_budget_development_20261008/evaluation/protocol.json",
+    "bytes": 5737,
+    "sha256": "35c78c9ce3f4d9fdfc5559e01c4412544c27afa0028e6f1b4023897faa451b0c"
+  },
+  {
+    "path": "experiments/revision/realworld/results/fixed_budget_development_20261008/inputs/adapter_manifest.json",
+    "bytes": 17674,
+    "sha256": "f59d24eed987402edbbdba7d1258a5ac83b7878364424cf216b9ee7702336a5b"
+  },
+  {
+    "path": "experiments/revision/realworld/results/fixed_budget_development_20261008/inputs/case_audit.csv",
+    "bytes": 5518,
+    "sha256": "e0403e2457d2502a93afc5f27ee1bcc0e2f458267e948b08c0aa7d7a00776d6d"
+  },
+  {
+    "path": "experiments/revision/realworld/results/fixed_budget_development_20261008/inputs/failures.csv",
+    "bytes": 1674,
+    "sha256": "809ccac5ba3a8546539bae0f8a8b32014c43760514df9d8a6ac0040715904e88"
+  },
+  {
+    "path": "experiments/revision/realworld/results/fixed_budget_development_20261008/native_external_results.csv",
+    "bytes": 3334,
+    "sha256": "31fe63aefc107e994c8da8f86008c3cc46147d84986c366fcbdbb1dc2d980043"
+  },
+  {
+    "path": "experiments/revision/realworld/run_distribution_frozen.py",
+    "bytes": 16301,
+    "sha256": "b44ae9aa57fdb22a879f0e76337d2a2388cf04c41870880833e690b139b4e5b4"
+  },
+  {
+    "path": "experiments/revision/realworld/run_recovery_bridge_v03.py",
+    "bytes": 10038,
+    "sha256": "b1488bc152258018aec9124a55afda8c38a6b086e28055e8f91924b198bd3548"
+  },
+  {
+    "path": "experiments/revision/realworld/validation/arbiter_prefix_reuse_probe_20261008_controlled/enhanced_v4_final/probe_source.py",
+    "bytes": 21772,
+    "sha256": "3fb71cfd80ba15e4790f8d23e8220d1cb02530ee30b12b07f2790f626458d5f3"
+  },
+  {
+    "path": "experiments/revision/realworld/validation/arbiter_prefix_reuse_probe_20261008_controlled/enhanced_v4_final/results.json",
+    "bytes": 88345,
+    "sha256": "1fd57eddff878e1a8d7514746f4fd71ccdec12fa1037b0f4069d00e355b33383"
+  },
+  {
+    "path": "experiments/revision/realworld/validation/arbiter_prefix_reuse_probe_20261008_controlled/shared_prefix_fixture.c",
+    "bytes": 419,
+    "sha256": "79205dde0bcd181278bd7c83909548f2851d4392d26821bc166b36e3d1f9b121"
+  },
+  {
+    "path": "experiments/revision/realworld/validation/expat_upstream_overflow_20261009_retry3/results.json",
+    "bytes": 4249,
+    "sha256": "b5d03e9fcac3d582ca3253579196496d598b9cdbf4f2c90169bef1696877f416"
+  },
+  {
+    "path": "experiments/revision/realworld/validation/expat_upstream_overflow_test.c",
+    "bytes": 2270,
+    "sha256": "4a35798af3eb2cbcd61721db5a317d30de70395c1731a4b16a5c036993e17b1a"
+  },
+  {
+    "path": "experiments/revision/realworld/validation/run_expat_upstream_overflow.py",
+    "bytes": 4920,
+    "sha256": "fd04df0f74ddb92f74a990f50f5e81ab32b5e4622ad57384950ba64b7e2f5f5e"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/PROTOCOL.md",
+    "bytes": 1184,
+    "sha256": "b0b23a7c2866aebcdeea2b5f7aa6cac1b1885a210417f8707601cd7e9bff6b64"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/audit_zlib_fixed_witness.py",
+    "bytes": 5334,
+    "sha256": "73fe3e2be418cce66a4afdf8eefc65f341c360be64c77179619f886afb228f01"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/run_witness.py",
+    "bytes": 4356,
+    "sha256": "2ddebee28228bc7f1cef1f9ad4ce80496fb8212290c7079d4107fca6f0fd269c"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/runs/AUDIT_ZLIB_FIXED_WITNESS_20261010.json",
+    "bytes": 361,
+    "sha256": "26eb3be6dabaf30dad01cf53e6ebecca45d9a0435871f8bbe1ae419d7c104822"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/runs/boundary_targeted.json",
+    "bytes": 2512,
+    "sha256": "b512867f96dab6f62d08a39c7295b32d30c34a1d13b2eb2f13bd7453a89ce583"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/runs/manifest_full.json",
+    "bytes": 7291112,
+    "sha256": "c3eca308a99e3ca0a7edb02f844436b503708571113149a9b6f58ad820006683"
+  },
+  {
+    "path": "experiments/revision/realworld/zlib_fixed_witness_20261010/zlib_fixed_witness.c",
+    "bytes": 3978,
+    "sha256": "b562caa8a03b765d5afae84c61fc0e8c8a9ae7e272f936cd88bf0714ddd9fe97"
+  },
+  {
+    "path": "experiments/revision/reconcile_manuscript_20261012.py",
+    "bytes": 8759,
+    "sha256": "ca1d4602fde21244df1ab4afdad0f07b23a872d59af5ea7d5a846d42bf08b55c"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_configured_eval/original/all_functions/paired_family_bootstrap.csv",
+    "bytes": 2909,
+    "sha256": "cdca3ff9a97ffd0ee44d35dbf0fd124ba66f243c0d46c1c9ddd841a45f9d83d0"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_configured_eval/per_binary_metrics.csv",
+    "bytes": 1734051,
+    "sha256": "c74d64cbf38db097633f6d5104e58f8f72dcc890a3a74fab250761c1cea6d397"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/per_binary_metrics.csv",
+    "bytes": 2705369,
+    "sha256": "20a79701ab472114acb478e5e0ff54115546b5675984bc9ab3d882d301d48fc8"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/protocol.json",
+    "bytes": 4909,
+    "sha256": "9b8076aea6625840d1bf165cb832191c8ed99b84f3e5cf6c30b130ef02dd472f"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_semantic_v0_5_eval_final/run_ledger.csv",
+    "bytes": 71576,
+    "sha256": "337bde4119c856411f36a360d4633323c058b31c6d5540b15252a3b964cda365"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_semantic_v0_7_uncertainty_eval/per_binary.csv",
+    "bytes": 184710,
+    "sha256": "473dc0beecc13335ad00a3e2dd251058e258d32665f924c576894c960a588afd"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_semantic_v0_7_uncertainty_eval/protocol.json",
+    "bytes": 1260,
+    "sha256": "1ae3f628b38f9decf28a6229394b15f89030ccc0c0730befc0e270e70a5cdb9e"
+  },
+  {
+    "path": "experiments/revision/results/address_batch200_semantic_v0_7_uncertainty_eval/summary.csv",
+    "bytes": 2950,
+    "sha256": "fe76391da154c25a3a67bd7b2d5f7c276252950c9f66b71ca751442e0c5e2039"
+  },
+  {
+    "path": "experiments/revision/stripped/address_features/address_batch200/address_mapping.csv",
+    "bytes": 75481,
+    "sha256": "5320e07e426d50a532dc99ea71b8e9c311e3d57b5cfd9eb95f8b71c67bb48a7d"
+  },
+  {
+    "path": "experiments/revision/stripped/manifest.csv",
+    "bytes": 63475,
+    "sha256": "6d570a2c420fda29b65d017a73a872dc2313483ae89d0c2b56f29aa1392b08c3"
+  },
+  {
+    "path": "reports/RECOVERY_BRIDGE_V03_DEVELOPMENT_REPLAY_20261010.json",
+    "bytes": 242,
+    "sha256": "ed7cfc3e386ae1d21b0df89d0bcf6b6b76bc2e9311add9e09755ae0eac352c73"
+  },
+  {
+    "path": "reports/RECOVERY_BRIDGE_V03_RETROSPECTIVE_REPLAY_20261010.json",
+    "bytes": 242,
+    "sha256": "105dc151ab49c98981eb735ea63f873554646b6905f78327bae32a51886a332e"
+  },
+  {
+    "path": "reports/core_research_upgrade_20261012/juliet_family_bootstrap.csv",
+    "bytes": 733,
+    "sha256": "dfe982e733a74197f3421df7caecd8bb67083a450c7af8317f38ba2e5d26befd"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/cohort_status.csv",
+    "bytes": 145,
+    "sha256": "3a48c7ec90a515b82645d34b5a0f55c8078e9dc3374f7e75cfe97d7710a37475"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/development_external_comparison.csv",
+    "bytes": 189,
+    "sha256": "08e55dd9b6a1eeb4d509c0c44fc5a72643ab519487a24682cbc83ae283e88c86"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/juliet_aggregate_bootstrap.csv",
+    "bytes": 687,
+    "sha256": "1fcd9f717196ee305bcfcfba88b5c5ea84725ea67df5c28a3d8adb3c24282858"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/juliet_all_methods.csv",
+    "bytes": 1130,
+    "sha256": "2a509df98529cfa6998b425d2267a03cf7f3526b10a9d74758a8102a4de6e28b"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/juliet_paired_by_cwe.csv",
+    "bytes": 483,
+    "sha256": "bd61385a25a0a30fc9c62aa5edaf288ec08a298e178d0f53658c36f16fa7aa8c"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/juliet_within_cwe_bootstrap.csv",
+    "bytes": 733,
+    "sha256": "dfe982e733a74197f3421df7caecd8bb67083a450c7af8317f38ba2e5d26befd"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/realworld_structural_and_role_ranks.csv",
+    "bytes": 2914,
+    "sha256": "2bc1252273184063e0f1ff5ff3edc8436876376116917494c128b558db9ed8a6"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/recovery_counts.csv",
+    "bytes": 1309,
+    "sha256": "b258fc85ef66655b81aec17ad24857ff244173c379513eb3152102134c232653"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/representation.csv",
+    "bytes": 100,
+    "sha256": "fb5071ba205b13a9ead22a467914770c3280f6646241240eadb072b4b9457309"
+  },
+  {
+    "path": "reports/evidence_audit_20261012/zlib_matrix_counts.csv",
+    "bytes": 67,
+    "sha256": "400bdd312b696a154c2b946c3ad234f60eade70aa5a3dc8238c92d8ff4a962ad"
+  }
+]

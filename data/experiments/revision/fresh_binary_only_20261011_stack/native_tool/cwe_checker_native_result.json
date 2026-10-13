@@ -1,0 +1,25 @@
+{
+  "tool": "cwe_checker",
+  "version": "0.9.0",
+  "execution_status": "completed_with_empty_warning_set_and_analysis_diagnostic",
+  "binary": "raw/stack_challenge",
+  "binary_sha256": "ff47a9d0c592446c5a9089474e33c4757b74236fefffd0c3834e9ab75053152d",
+  "command": "cwe_checker -j -v -o cwe_checker_native_patched3.json /mnt/c/Users/Public/fresh_binary_only_20261011_stack/stack_challenge",
+  "returncode": 0,
+  "warning_output": "cwe_checker_native_patched3.json",
+  "warning_count": 0,
+  "warning_output_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "verbose_log": "cwe_checker_native_patched3_verbose.txt",
+  "verbose_log_sha256": "abf1a89f136fbb01088135bc27ac8336b8317824d9d2544bd61eb7916987f9ee",
+  "analysis_diagnostics": [
+    "ERROR: instr_00405d63_0: Jump target at 00405d60 does not exist"
+  ],
+  "compatibility": {
+    "rust_toolchain": "1.76.0",
+    "ghidra": "/home/voidex/tools/ghidra_12.1.2_PUBLIC",
+    "plugin_patch": "patch_ghidra_plugin.py",
+    "plugin_patch_sha256": "18fd6fe4f3148f66125e07c24ccc5963fddd9117d1c73748d206d3f3cd14a58a",
+    "reason": "The cwe_checker 0.9 plugin required two compatibility guards for Ghidra 12.1.2: the VarnodeContext constructor and rule elements in compiler-spec parsing."
+  },
+  "interpretation": "The native checker completed and emitted an empty warning set, but its log contains an analysis diagnostic and the runtime crash PC is outside the scorer candidate universe. Empty warnings are not interpreted as safety, zero vulnerability, or a ranking result."
+}

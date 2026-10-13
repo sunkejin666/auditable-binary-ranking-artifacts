@@ -1,0 +1,154 @@
+[
+  {
+    "project": "expat",
+    "version": "2.4.3",
+    "label": "affected",
+    "condition": "unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\expat-2.4.3\\unstripped.elf",
+    "sha256": "5f061aaaf3cd54a6252119422460edcc29ad6e99d1cf59d12e78a5eef83b5a91",
+    "text_sha256": "cc16d6a13fa52f9c300d37c1a85b6fa984ae941a4e957f82dc882b32de70294c",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\build_manifest.json",
+    "target_symbol_matches": [
+      "0000000000008c70 T XML_GetBuffer"
+    ]
+  },
+  {
+    "project": "expat",
+    "version": "2.4.3",
+    "label": "affected",
+    "condition": "stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\expat-2.4.3\\stripped.elf",
+    "sha256": "220e3fae77ed5750fc7f6c5f5575afc4ae292706419307fcbb77470f584b2ae5",
+    "text_sha256": "cc16d6a13fa52f9c300d37c1a85b6fa984ae941a4e957f82dc882b32de70294c",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\build_manifest.json",
+    "target_symbol_matches": [
+      "0000000000008c70 T XML_GetBuffer"
+    ]
+  },
+  {
+    "project": "expat",
+    "version": "2.4.4",
+    "label": "fixed",
+    "condition": "unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\expat-2.4.4\\unstripped.elf",
+    "sha256": "611039142da3858ca86281bfd4695ca4be9775c97759db2d5999f097d34896dd",
+    "text_sha256": "5a6fa139c64bbcef47ea65e466bcf174568417a086215fb0450e78f0bdbab6ef",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\build_manifest.json",
+    "target_symbol_matches": [
+      "0000000000008c70 T XML_GetBuffer"
+    ]
+  },
+  {
+    "project": "expat",
+    "version": "2.4.4",
+    "label": "fixed",
+    "condition": "stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\expat-2.4.4\\stripped.elf",
+    "sha256": "de5fb51058bbe739e67cbbc5e06f05a14f0236bb1ff358a805cbeb763288b1e5",
+    "text_sha256": "5a6fa139c64bbcef47ea65e466bcf174568417a086215fb0450e78f0bdbab6ef",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_expat_retry\\build_manifest.json",
+    "target_symbol_matches": [
+      "0000000000008c70 T XML_GetBuffer"
+    ]
+  },
+  {
+    "project": "libarchive",
+    "version": "3.1.2",
+    "label": "affected",
+    "condition": "unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libarchive-3.1.2\\unstripped.elf",
+    "sha256": "0b7a9e42a9b6322663b66783bfa7d1dd29db4c667560321bc6439edb3a0693d0",
+    "text_sha256": "3c260b6ccd418fff80c536a507c057398c7967128569b37396759acdbaedfa2e",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": []
+  },
+  {
+    "project": "libarchive",
+    "version": "3.1.2",
+    "label": "affected",
+    "condition": "stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libarchive-3.1.2\\stripped.elf",
+    "sha256": "7306ce89aa19ce70aa6f28f37ea3f8681a6564dd38e37307bb792063ac7834cb",
+    "text_sha256": "3c260b6ccd418fff80c536a507c057398c7967128569b37396759acdbaedfa2e",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": []
+  },
+  {
+    "project": "libarchive",
+    "version": "3.2.0",
+    "label": "fixed",
+    "condition": "unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libarchive-3.2.0\\unstripped.elf",
+    "sha256": "a91632f6d70f74e8d472bf93c362ba5e3ded318f05a7d1d766710e74c08c7e4d",
+    "text_sha256": "7f36462329276ec65b2e596417674a16c38e7b43574c70c46fd2d466aa8a2f3e",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": []
+  },
+  {
+    "project": "libarchive",
+    "version": "3.2.0",
+    "label": "fixed",
+    "condition": "stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libarchive-3.2.0\\stripped.elf",
+    "sha256": "9871f661b75d756abc24762256f7df2f79da34f89eca40d014b4843491ce8f9b",
+    "text_sha256": "7f36462329276ec65b2e596417674a16c38e7b43574c70c46fd2d466aa8a2f3e",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": []
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "1.5.90",
+    "label": "affected",
+    "condition": "unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libjpeg-turbo-1.5.90\\unstripped.elf",
+    "sha256": "8c9151269e6fd02f8d64149a913dee16cf8014764d67d84a4b4d81a33311d26f",
+    "text_sha256": "b8df2e85a85eaa6537f4e8c7fe85394cc3bea1b79471156c897a1d0a216863b7",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": [
+      "00000000000064b0 t get_8bit_row",
+      "0000000000007c80 t get_8bit_row"
+    ]
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "1.5.90",
+    "label": "affected",
+    "condition": "stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libjpeg-turbo-1.5.90\\stripped.elf",
+    "sha256": "435e3da270f297a4b5715965c1d2193335b4bed2dcd23f605bb8274d24dbfd60",
+    "text_sha256": "b8df2e85a85eaa6537f4e8c7fe85394cc3bea1b79471156c897a1d0a216863b7",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": [
+      "00000000000064b0 t get_8bit_row",
+      "0000000000007c80 t get_8bit_row"
+    ]
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "2.0.0",
+    "label": "fixed",
+    "condition": "unstripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libjpeg-turbo-2.0.0\\unstripped.elf",
+    "sha256": "28ba35b411b3cd6730f957835f4418b5c1082f8e6772c6178a1e014c02707ee1",
+    "text_sha256": "73e6e76d86475a4cc078b5518aa70119f38d31188f98636ab85e28adc38280da",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": [
+      "00000000000064b0 t get_8bit_row",
+      "0000000000007d50 t get_8bit_row"
+    ]
+  },
+  {
+    "project": "libjpeg-turbo",
+    "version": "2.0.0",
+    "label": "fixed",
+    "condition": "stripped",
+    "binary": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\libjpeg-turbo-2.0.0\\stripped.elf",
+    "sha256": "7a838d6b6cdb6948e6c79a351734c7e07c044cc50b970a052e0abef0befa6a28",
+    "text_sha256": "73e6e76d86475a4cc078b5518aa70119f38d31188f98636ab85e28adc38280da",
+    "build_manifest": "C:\\Users\\\u5b59\u79d1\u9526\\Desktop\\\u671f\u520a\u8bba\u6587\\\u9879\u76ee\\\u5b98\u65b9\u6a21\u677f\\\u88ab\u62d2\u4fee\u6539\u7248\\experiments\\revision\\realworld\\holdout_20261008\\builds_native\\build_manifest.json",
+    "target_symbol_matches": [
+      "00000000000064b0 t get_8bit_row",
+      "0000000000007d50 t get_8bit_row"
+    ]
+  }
+]

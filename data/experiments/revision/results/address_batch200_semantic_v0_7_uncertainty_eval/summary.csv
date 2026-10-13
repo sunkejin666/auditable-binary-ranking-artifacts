@@ -1,0 +1,17 @@
+dataset,condition,scope,cwe,n,cluster_policy,failures,target_retrieved_mean,top1_possible_mean,top1_guaranteed_mean,top5_possible_mean,top5_guaranteed_mean,target_rank_best_mean,target_rank_worst_mean,target_rank_interval_width_mean,target_uncertainty_width_mean
+juliet200_address,original,all_functions,CWE-121,50,original and stripped observations are paired within each sample_id,0,1.0,0.96,0.0,1.0,0.96,1.08,3.22,2.14,0.0
+juliet200_address,original,all_functions,CWE-122,50,original and stripped observations are paired within each sample_id,0,1.0,0.76,0.0,0.76,0.76,4.36,6.02,1.66,0.0
+juliet200_address,original,all_functions,CWE-134,50,original and stripped observations are paired within each sample_id,0,1.0,0.84,0.0,0.84,0.84,4.14,12.42,8.28,0.495
+juliet200_address,original,all_functions,CWE-78,50,original and stripped observations are paired within each sample_id,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.075
+juliet200_address,original,shared_sink,CWE-121,50,original and stripped observations are paired within each sample_id,0,1.0,0.96,0.0,1.0,0.96,1.08,3.22,2.14,0.0
+juliet200_address,original,shared_sink,CWE-122,50,original and stripped observations are paired within each sample_id,0,1.0,0.76,0.0,0.76,0.76,4.36,6.02,1.66,0.0
+juliet200_address,original,shared_sink,CWE-134,50,original and stripped observations are paired within each sample_id,0,0.84,1.0,0.0,1.0,1.0,1.0,2.8095238095238093,1.8095238095238095,0.5892857142857143
+juliet200_address,original,shared_sink,CWE-78,50,original and stripped observations are paired within each sample_id,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.075
+juliet200_address,stripped,all_functions,CWE-121,50,original and stripped observations are paired within each sample_id,0,1.0,0.96,0.0,1.0,0.96,1.08,3.22,2.14,0.0
+juliet200_address,stripped,all_functions,CWE-122,50,original and stripped observations are paired within each sample_id,0,1.0,0.76,0.0,0.76,0.76,4.36,6.02,1.66,0.0
+juliet200_address,stripped,all_functions,CWE-134,50,original and stripped observations are paired within each sample_id,0,1.0,0.84,0.0,0.84,0.84,4.14,12.42,8.28,0.495
+juliet200_address,stripped,all_functions,CWE-78,50,original and stripped observations are paired within each sample_id,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.075
+juliet200_address,stripped,shared_sink,CWE-121,50,original and stripped observations are paired within each sample_id,0,1.0,0.96,0.0,1.0,0.96,1.08,3.22,2.14,0.0
+juliet200_address,stripped,shared_sink,CWE-122,50,original and stripped observations are paired within each sample_id,0,1.0,0.76,0.0,0.76,0.76,4.36,6.02,1.66,0.0
+juliet200_address,stripped,shared_sink,CWE-134,50,original and stripped observations are paired within each sample_id,0,0.84,1.0,0.0,1.0,1.0,1.0,2.8095238095238093,1.8095238095238095,0.5892857142857143
+juliet200_address,stripped,shared_sink,CWE-78,50,original and stripped observations are paired within each sample_id,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.075

@@ -1,0 +1,5 @@
+scope,reference,baseline,metric,delta,ci_low,ci_high,n_binary,n_family,iterations,seed
+all_functions,full_method,dangerous_plus_callchain,hit_1_expected,0.10891666666666668,0.046869313080562185,0.17770192597617956,200,68,10000,20261006
+all_functions,full_method,dangerous_plus_callchain,hit_3_expected,0.06133385854341737,-0.01918163783774003,0.1318413316819265,200,68,10000,20261006
+all_functions,full_method,dangerous_plus_callchain,hit_5_expected,-0.05241509103641457,-0.1147495313303893,-0.0035022107057108634,200,68,10000,20261006
+all_functions,full_method,dangerous_plus_callchain,rr_expected,0.06426982807056139,0.010825932706895162,0.11479880559535585,200,68,10000,20261006

@@ -1,0 +1,43 @@
+{
+  "binary": "libarchive_3.2.0_unstripped",
+  "project_cve_cluster": "libarchive/CVE-2016-1541",
+  "variant": "unstripped",
+  "binary_sha256": "a91632f6d70f74e8d472bf93c362ba5e3ded318f05a7d1d766710e74c08c7e4d",
+  "event_count": 1277,
+  "contraction_events": 270,
+  "invalid_contract_events": 0,
+  "unique_action_groups": 1,
+  "caps": [
+    1,
+    100000
+  ],
+  "cap_runs": [
+    {
+      "cap": 1,
+      "status": "ok",
+      "seconds": 0.10727869998663664,
+      "error": "",
+      "candidate_count": 1277,
+      "candidate_pool_sha256": "ebccade0092395dd1eb802cb24cbf9b291c25696ab42460e79fcaee8d6841308"
+    },
+    {
+      "cap": 100000,
+      "status": "ok",
+      "seconds": 0.10205199988558888,
+      "error": "",
+      "candidate_count": 1277,
+      "candidate_pool_sha256": "ebccade0092395dd1eb802cb24cbf9b291c25696ab42460e79fcaee8d6841308"
+    }
+  ],
+  "transitions": [
+    {
+      "before_cap": 1,
+      "after_cap": 100000,
+      "eligible": true,
+      "same_candidate_pool": true,
+      "status": "ok",
+      "event_count": 1277
+    }
+  ],
+  "status": "ok"
+}
