@@ -2,6 +2,8 @@
 
 Research artifacts for *Auditable Vulnerability Candidate Ranking and Failure Analysis for ELF Binaries*.
 
+The archived `v1.0.0` release has DOI [10.5281/zenodo.23345654](https://doi.org/10.5281/zenodo.23345654).
+
 License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Cite this archive using `CITATION.cff` and credit the listed authors when reusing its contents.
 
 - `code/` contains 20 original Python and C source files, plus a repository verification entry point.
