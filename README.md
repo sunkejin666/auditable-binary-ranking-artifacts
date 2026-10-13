@@ -2,6 +2,8 @@
 
 Research artifacts for *Auditable Vulnerability Candidate Ranking and Failure Analysis for ELF Binaries*.
 
+License: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Cite this archive using `CITATION.cff` and credit the listed authors when reusing its contents.
+
 - `code/` contains 20 original Python and C source files, plus a repository verification entry point.
 - `data/` contains 151 CSV, JSON, JSONL, and log files, plus two experiment protocol documents: configurations, manifests, saved observations, evaluation results, and audit records.
 
